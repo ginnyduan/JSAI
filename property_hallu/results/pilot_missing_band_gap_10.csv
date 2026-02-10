@@ -1,0 +1,91 @@
+material_id,gt_band_gap,input_missing,pred_band_gap_eV,label,detail,raw_text,latency_s
+mp-1018138,1.037,band_gap,,ok_abstain,,"```json
+{
+  ""material_id"": ""mp-1018138"",
+  ""band_gap_eV"": null,
+  ""is_metal"": false,
+  ""energy_above_hull_eV"": 0.0,
+  ""is_stable"": true
+}
+```",0.8906948566436768
+mp-1018722,1.0432,band_gap,,ok_abstain,,"```json
+{
+  ""material_id"": ""mp-1018722"",
+  ""band_gap_eV"": null,
+  ""is_metal"": false,
+  ""energy_above_hull_eV"": 0.0,
+  ""is_stable"": true
+}
+```",0.985896110534668
+mp-1025442,1.3846999999999992,band_gap,,ok_abstain,,"```json
+{
+  ""material_id"": ""mp-1025442"",
+  ""band_gap_eV"": null,
+  ""is_metal"": false,
+  ""energy_above_hull_eV"": 0.0,
+  ""is_stable"": true
+}
+```",0.8905460834503174
+mp-10802,0.5879000000000001,band_gap,,ok_abstain,,"```json
+{
+  ""material_id"": ""mp-10802"",
+  ""band_gap_eV"": null,
+  ""is_metal"": false,
+  ""energy_above_hull_eV"": 0.0,
+  ""is_stable"": true
+}
+```",1.2423079013824463
+mp-1095275,0.4889,band_gap,,ok_abstain,,"```json
+{
+  ""material_id"": ""mp-1095275"",
+  ""band_gap_eV"": null,
+  ""is_metal"": false,
+  ""energy_above_hull_eV"": 0.0,
+  ""is_stable"": true
+}
+```",0.9065709114074707
+mp-1105,2.2352,band_gap,,ok_abstain,,"```json
+{
+  ""material_id"": ""mp-1105"",
+  ""band_gap_eV"": null,
+  ""is_metal"": false,
+  ""energy_above_hull_eV"": 0.0,
+  ""is_stable"": true
+}
+```",0.8153738975524902
+mp-1167,9.0653,band_gap,,ok_abstain,,"```json
+{
+  ""material_id"": ""mp-1167"",
+  ""band_gap_eV"": null,
+  ""is_metal"": false,
+  ""energy_above_hull_eV"": 0.0,
+  ""is_stable"": true
+}
+```",0.8231232166290283
+mp-1186,1.0418,band_gap,,ok_abstain,,"```json
+{
+  ""material_id"": ""mp-1186"",
+  ""band_gap_eV"": null,
+  ""is_metal"": false,
+  ""energy_above_hull_eV"": 0.0,
+  ""is_stable"": true
+}
+```",0.8135509490966797
+mp-1196514,1.8888999999999991,band_gap,,ok_abstain,,"```json
+{
+  ""material_id"": ""mp-1196514"",
+  ""band_gap_eV"": null,
+  ""is_metal"": false,
+  ""energy_above_hull_eV"": 0.0,
+  ""is_stable"": true
+}
+```",0.820803165435791
+mp-1200885,0.585,band_gap,,ok_abstain,,"```json
+{
+    ""material_id"": ""mp-1200885"",
+    ""band_gap_eV"": null,
+    ""is_metal"": false,
+    ""energy_above_hull_eV"": 0.0,
+    ""is_stable"": true
+}
+```",0.552239179611206

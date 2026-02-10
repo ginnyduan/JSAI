@@ -1,0 +1,9 @@
+task,error_type_final,n,pct_in_task
+band_gap,mode_guess,176,0.8979591836734694
+band_gap,wrong_value_other,20,0.10204081632653061
+formation_energy_per_atom,mode_guess,102,0.5257731958762887
+formation_energy_per_atom,"sign_error, scale_error",62,0.31958762886597936
+formation_energy_per_atom,wrong_value_other,18,0.09278350515463918
+formation_energy_per_atom,sign_error,10,0.05154639175257732
+formation_energy_per_atom,scale_error,1,0.005154639175257732
+formation_energy_per_atom,"sign_error, scale_error, mode_guess",1,0.005154639175257732

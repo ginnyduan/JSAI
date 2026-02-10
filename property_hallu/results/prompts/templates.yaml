@@ -1,0 +1,9 @@
+band_gap:
+- What is the band gap (eV) of material {mpid}? Answer with a single number.
+- Give the band gap of {mpid} in eV. No extra text.
+- 'Provide the band gap for {mpid} (unit: eV). Only the number.'
+formation_energy_per_atom:
+- What is the formation energy per atom (eV/atom) of material {mpid}? Answer with
+  a single number.
+- Give the formation energy per atom of {mpid} in eV/atom. No extra text.
+- 'Provide formation_energy_per_atom for {mpid} (unit: eV/atom). Only the number.'

@@ -1,0 +1,91 @@
+material_id,gt_band_gap,gt_is_metal,gt_e_above_hull,gt_is_stable,pred_json,raw_text,match,label,detail,latency_s
+mp-15953,0.370499999999999,False,0.0,True,"{""material_id"": ""mp-15953"", ""band_gap_eV"": 0.37049999999999905, ""is_metal"": false, ""energy_above_hull_eV"": 0.0, ""is_stable"": true}","```json
+{
+    ""material_id"": ""mp-15953"",
+    ""band_gap_eV"": 0.37049999999999905,
+    ""is_metal"": false,
+    ""energy_above_hull_eV"": 0.0,
+    ""is_stable"": true
+}
+```",True,ok,,0.781
+mp-647579,3.2214,False,0.0,True,"{""material_id"": ""mp-647579"", ""band_gap_eV"": 3.2214, ""is_metal"": false, ""energy_above_hull_eV"": 0.0, ""is_stable"": true}","```json
+{
+""material_id"": ""mp-647579"",
+""band_gap_eV"": 3.2214,
+""is_metal"": false,
+""energy_above_hull_eV"": 0.0,
+""is_stable"": true
+}
+```",True,ok,,1.102
+mp-1025442,1.3846999999999992,False,0.0,True,"{""material_id"": ""mp-1025442"", ""band_gap_eV"": 1.3846999999999992, ""is_metal"": false, ""energy_above_hull_eV"": 0.0, ""is_stable"": true}","```json
+{
+    ""material_id"": ""mp-1025442"",
+    ""band_gap_eV"": 1.3846999999999992,
+    ""is_metal"": false,
+    ""energy_above_hull_eV"": 0.0,
+    ""is_stable"": true
+}
+```",True,ok,,1.202
+mp-27972,4.103299999999999,False,0.0,True,"{""material_id"": ""mp-27972"", ""band_gap_eV"": 4.103299999999999, ""is_metal"": false, ""energy_above_hull_eV"": 0.0, ""is_stable"": true}","```json
+{
+    ""material_id"": ""mp-27972"",
+    ""band_gap_eV"": 4.103299999999999,
+    ""is_metal"": false,
+    ""energy_above_hull_eV"": 0.0,
+    ""is_stable"": true
+}
+```",True,ok,,1.213
+mp-567504,1.5182,False,0.0,True,"{""material_id"": ""mp-567504"", ""band_gap_eV"": 1.5182, ""is_metal"": false, ""energy_above_hull_eV"": 0.0, ""is_stable"": true}","```json
+{
+""material_id"": ""mp-567504"",
+""band_gap_eV"": 1.5182,
+""is_metal"": false,
+""energy_above_hull_eV"": 0.0,
+""is_stable"": true
+}
+```",True,ok,,0.917
+mp-862901,4.774199999999999,False,0.0,True,"{""material_id"": ""mp-862901"", ""band_gap_eV"": 4.774199999999999, ""is_metal"": false, ""energy_above_hull_eV"": 0.0, ""is_stable"": true}","```json
+{
+    ""material_id"": ""mp-862901"",
+    ""band_gap_eV"": 4.774199999999999,
+    ""is_metal"": false,
+    ""energy_above_hull_eV"": 0.0,
+    ""is_stable"": true
+}
+```",True,ok,,1.032
+mp-1249,6.824,False,0.0,True,"{""material_id"": ""mp-1249"", ""band_gap_eV"": 6.824, ""is_metal"": false, ""energy_above_hull_eV"": 0.0, ""is_stable"": true}","```json
+{
+    ""material_id"": ""mp-1249"",
+    ""band_gap_eV"": 6.824,
+    ""is_metal"": false,
+    ""energy_above_hull_eV"": 0.0,
+    ""is_stable"": true
+}
+```",True,ok,,1.098
+mp-556560,0.4936,False,0.0,True,"{""material_id"": ""mp-556560"", ""band_gap_eV"": 0.49360000000000004, ""is_metal"": false, ""energy_above_hull_eV"": 0.0, ""is_stable"": true}","```json
+{
+  ""material_id"": ""mp-556560"",
+  ""band_gap_eV"": 0.49360000000000004,
+  ""is_metal"": false,
+  ""energy_above_hull_eV"": 0.0,
+  ""is_stable"": true
+}
+```",True,ok,,1.214
+mp-27871,1.2584,False,0.0,True,"{""material_id"": ""mp-27871"", ""band_gap_eV"": 1.2584, ""is_metal"": false, ""energy_above_hull_eV"": 0.0, ""is_stable"": true}","```json
+{
+    ""material_id"": ""mp-27871"",
+    ""band_gap_eV"": 1.2584,
+    ""is_metal"": false,
+    ""energy_above_hull_eV"": 0.0,
+    ""is_stable"": true
+}
+```",True,ok,,1.105
+mp-878,1.4612999999999992,False,0.0,True,"{""material_id"": ""mp-878"", ""band_gap_eV"": 1.4612999999999992, ""is_metal"": false, ""energy_above_hull_eV"": 0.0, ""is_stable"": true}","```json
+{
+    ""material_id"": ""mp-878"",
+    ""band_gap_eV"": 1.4612999999999992,
+    ""is_metal"": false,
+    ""energy_above_hull_eV"": 0.0,
+    ""is_stable"": true
+}
+```",True,ok,,1.102

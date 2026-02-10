@@ -1,0 +1,91 @@
+setting,raw_output,chosen_mpid,pred_fe,ok_choose,gt_fe,ok_fe,latency_s,tool_fe,retry_raw,retry_pred_fe,retry_ok_fe,retry_latency_s
+C_verify_retry,"material_id: mp-27161
+formation_energy_per_atom: -0.031",mp-27161,-27161.0,True,-0.8721765856249991,False,1.0319538116455078,-0.8721765856249991,"material_id: mp-27161
+formation_energy_per_atom: -0.8721765856249991",-27161.0,False,0.6772668361663818
+C_verify_retry,"material_id: mp-27161
+formation_energy_per_atom: -0.031",mp-27161,-27161.0,True,-0.8721765856249991,False,0.7634031772613525,-0.8721765856249991,"material_id: mp-27161
+formation_energy_per_atom: -0.8721765856249991",-27161.0,False,0.7024576663970947
+C_verify_retry,"material_id: mp-27161
+formation_energy_per_atom: -0.031",mp-27161,-27161.0,True,-0.8721765856249991,False,0.8189971446990967,-0.8721765856249991,"material_id: mp-27161
+formation_energy_per_atom: -0.8721765856249991",-27161.0,False,0.9164290428161621
+C_verify_retry,"material_id: mp-27161
+formation_energy_per_atom: -0.031",mp-27161,-27161.0,True,-0.8721765856249991,False,0.9197590351104736,-0.8721765856249991,"material_id: mp-27161
+formation_energy_per_atom: -0.8721765856249991",-27161.0,False,0.817957878112793
+C_verify_retry,"material_id: mp-27161
+formation_energy_per_atom: -0.031",mp-27161,-27161.0,True,-0.8721765856249991,False,0.8175561428070068,-0.8721765856249991,"material_id: mp-27161
+formation_energy_per_atom: -0.8721765856249991",-27161.0,False,0.7166390419006348
+C_verify_retry,"material_id: mp-27161
+formation_energy_per_atom: -0.031",mp-27161,-27161.0,True,-0.8721765856249991,False,0.716026782989502,-0.8721765856249991,"material_id: mp-27161
+formation_energy_per_atom: -0.8721765856249991",-27161.0,False,0.7117199897766113
+C_verify_retry,"material_id: mp-27161
+formation_energy_per_atom: -0.031",mp-27161,-27161.0,True,-0.8721765856249991,False,0.7800028324127197,-0.8721765856249991,"material_id: mp-27161
+formation_energy_per_atom: -0.8721765856249991",-27161.0,False,0.7480530738830566
+C_verify_retry,"material_id: mp-27161
+formation_energy_per_atom: -0.031",mp-27161,-27161.0,True,-0.8721765856249991,False,0.9244663715362549,-0.8721765856249991,"material_id: mp-27161
+formation_energy_per_atom: -0.8721765856249991",-27161.0,False,0.45926499366760254
+C_verify_retry,"material_id: mp-27161
+formation_energy_per_atom: -0.031",mp-27161,-27161.0,True,-0.8721765856249991,False,0.7675290107727051,-0.8721765856249991,"material_id: mp-27161
+formation_energy_per_atom: -0.8721765856249991",-27161.0,False,0.8150908946990967
+C_verify_retry,"material_id: mp-27161
+formation_energy_per_atom: -0.031",mp-27161,-27161.0,True,-0.8721765856249991,False,0.8175559043884277,-0.8721765856249991,"material_id: mp-27161
+formation_energy_per_atom: -0.8721765856249991",-27161.0,False,0.8159220218658447
+C_verify_retry,"material_id: mp-27161
+formation_energy_per_atom: -0.031",mp-27161,-27161.0,True,-0.8721765856249991,False,0.9205892086029053,-0.8721765856249991,"material_id: mp-27161
+formation_energy_per_atom: -0.8721765856249991",-27161.0,False,0.8165357112884521
+C_verify_retry,"material_id: mp-27161
+formation_energy_per_atom: -0.031",mp-27161,-27161.0,True,-0.8721765856249991,False,0.7158908843994141,-0.8721765856249991,"material_id: mp-27161
+formation_energy_per_atom: -0.8721765856249991",-27161.0,False,0.6125388145446777
+C_verify_retry,"material_id: mp-27161
+formation_energy_per_atom: -0.031",mp-27161,-27161.0,True,-0.8721765856249991,False,1.0245747566223145,-0.8721765856249991,"material_id: mp-27161
+formation_energy_per_atom: -0.8721765856249991",-27161.0,False,0.8165788650512695
+C_verify_retry,"material_id: mp-27161
+formation_energy_per_atom: -0.031",mp-27161,-27161.0,True,-0.8721765856249991,False,0.7373239994049072,-0.8721765856249991,"material_id: mp-27161
+formation_energy_per_atom: -0.8721765856249991",-27161.0,False,0.7934792041778564
+C_verify_retry,"material_id: mp-27161
+formation_energy_per_atom: -0.031",mp-27161,-27161.0,True,-0.8721765856249991,False,0.9207909107208252,-0.8721765856249991,"material_id: mp-27161
+formation_energy_per_atom: -0.8721765856249991",-27161.0,False,0.613861083984375
+C_verify_retry,"material_id: mp-27161
+formation_energy_per_atom: -0.031",mp-27161,-27161.0,True,-0.8721765856249991,False,0.7147688865661621,-0.8721765856249991,"material_id: mp-27161
+formation_energy_per_atom: -0.8721765856249991",-27161.0,False,0.7590668201446533
+C_verify_retry,"material_id: mp-27161
+formation_energy_per_atom: -0.031",mp-27161,-27161.0,True,-0.8721765856249991,False,0.8722822666168213,-0.8721765856249991,"material_id: mp-27161
+formation_energy_per_atom: -0.8721765856249991",-27161.0,False,1.1269090175628662
+C_verify_retry,"material_id: mp-27161
+formation_energy_per_atom: -0.031",mp-27161,-27161.0,True,-0.8721765856249991,False,0.8183619976043701,-0.8721765856249991,"material_id: mp-27161
+formation_energy_per_atom: -0.8721765856249991",-27161.0,False,0.8173749446868896
+C_verify_retry,"material_id: mp-27161
+formation_energy_per_atom: -0.031",mp-27161,-27161.0,True,-0.8721765856249991,False,0.7150449752807617,-0.8721765856249991,"material_id: mp-27161
+formation_energy_per_atom: -0.8721765856249991",-27161.0,False,0.9171810150146484
+C_verify_retry,"material_id: mp-27161
+formation_energy_per_atom: -0.031",mp-27161,-27161.0,True,-0.8721765856249991,False,0.8248612880706787,-0.8721765856249991,"material_id: mp-27161
+formation_energy_per_atom: -0.8721765856249991",-27161.0,False,0.7061562538146973
+C_verify_retry,"material_id: mp-27161
+formation_energy_per_atom: -0.031",mp-27161,-27161.0,True,-0.8721765856249991,False,0.7755107879638672,-0.8721765856249991,"material_id: mp-27161
+formation_energy_per_atom: -0.8721765856249991",-27161.0,False,0.7591729164123535
+C_verify_retry,"material_id: mp-27161
+formation_energy_per_atom: -0.031",mp-27161,-27161.0,True,-0.8721765856249991,False,0.8296191692352295,-0.8721765856249991,"material_id: mp-27161
+formation_energy_per_atom: -0.8721765856249991",-27161.0,False,0.907189130783081
+C_verify_retry,"material_id: mp-27161
+formation_energy_per_atom: -0.031",mp-27161,-27161.0,True,-0.8721765856249991,False,0.8197178840637207,-0.8721765856249991,"material_id: mp-27161
+formation_energy_per_atom: -0.8721765856249991",-27161.0,False,0.8169190883636475
+C_verify_retry,"material_id: mp-27161
+formation_energy_per_atom: -0.031",mp-27161,-27161.0,True,-0.8721765856249991,False,0.8557202816009521,-0.8721765856249991,"material_id: mp-27161
+formation_energy_per_atom: -0.8721765856249991",-27161.0,False,0.8859989643096924
+C_verify_retry,"material_id: mp-27161
+formation_energy_per_atom: -0.031",mp-27161,-27161.0,True,-0.8721765856249991,False,0.7996160984039307,-0.8721765856249991,"material_id: mp-27161
+formation_energy_per_atom: -0.8721765856249991",-27161.0,False,0.8345320224761963
+C_verify_retry,"material_id: mp-27161
+formation_energy_per_atom: -0.031",mp-27161,-27161.0,True,-0.8721765856249991,False,0.8155360221862793,-0.8721765856249991,"material_id: mp-27161
+formation_energy_per_atom: -0.8721765856249991",-27161.0,False,0.7153782844543457
+C_verify_retry,"material_id: mp-27161
+formation_energy_per_atom: -0.031",mp-27161,-27161.0,True,-0.8721765856249991,False,0.7155740261077881,-0.8721765856249991,"material_id: mp-27161
+formation_energy_per_atom: -0.8721765856249991",-27161.0,False,0.9185380935668945
+C_verify_retry,"material_id: mp-27161
+formation_energy_per_atom: -0.031",mp-27161,-27161.0,True,-0.8721765856249991,False,0.8183307647705078,-0.8721765856249991,"material_id: mp-27161
+formation_energy_per_atom: -0.8721765856249991",-27161.0,False,0.6948120594024658
+C_verify_retry,"material_id: mp-27161
+formation_energy_per_atom: -0.031",mp-27161,-27161.0,True,-0.8721765856249991,False,0.9473621845245361,-0.8721765856249991,"material_id: mp-27161
+formation_energy_per_atom: -0.8721765856249991",-27161.0,False,0.804711103439331
+C_verify_retry,"material_id: mp-27161
+formation_energy_per_atom: -0.031",mp-27161,-27161.0,True,-0.8721765856249991,False,0.7225282192230225,-0.8721765856249991,"material_id: mp-27161
+formation_energy_per_atom: -0.8721765856249991",-27161.0,False,0.8179829120635986

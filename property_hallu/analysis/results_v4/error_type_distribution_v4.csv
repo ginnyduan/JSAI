@@ -1,0 +1,28 @@
+task,model,exp,error_type_auto,n,pct_in_group
+band_gap,gemini,exp1_baseline,mode_guess,141,0.705
+band_gap,gemini,exp1_baseline,wrong_value_other,59,0.295
+band_gap,gpt,exp1_baseline,parse_fail,128,0.6432160804020101
+band_gap,gpt,exp1_baseline,mode_guess,59,0.2964824120603015
+band_gap,gpt,exp1_baseline,refusal,12,0.06030150753768844
+band_gap,groq,exp1_baseline,parse_fail,192,0.96
+band_gap,groq,exp1_baseline,mode_guess,4,0.02
+band_gap,groq,exp1_baseline,refusal,2,0.01
+band_gap,groq,exp1_baseline,wrong_value_other,2,0.01
+formation_energy_per_atom,gemini,exp1_baseline,mode_guess,88,0.4489795918367347
+formation_energy_per_atom,gemini,exp1_baseline,"mode_guess, sign_error",66,0.336734693877551
+formation_energy_per_atom,gemini,exp1_baseline,sign_error,31,0.15816326530612246
+formation_energy_per_atom,gemini,exp1_baseline,wrong_value_other,6,0.030612244897959183
+formation_energy_per_atom,gemini,exp1_baseline,"mode_guess, scale_error, sign_error",4,0.02040816326530612
+formation_energy_per_atom,gemini,exp1_baseline,scale_error,1,0.00510204081632653
+formation_energy_per_atom,gpt,exp1_baseline,mode_guess,123,0.640625
+formation_energy_per_atom,gpt,exp1_baseline,parse_fail,43,0.22395833333333334
+formation_energy_per_atom,gpt,exp1_baseline,"mode_guess, sign_error",18,0.09375
+formation_energy_per_atom,gpt,exp1_baseline,refusal,8,0.041666666666666664
+formation_energy_per_atom,groq,exp1_baseline,mode_guess,82,0.41
+formation_energy_per_atom,groq,exp1_baseline,wrong_value_other,62,0.31
+formation_energy_per_atom,groq,exp1_baseline,parse_fail,35,0.175
+formation_energy_per_atom,groq,exp1_baseline,refusal,10,0.05
+formation_energy_per_atom,groq,exp1_baseline,"mode_guess, scale_error",7,0.035
+formation_energy_per_atom,groq,exp1_baseline,scale_error,3,0.015
+formation_energy_per_atom,groq,exp1_baseline,sign_error,1,0.005
+formation_energy_per_atom,groq,exp4_cov,"scale_error, sign_error",1,1.0

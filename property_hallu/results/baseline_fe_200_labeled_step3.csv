@@ -1,0 +1,201 @@
+material_id,gt_fe_per_atom,template_id,query,pred_fe_per_atom,abs_err,raw_output,latency_s,label,label2
+mp-27153,-1.76299271,2,Return only the formation energy per atom (eV/atom) for mp-27153.,-3.75,1.98700729,-3.75,0.8590281009674072,wrong_value,mode_guess
+mp-1185959,-1.154441889999999,0,What is the formation energy per atom (eV/atom) of material mp-1185959? Answer with a single number.,0.0,1.154441889999999,0.0,0.6645700931549072,wrong_value,mode_guess
+mp-1217322,-0.010930726197914,0,What is the formation energy per atom (eV/atom) of material mp-1217322? Answer with a single number.,0.0,0.010930726197914,0.0,0.7031970024108887,ok,ok
+mp-570437,-0.827083558444443,2,Return only the formation energy per atom (eV/atom) for mp-570437.,3.75,4.577083558444443,3.75,0.8845810890197754,wrong_value,mode_guess
+mp-352,-4.019811040833332,1,Give the formation energy per atom of mp-352 in eV/atom. No extra text.,0.0,4.019811040833332,0.0,0.7136800289154053,wrong_value,mode_guess
+mp-30034,-1.853706801666665,0,What is the formation energy per atom (eV/atom) of material mp-30034? Answer with a single number.,0.0,1.853706801666665,0.0,0.7167549133300781,wrong_value,mode_guess
+mp-2251,-0.4825014221875,0,What is the formation energy per atom (eV/atom) of material mp-2251? Answer with a single number.,0.0,0.4825014221875,0.0,0.7396221160888672,wrong_value,mode_guess
+mp-624,-0.209188941071428,0,What is the formation energy per atom (eV/atom) of material mp-624? Answer with a single number.,0.0,0.209188941071428,0.0,0.8223538398742676,wrong_value,mode_guess
+mp-672204,-0.400380674374999,2,Return only the formation energy per atom (eV/atom) for mp-672204.,3.78,4.180380674374999,3.78,0.5915780067443848,wrong_value,mode_guess
+mp-1525632,0.0,0,What is the formation energy per atom (eV/atom) of material mp-1525632? Answer with a single number.,0.0,0.0,0.0,0.7169547080993652,ok,ok
+mp-2133,-1.7908991124999991,2,Return only the formation energy per atom (eV/atom) for mp-2133.,3.75,5.540899112499999,3.75,0.8196680545806885,wrong_value,mode_guess
+mp-730101,0.0,2,Return only the formation energy per atom (eV/atom) for mp-730101.,3.75,3.75,3.75,1.0191102027893066,wrong_value,mode_guess
+mp-573812,-0.28239570742611,2,Return only the formation energy per atom (eV/atom) for mp-573812.,3.75,4.03239570742611,3.75,0.5985159873962402,wrong_value,mode_guess
+mp-23184,-1.0426612775,0,What is the formation energy per atom (eV/atom) of material mp-23184? Answer with a single number.,0.0,1.0426612775,0.0,0.7481319904327393,wrong_value,mode_guess
+mp-7904,-0.120742532380951,2,Return only the formation energy per atom (eV/atom) for mp-7904.,3.78,3.900742532380951,3.78,0.7267031669616699,wrong_value,mode_guess
+mp-680463,-0.157726345384613,1,Give the formation energy per atom of mp-680463 in eV/atom. No extra text.,3.75,3.907726345384613,3.75,0.7485001087188721,wrong_value,mode_guess
+mp-18299,-3.992617684583336,0,What is the formation energy per atom (eV/atom) of material mp-18299? Answer with a single number.,0.0,3.992617684583336,0.0,0.9663400650024414,wrong_value,mode_guess
+mp-561197,-3.404466658305554,0,What is the formation energy per atom (eV/atom) of material mp-561197? Answer with a single number.,0.0,3.404466658305554,0.0,0.5382657051086426,wrong_value,mode_guess
+mp-23261,-0.7564620653571411,0,What is the formation energy per atom (eV/atom) of material mp-23261? Answer with a single number.,0.0,0.7564620653571411,0.0,0.691662073135376,wrong_value,mode_guess
+mp-22398,-2.648772015416667,0,What is the formation energy per atom (eV/atom) of material mp-22398? Answer with a single number.,0.0,2.648772015416667,0.0,0.6562938690185547,wrong_value,mode_guess
+mp-32755,-1.857414943749999,0,What is the formation energy per atom (eV/atom) of material mp-32755? Answer with a single number.,0.04,1.897414943749999,0.04,0.7773199081420898,wrong_value,other_wrong
+mp-1193140,-0.743681253794641,2,Return only the formation energy per atom (eV/atom) for mp-1193140.,3.75,4.493681253794641,3.75,0.924360990524292,wrong_value,mode_guess
+mp-556911,-2.590574678333332,2,Return only the formation energy per atom (eV/atom) for mp-556911.,3.75,6.340574678333332,3.75,0.8017902374267578,wrong_value,mode_guess
+mp-27148,-0.319383066011903,0,What is the formation energy per atom (eV/atom) of material mp-27148? Answer with a single number.,0.0,0.319383066011903,0.0,0.600275993347168,wrong_value,mode_guess
+mp-2084,-0.6734596323437501,2,Return only the formation energy per atom (eV/atom) for mp-2084.,0.0,0.6734596323437501,0.0,0.6383562088012695,wrong_value,mode_guess
+mp-19,0.0,0,What is the formation energy per atom (eV/atom) of material mp-19? Answer with a single number.,0.0,0.0,0.0,0.8256392478942871,ok,ok
+mp-23265,-2.506313930624998,2,Return only the formation energy per atom (eV/atom) for mp-23265.,3.75,6.256313930624998,3.75,0.8183379173278809,wrong_value,mode_guess
+mp-21526,-0.362189247187497,2,Return only the formation energy per atom (eV/atom) for mp-21526.,0.358,0.720189247187497,0.358,0.8192858695983887,wrong_value,other_wrong
+mp-32800,-2.4930635934375,2,Return only the formation energy per atom (eV/atom) for mp-32800.,0.0,2.4930635934375,0.0,0.7143819332122803,wrong_value,mode_guess
+mp-504759,-2.631161137083333,2,Return only the formation energy per atom (eV/atom) for mp-504759.,3.75,6.381161137083334,3.75,0.6181092262268066,wrong_value,mode_guess
+mp-1100,-0.377014445,1,Give the formation energy per atom of mp-1100 in eV/atom. No extra text.,0.0,0.377014445,0.0,0.9166970252990724,wrong_value,mode_guess
+mp-1195922,-0.417257172291664,0,What is the formation energy per atom (eV/atom) of material mp-1195922? Answer with a single number.,0.0,0.417257172291664,0.0,0.7173171043395996,wrong_value,mode_guess
+mp-1819,-1.839006646249989,1,Give the formation energy per atom of mp-1819 in eV/atom. No extra text.,3.75,5.589006646249989,3.75,0.924083948135376,wrong_value,mode_guess
+mp-23162,-1.87860569,2,Return only the formation energy per atom (eV/atom) for mp-23162.,0.0,1.87860569,0.0,0.820713996887207,wrong_value,mode_guess
+mp-559798,-2.23065729,1,Give the formation energy per atom of mp-559798 in eV/atom. No extra text.,3.58,5.81065729,3.58,0.9205467700958252,wrong_value,other_wrong
+mp-2793,-0.140219074531245,0,What is the formation energy per atom (eV/atom) of material mp-2793? Answer with a single number.,0.0,0.140219074531245,0.0,0.9178669452667236,wrong_value,mode_guess
+mp-540675,-0.349825507562499,0,What is the formation energy per atom (eV/atom) of material mp-540675? Answer with a single number.,0.0,0.349825507562499,0.0,0.6175329685211182,wrong_value,mode_guess
+mp-540922,-0.450521733124998,2,Return only the formation energy per atom (eV/atom) for mp-540922.,3.78,4.230521733124998,3.78,0.7157740592956543,wrong_value,mode_guess
+mp-571518,-0.946381717857144,1,Give the formation energy per atom of mp-571518 in eV/atom. No extra text.,2.58,3.526381717857144,2.58,0.7786450386047363,wrong_value,other_wrong
+mp-23165,-0.6577550981249981,1,Give the formation energy per atom of mp-23165 in eV/atom. No extra text.,3.75,4.407755098124998,3.75,0.5531570911407471,wrong_value,mode_guess
+mp-23185,-0.857616325999999,1,Give the formation energy per atom of mp-23185 in eV/atom. No extra text.,3.75,4.607616325999999,3.75,0.8193211555480957,wrong_value,mode_guess
+mp-985831,-1.564946299374999,0,What is the formation energy per atom (eV/atom) of material mp-985831? Answer with a single number.,0.0,1.564946299374999,0.0,0.7149567604064941,wrong_value,mode_guess
+mp-1443,-2.537928646818182,0,What is the formation energy per atom (eV/atom) of material mp-1443? Answer with a single number.,0.0,2.537928646818182,0.0,0.7175009250640869,wrong_value,mode_guess
+mp-1205852,-2.094997655499997,1,Give the formation energy per atom of mp-1205852 in eV/atom. No extra text.,0.045,2.139997655499997,0.045,0.7689299583435059,wrong_value,other_wrong
+mp-31050,-0.30258604611111,0,What is the formation energy per atom (eV/atom) of material mp-31050? Answer with a single number.,0.0,0.30258604611111,0.0,0.8701918125152588,wrong_value,mode_guess
+mp-985278,-4.467987469375,0,What is the formation energy per atom (eV/atom) of material mp-985278? Answer with a single number.,0.0,4.467987469375,0.0,0.7634787559509277,wrong_value,mode_guess
+mp-1213805,-0.723041855833334,1,Give the formation energy per atom of mp-1213805 in eV/atom. No extra text.,0.0,0.723041855833334,0.0,0.6247491836547852,wrong_value,mode_guess
+mp-1197742,-0.327354584285715,0,What is the formation energy per atom (eV/atom) of material mp-1197742? Answer with a single number.,0.0,0.327354584285715,0.0,0.7606878280639648,wrong_value,mode_guess
+mp-542810,-0.159580558906249,1,Give the formation energy per atom of mp-542810 in eV/atom. No extra text.,0.045,0.204580558906249,0.045,0.7169809341430664,wrong_value,other_wrong
+mp-23290,-0.475064009999998,1,Give the formation energy per atom of mp-23290 in eV/atom. No extra text.,3.75,4.225064009999998,3.75,0.7152109146118164,wrong_value,mode_guess
+mp-30031,-1.89441126,2,Return only the formation energy per atom (eV/atom) for mp-30031.,3.75,5.64441126,3.75,0.8173413276672363,wrong_value,mode_guess
+mp-647579,-1.267659339375001,1,Give the formation energy per atom of mp-647579 in eV/atom. No extra text.,3.75,5.017659339375001,3.75,0.7202842235565186,wrong_value,mode_guess
+mp-10802,-0.417557193125,0,What is the formation energy per atom (eV/atom) of material mp-10802? Answer with a single number.,0.0,0.417557193125,0.0,0.5424959659576416,wrong_value,mode_guess
+mp-341,-1.990905017999998,2,Return only the formation energy per atom (eV/atom) for mp-341.,0.0,1.990905017999998,0.0,0.7858822345733643,wrong_value,mode_guess
+mp-30140,-0.836349655000001,1,Give the formation energy per atom of mp-30140 in eV/atom. No extra text.,0.0,0.836349655000001,0.0,0.7485597133636475,wrong_value,mode_guess
+mp-22909,-1.291011926666667,2,Return only the formation energy per atom (eV/atom) for mp-22909.,3.75,5.041011926666667,3.75,0.6828441619873047,wrong_value,mode_guess
+mp-541404,-2.522468176666668,0,What is the formation energy per atom (eV/atom) of material mp-541404? Answer with a single number.,0.04,2.562468176666668,0.04,0.5727450847625732,wrong_value,other_wrong
+mp-27358,-1.022062649955356,1,Give the formation energy per atom of mp-27358 in eV/atom. No extra text.,0.0,1.022062649955356,0.0,0.8634898662567139,wrong_value,mode_guess
+mp-634859,-2.206560153333333,0,What is the formation energy per atom (eV/atom) of material mp-634859? Answer with a single number.,0.0,2.206560153333333,0.0,0.6646509170532227,wrong_value,mode_guess
+mp-27161,-0.8721765856249991,2,Return only the formation energy per atom (eV/atom) for mp-27161.,3.78,4.652176585624999,3.78,0.8731539249420166,wrong_value,mode_guess
+mp-619575,-0.6182932559375001,1,Give the formation energy per atom of mp-619575 in eV/atom. No extra text.,2.75,3.3682932559375,2.75,0.8160049915313721,wrong_value,other_wrong
+mp-27291,-2.149853655000001,2,Return only the formation energy per atom (eV/atom) for mp-27291.,-3.75,1.6001463449999989,-3.75,0.8213620185852051,wrong_value,mode_guess
+mp-1227290,-0.006925372499999,2,Return only the formation energy per atom (eV/atom) for mp-1227290.,3.75,3.756925372499999,3.75,0.9179229736328124,wrong_value,mode_guess
+mp-1154,-0.286120912954541,1,Give the formation energy per atom of mp-1154 in eV/atom. No extra text.,0.035,0.321120912954541,0.035,0.7017600536346436,wrong_value,other_wrong
+mp-1345,-1.2564584531547611,2,Return only the formation energy per atom (eV/atom) for mp-1345.,0.0,1.2564584531547611,0.0,0.4984710216522217,wrong_value,mode_guess
+mp-306,-2.798056310000001,0,What is the formation energy per atom (eV/atom) of material mp-306? Answer with a single number.,0.0,2.798056310000001,0.0,0.8480770587921143,wrong_value,mode_guess
+mp-1524462,0.0,2,Return only the formation energy per atom (eV/atom) for mp-1524462.,3.78,3.78,3.78,0.7166650295257568,wrong_value,mode_guess
+mp-8377,-1.4950600038888862,0,What is the formation energy per atom (eV/atom) of material mp-8377? Answer with a single number.,0.0,1.4950600038888862,0.0,0.5112168788909912,wrong_value,mode_guess
+mp-2402,-0.069361268125,0,What is the formation energy per atom (eV/atom) of material mp-2402? Answer with a single number.,0.0,0.069361268125,0.0,0.7168848514556885,wrong_value,mode_guess
+mp-540829,-1.872036438333334,2,Return only the formation energy per atom (eV/atom) for mp-540829.,3.75,5.622036438333334,3.75,0.8231680393218994,wrong_value,mode_guess
+mp-16911,-0.955290041071428,0,What is the formation energy per atom (eV/atom) of material mp-16911? Answer with a single number.,0.0,0.955290041071428,0.0,0.6411590576171875,wrong_value,mode_guess
+mp-34202,-0.274401004000003,1,Give the formation energy per atom of mp-34202 in eV/atom. No extra text.,0.0,0.274401004000003,0.0,0.7895510196685791,wrong_value,mode_guess
+mp-571235,-1.227871009333331,0,What is the formation energy per atom (eV/atom) of material mp-571235? Answer with a single number.,0.0,1.227871009333331,0.0,0.7190468311309814,wrong_value,mode_guess
+mp-1524458,-1.529192906999997,0,What is the formation energy per atom (eV/atom) of material mp-1524458? Answer with a single number.,0.0,1.529192906999997,0.0,0.7134668827056885,wrong_value,mode_guess
+mp-30520,-0.498485183452379,0,What is the formation energy per atom (eV/atom) of material mp-30520? Answer with a single number.,0.0,0.498485183452379,0.0,0.6155941486358643,wrong_value,mode_guess
+mp-29711,-0.444227307333335,1,Give the formation energy per atom of mp-29711 in eV/atom. No extra text.,3.75,4.194227307333335,3.75,0.7202010154724121,wrong_value,mode_guess
+mp-1208424,-0.812674219083331,1,Give the formation energy per atom of mp-1208424 in eV/atom. No extra text.,3.75,4.562674219083331,3.75,0.712852954864502,wrong_value,mode_guess
+mp-541155,-0.9510626574999992,1,Give the formation energy per atom of mp-541155 in eV/atom. No extra text.,0.035,0.9860626574999992,0.035,0.716418981552124,wrong_value,other_wrong
+mp-27684,-0.932556454761906,2,Return only the formation energy per atom (eV/atom) for mp-27684.,3.75,4.682556454761906,3.75,0.8259031772613525,wrong_value,mode_guess
+mp-29179,-1.055039141666666,1,Give the formation energy per atom of mp-29179 in eV/atom. No extra text.,3.75,4.805039141666666,3.75,0.8714239597320557,wrong_value,mode_guess
+mp-1025442,-0.44096969,0,What is the formation energy per atom (eV/atom) of material mp-1025442? Answer with a single number.,0.0,0.44096969,0.0,0.6675000190734863,wrong_value,mode_guess
+mp-23183,-2.585905556250001,1,Give the formation energy per atom of mp-23183 in eV/atom. No extra text.,3.75,6.335905556250001,3.75,0.8081316947937012,wrong_value,mode_guess
+mp-1545216,-0.907728662126436,1,Give the formation energy per atom of mp-1545216 in eV/atom. No extra text.,3.75,4.657728662126436,3.75,0.847275972366333,wrong_value,mode_guess
+mp-7943,-0.588209097083334,0,What is the formation energy per atom (eV/atom) of material mp-7943? Answer with a single number.,0.04,0.6282090970833341,0.04,0.7945821285247803,wrong_value,other_wrong
+mp-9268,-1.167954419796875,2,Return only the formation energy per atom (eV/atom) for mp-9268.,3.75,4.9179544197968745,3.75,0.9212191104888916,wrong_value,mode_guess
+mp-23280,-0.755685861249999,1,Give the formation energy per atom of mp-23280 in eV/atom. No extra text.,3.75,4.505685861249999,3.75,0.8159070014953613,wrong_value,mode_guess
+mp-571011,-0.975770047431038,2,Return only the formation energy per atom (eV/atom) for mp-571011.,0.318,1.293770047431038,0.318,0.5994760990142822,wrong_value,mode_guess
+mp-13568,-2.015935722708332,2,Return only the formation energy per atom (eV/atom) for mp-13568.,3.78,5.795935722708332,3.78,0.7117822170257568,wrong_value,mode_guess
+mp-865194,-4.181989037499999,2,Return only the formation energy per atom (eV/atom) for mp-865194.,3.78,7.961989037499999,3.78,0.8423910140991211,wrong_value,mode_guess
+mp-1968,-3.8759289195,0,What is the formation energy per atom (eV/atom) of material mp-1968? Answer with a single number.,0.0,3.8759289195,0.0,0.81581711769104,wrong_value,mode_guess
+mp-1204356,-0.305946444868422,2,Return only the formation energy per atom (eV/atom) for mp-1204356.,0.318,0.623946444868422,0.318,0.512169361114502,wrong_value,mode_guess
+mp-541610,-0.927984858749999,2,Return only the formation energy per atom (eV/atom) for mp-541610.,3.75,4.67798485875,3.75,0.8167929649353027,wrong_value,mode_guess
+mp-27725,-0.265866406249999,0,What is the formation energy per atom (eV/atom) of material mp-27725? Answer with a single number.,0.0,0.265866406249999,0.0,0.7268526554107666,wrong_value,mode_guess
+mp-1274279,-1.481519387499999,2,Return only the formation energy per atom (eV/atom) for mp-1274279.,3.75,5.231519387499999,3.75,0.7153358459472656,wrong_value,mode_guess
+mp-11054,-0.278649864374999,2,Return only the formation energy per atom (eV/atom) for mp-11054.,3.75,4.028649864374999,3.75,0.7919580936431885,wrong_value,mode_guess
+mp-9852,-0.616732226646824,0,What is the formation energy per atom (eV/atom) of material mp-9852? Answer with a single number.,0.0,0.616732226646824,0.0,0.7368221282958984,wrong_value,mode_guess
+mp-570738,-0.727731253611111,0,What is the formation energy per atom (eV/atom) of material mp-570738? Answer with a single number.,0.0,0.727731253611111,0.0,0.822411060333252,wrong_value,mode_guess
+mp-1080428,-1.326321304000006,1,Give the formation energy per atom of mp-1080428 in eV/atom. No extra text.,3.75,5.076321304000006,3.75,0.7124929428100586,wrong_value,mode_guess
+mp-1212833,-0.299415060454546,1,Give the formation energy per atom of mp-1212833 in eV/atom. No extra text.,0.0,0.299415060454546,0.0,0.6727159023284912,wrong_value,mode_guess
+mp-30792,-0.269950954999998,1,Give the formation energy per atom of mp-30792 in eV/atom. No extra text.,3.75,4.019950954999998,3.75,0.7135460376739502,wrong_value,mode_guess
+mp-10497,-0.127321634999998,2,Return only the formation energy per atom (eV/atom) for mp-10497.,3.75,3.877321634999998,3.75,0.7667529582977295,wrong_value,mode_guess
+mp-1232276,-2.021422001041666,2,Return only the formation energy per atom (eV/atom) for mp-1232276.,3.78,5.801422001041666,3.78,0.6905379295349121,wrong_value,mode_guess
+mp-541837,-0.434076935437502,2,Return only the formation energy per atom (eV/atom) for mp-541837.,3.75,4.184076935437502,3.75,0.6948039531707764,wrong_value,mode_guess
+mp-554855,-2.60675029,0,What is the formation energy per atom (eV/atom) of material mp-554855? Answer with a single number.,0.0,2.60675029,0.0,0.6604299545288086,wrong_value,mode_guess
+mp-28879,-1.057331754908424,2,Return only the formation energy per atom (eV/atom) for mp-28879.,3.75,4.807331754908424,3.75,0.7207398414611816,wrong_value,mode_guess
+mp-542812,-0.442993200833332,1,Give the formation energy per atom of mp-542812 in eV/atom. No extra text.,0.035,0.4779932008333321,0.035,0.7324879169464111,wrong_value,other_wrong
+mp-1105,-2.170192663333334,0,What is the formation energy per atom (eV/atom) of material mp-1105? Answer with a single number.,0.0,2.170192663333334,0.0,0.8567769527435303,wrong_value,mode_guess
+mp-200,-0.514802012604166,0,What is the formation energy per atom (eV/atom) of material mp-200? Answer with a single number.,0.0,0.514802012604166,0.0,0.7645871639251709,wrong_value,mode_guess
+mp-29657,-0.214525574374999,0,What is the formation energy per atom (eV/atom) of material mp-29657? Answer with a single number.,0.0,0.214525574374999,0.0,0.5079741477966309,wrong_value,mode_guess
+mp-555908,-2.341685073333334,1,Give the formation energy per atom of mp-555908 in eV/atom. No extra text.,0.035,2.3766850733333342,0.035,0.7206599712371826,wrong_value,other_wrong
+mp-573815,-0.348767611458335,1,Give the formation energy per atom of mp-573815 in eV/atom. No extra text.,3.75,4.098767611458335,3.75,0.614238977432251,wrong_value,mode_guess
+mp-1018040,-1.474296713671875,1,Give the formation energy per atom of mp-1018040 in eV/atom. No extra text.,3.75,5.224296713671875,3.75,0.7139499187469482,wrong_value,mode_guess
+mp-9922,-1.373804485859373,0,What is the formation energy per atom (eV/atom) of material mp-9922? Answer with a single number.,0.0,1.373804485859373,0.0,1.0261530876159668,wrong_value,mode_guess
+mp-561664,-2.216336207,0,What is the formation energy per atom (eV/atom) of material mp-561664? Answer with a single number.,0.0,2.216336207,0.0,1.0207231044769287,wrong_value,mode_guess
+mp-22859,-0.443566703750002,2,Return only the formation energy per atom (eV/atom) for mp-22859.,0.0,0.443566703750002,0.0,0.7208378314971924,wrong_value,mode_guess
+mp-32633,-1.930073411158088,2,Return only the formation energy per atom (eV/atom) for mp-32633.,3.75,5.680073411158088,3.75,0.6441750526428223,wrong_value,mode_guess
+mp-20652,-2.26442824375,1,Give the formation energy per atom of mp-20652 in eV/atom. No extra text.,3.75,6.01442824375,3.75,0.7878289222717285,wrong_value,mode_guess
+mp-1525121,0.0,0,What is the formation energy per atom (eV/atom) of material mp-1525121? Answer with a single number.,0.0,0.0,0.0,0.613426923751831,ok,ok
+mp-571442,-1.710965791249998,2,Return only the formation energy per atom (eV/atom) for mp-571442.,3.75,5.460965791249998,3.75,0.7139589786529541,wrong_value,mode_guess
+mp-1213622,-1.5970489985714291,1,Give the formation energy per atom of mp-1213622 in eV/atom. No extra text.,0.045,1.642048998571429,0.045,0.925118923187256,wrong_value,other_wrong
+mp-1524446,-1.452075918750001,1,Give the formation energy per atom of mp-1524446 in eV/atom. No extra text.,3.75,5.202075918750001,3.75,0.5926382541656494,wrong_value,mode_guess
+mp-28483,-0.9345107228571432,2,Return only the formation energy per atom (eV/atom) for mp-28483.,-3.75,2.815489277142857,-3.75,1.1493539810180664,wrong_value,mode_guess
+mp-568348,0.0,1,Give the formation energy per atom of mp-568348 in eV/atom. No extra text.,3.75,3.75,3.75,0.6070756912231445,wrong_value,mode_guess
+mp-569561,-0.639768098499999,0,What is the formation energy per atom (eV/atom) of material mp-569561? Answer with a single number.,0.0,0.639768098499999,0.0,0.6238210201263428,wrong_value,mode_guess
+mp-1206891,-0.5667571437499991,1,Give the formation energy per atom of mp-1206891 in eV/atom. No extra text.,0.031,0.5977571437499991,0.031,0.7361903190612793,wrong_value,other_wrong
+mp-1205121,-0.510760389375001,0,What is the formation energy per atom (eV/atom) of material mp-1205121? Answer with a single number.,0.0,0.510760389375001,0.0,0.7130923271179199,wrong_value,mode_guess
+mp-7440,-0.499863119613094,0,What is the formation energy per atom (eV/atom) of material mp-7440? Answer with a single number.,0.0,0.499863119613094,0.0,1.0039012432098389,wrong_value,mode_guess
+mp-556516,-0.505116372129634,2,Return only the formation energy per atom (eV/atom) for mp-556516.,3.75,4.255116372129634,3.75,0.717487096786499,wrong_value,mode_guess
+mp-23221,-2.306216135416666,2,Return only the formation energy per atom (eV/atom) for mp-23221.,3.78,6.086216135416666,3.78,0.8160381317138672,wrong_value,mode_guess
+mp-149,0.0,2,Return only the formation energy per atom (eV/atom) for mp-149.,0.0,0.0,0.0,0.9207828044891356,ok,ok
+mp-607450,-0.235972947500002,1,Give the formation energy per atom of mp-607450 in eV/atom. No extra text.,3.75,3.985972947500002,3.75,0.620629072189331,wrong_value,mode_guess
+mp-1545417,-1.718154452499998,2,Return only the formation energy per atom (eV/atom) for mp-1545417.,0.318,2.036154452499998,0.318,0.6077861785888672,wrong_value,mode_guess
+mp-2715,-0.290117705833334,2,Return only the formation energy per atom (eV/atom) for mp-2715.,-3.75,3.459882294166666,-3.75,0.9249532222747804,wrong_value,mode_guess
+mp-568263,-0.69001870828125,1,Give the formation energy per atom of mp-568263 in eV/atom. No extra text.,3.58,4.27001870828125,3.58,0.613631010055542,wrong_value,other_wrong
+mp-1524481,-1.27488559425,2,Return only the formation energy per atom (eV/atom) for mp-1524481.,3.75,5.02488559425,3.75,0.819633960723877,wrong_value,mode_guess
+mp-541013,-1.031189425666664,1,Give the formation energy per atom of mp-541013 in eV/atom. No extra text.,3.75,4.781189425666664,3.75,0.8202431201934814,wrong_value,mode_guess
+mp-1025522,-1.162119996249998,1,Give the formation energy per atom of mp-1025522 in eV/atom. No extra text.,3.75,4.912119996249998,3.75,0.715954065322876,wrong_value,mode_guess
+mp-27971,-2.788094297499999,0,What is the formation energy per atom (eV/atom) of material mp-27971? Answer with a single number.,0.0,2.788094297499999,0.0,0.9186859130859376,wrong_value,mode_guess
+mp-1705,-1.74803409,0,What is the formation energy per atom (eV/atom) of material mp-1705? Answer with a single number.,0.0,1.74803409,0.0,0.7210519313812256,wrong_value,mode_guess
+mp-510557,-0.216854790312499,2,Return only the formation energy per atom (eV/atom) for mp-510557.,0.318,0.534854790312499,0.318,0.9158778190612792,wrong_value,mode_guess
+mp-7188,-0.670291663333335,1,Give the formation energy per atom of mp-7188 in eV/atom. No extra text.,0.0,0.670291663333335,0.0,0.8230626583099365,wrong_value,mode_guess
+mp-685014,-1.068962764541666,0,What is the formation energy per atom (eV/atom) of material mp-685014? Answer with a single number.,0.0,1.068962764541666,0.0,0.9207198619842528,wrong_value,mode_guess
+mp-754815,-2.30537281125,0,What is the formation energy per atom (eV/atom) of material mp-754815? Answer with a single number.,0.0,2.30537281125,0.0,0.7014369964599609,wrong_value,mode_guess
+mp-15954,-0.5725928316666651,0,What is the formation energy per atom (eV/atom) of material mp-15954? Answer with a single number.,0.0,0.5725928316666651,0.0,0.7333798408508301,wrong_value,mode_guess
+mp-23205,-1.3037782916666671,0,What is the formation energy per atom (eV/atom) of material mp-23205? Answer with a single number.,0.0,1.3037782916666671,0.0,0.6899299621582031,wrong_value,mode_guess
+mp-12957,0.0,2,Return only the formation energy per atom (eV/atom) for mp-12957.,3.78,3.78,3.78,0.722747802734375,wrong_value,mode_guess
+mp-1080821,-3.19318655375,0,What is the formation energy per atom (eV/atom) of material mp-1080821? Answer with a single number.,0.0,3.19318655375,0.0,0.735846996307373,wrong_value,mode_guess
+mp-28933,-0.198695136500001,2,Return only the formation energy per atom (eV/atom) for mp-28933.,3.78,3.9786951365000007,3.78,0.8195681571960449,wrong_value,mode_guess
+mp-254,-4.452365858958333,1,Give the formation energy per atom of mp-254 in eV/atom. No extra text.,4.05,8.502365858958333,4.05,0.7172732353210449,wrong_value,other_wrong
+mp-23263,-2.423042803749999,2,Return only the formation energy per atom (eV/atom) for mp-23263.,3.75,6.173042803749999,3.75,0.8181197643280029,wrong_value,mode_guess
+mp-680422,-0.215968716874999,0,What is the formation energy per atom (eV/atom) of material mp-680422? Answer with a single number.,0.0,0.215968716874999,0.0,0.8173093795776367,wrong_value,mode_guess
+mp-7262,-0.148990749583333,1,Give the formation energy per atom of mp-7262 in eV/atom. No extra text.,2.58,2.728990749583333,2.58,0.8194427490234375,wrong_value,other_wrong
+mp-23933,-0.073632082812499,1,Give the formation energy per atom of mp-23933 in eV/atom. No extra text.,3.75,3.823632082812499,3.75,0.818518877029419,wrong_value,mode_guess
+mp-1095275,-0.009709900654762,2,Return only the formation energy per atom (eV/atom) for mp-1095275.,3.75,3.759709900654762,3.75,0.7915129661560059,wrong_value,mode_guess
+mp-1170,-0.473969728541665,1,Give the formation energy per atom of mp-1170 in eV/atom. No extra text.,3.75,4.223969728541665,3.75,0.6013879776000977,wrong_value,mode_guess
+mp-1864,-0.678575252480158,2,Return only the formation energy per atom (eV/atom) for mp-1864.,-3.75,3.071424747519842,-3.75,0.5521788597106934,wrong_value,mode_guess
+mp-628742,-0.486485566153847,1,Give the formation energy per atom of mp-628742 in eV/atom. No extra text.,0.0,0.486485566153847,0.0,0.5101528167724609,wrong_value,mode_guess
+mp-484,-0.001508734,2,Return only the formation energy per atom (eV/atom) for mp-484.,0.318,0.319508734,0.318,0.7211167812347412,wrong_value,mode_guess
+mp-1195,-0.50608046735294,0,What is the formation energy per atom (eV/atom) of material mp-1195? Answer with a single number.,0.0,0.50608046735294,0.0,0.9176759719848632,wrong_value,mode_guess
+mp-22885,-0.7818107566666681,2,Return only the formation energy per atom (eV/atom) for mp-22885.,0.0,0.7818107566666681,0.0,0.7562270164489746,wrong_value,mode_guess
+mp-680339,-0.28327900617555,2,Return only the formation energy per atom (eV/atom) for mp-680339.,3.78,4.0632790061755495,3.78,1.192267894744873,wrong_value,mode_guess
+mp-540625,-0.5793224153125001,0,What is the formation energy per atom (eV/atom) of material mp-540625? Answer with a single number.,0.0,0.5793224153125001,0.0,0.7168891429901123,wrong_value,mode_guess
+mp-582753,-0.434993182323239,2,Return only the formation energy per atom (eV/atom) for mp-582753.,3.75,4.184993182323239,3.75,0.8159680366516113,wrong_value,mode_guess
+mp-743,-0.140204309375,2,Return only the formation energy per atom (eV/atom) for mp-743.,3.78,3.920204309375,3.78,0.8230869770050049,wrong_value,mode_guess
+mp-2049132,-0.298604841000002,1,Give the formation energy per atom of mp-2049132 in eV/atom. No extra text.,0.0,0.298604841000002,0.0,0.7422499656677246,wrong_value,mode_guess
+mp-181,-0.1726160249375,2,Return only the formation energy per atom (eV/atom) for mp-181.,-3.75,3.5773839750625,-3.75,0.7896859645843506,wrong_value,mode_guess
+mp-28044,-2.512653630624999,1,Give the formation energy per atom of mp-28044 in eV/atom. No extra text.,3.75,6.262653630625,3.75,0.9250051975250244,wrong_value,mode_guess
+mp-1683,-1.236771233046873,0,What is the formation energy per atom (eV/atom) of material mp-1683? Answer with a single number.,0.0,1.236771233046873,0.0,0.6126818656921387,wrong_value,mode_guess
+mp-985829,-1.806995168541668,1,Give the formation energy per atom of mp-985829 in eV/atom. No extra text.,0.0,1.806995168541668,0.0,1.0230510234832764,wrong_value,mode_guess
+mp-1863,-0.119684392083333,1,Give the formation energy per atom of mp-1863 in eV/atom. No extra text.,3.75,3.869684392083333,3.75,0.7174360752105713,wrong_value,mode_guess
+mp-15649,-0.571072849166668,0,What is the formation energy per atom (eV/atom) of material mp-15649? Answer with a single number.,0.0,0.571072849166668,0.0,0.718454122543335,wrong_value,mode_guess
+mp-23710,-0.2827190725,1,Give the formation energy per atom of mp-23710 in eV/atom. No extra text.,3.75,4.0327190725,3.75,0.5864248275756836,wrong_value,mode_guess
+mp-1203760,-0.553621656590911,0,What is the formation energy per atom (eV/atom) of material mp-1203760? Answer with a single number.,0.0,0.553621656590911,0.0,0.7427260875701904,wrong_value,mode_guess
+mp-18536,-1.128947433749999,2,Return only the formation energy per atom (eV/atom) for mp-18536.,3.75,4.878947433749999,3.75,0.5136780738830566,wrong_value,mode_guess
+mp-570796,-0.7330447383333331,2,Return only the formation energy per atom (eV/atom) for mp-570796.,3.75,4.483044738333333,3.75,0.4793360233306885,wrong_value,mode_guess
+mp-971787,-1.208906696666668,1,Give the formation energy per atom of mp-971787 in eV/atom. No extra text.,0.0,1.208906696666668,0.0,0.6470589637756348,wrong_value,mode_guess
+mp-468,-3.86576940625,2,Return only the formation energy per atom (eV/atom) for mp-468.,0.318,4.18376940625,0.318,0.6809659004211426,wrong_value,mode_guess
+mp-1391848,-2.063723397142856,0,What is the formation energy per atom (eV/atom) of material mp-1391848? Answer with a single number.,0.0,2.063723397142856,0.0,0.8506150245666504,wrong_value,mode_guess
+mp-569867,-0.7546754528571421,2,Return only the formation energy per atom (eV/atom) for mp-569867.,3.75,4.504675452857142,3.75,0.7199139595031738,wrong_value,mode_guess
+mp-9851,-0.630045229146825,0,What is the formation energy per atom (eV/atom) of material mp-9851? Answer with a single number.,0.045,0.6750452291468251,0.045,0.614142894744873,wrong_value,other_wrong
+mp-1018138,-0.7411700000000001,2,Return only the formation energy per atom (eV/atom) for mp-1018138.,0.31,1.0511700000000002,0.31,0.714637041091919,wrong_value,other_wrong
+mp-16922,-0.962356391249998,1,Give the formation energy per atom of mp-16922 in eV/atom. No extra text.,0.035,0.997356391249998,0.035,0.7194576263427734,wrong_value,other_wrong
+mp-557993,-1.459764126666667,2,Return only the formation energy per atom (eV/atom) for mp-557993.,3.75,5.209764126666667,3.75,0.8152079582214355,wrong_value,mode_guess
+mp-470,-2.156655663333334,2,Return only the formation energy per atom (eV/atom) for mp-470.,0.318,2.474655663333334,0.318,0.8224470615386963,wrong_value,mode_guess
+mp-559931,-3.238528048750001,2,Return only the formation energy per atom (eV/atom) for mp-559931.,3.75,6.988528048750001,3.75,0.7132422924041748,wrong_value,mode_guess
+mp-27871,-0.8457965725000001,0,What is the formation energy per atom (eV/atom) of material mp-27871? Answer with a single number.,0.0,0.8457965725000001,0.0,0.6787800788879395,wrong_value,mode_guess
+mp-27628,-0.3329571455,0,What is the formation energy per atom (eV/atom) of material mp-27628? Answer with a single number.,0.0,0.3329571455,0.0,0.655419111251831,wrong_value,mode_guess
+mp-30092,-1.725360933333334,1,Give the formation energy per atom of mp-30092 in eV/atom. No extra text.,3.58,5.305360933333335,3.58,0.8189809322357178,wrong_value,other_wrong
+mp-2340,-1.2980963948563211,0,What is the formation energy per atom (eV/atom) of material mp-2340? Answer with a single number.,0.0,1.2980963948563211,0.0,0.9009180068969728,wrong_value,mode_guess
+mp-23155,0.0,2,Return only the formation energy per atom (eV/atom) for mp-23155.,3.75,3.75,3.75,0.9408719539642334,wrong_value,mode_guess
+mp-31049,-3.159657924166664,2,Return only the formation energy per atom (eV/atom) for mp-31049.,3.75,6.909657924166664,3.75,0.8066427707672119,wrong_value,mode_guess
+mp-995393,-0.612184769666665,0,What is the formation energy per atom (eV/atom) of material mp-995393? Answer with a single number.,0.0,0.612184769666665,0.0,0.7306709289550781,wrong_value,mode_guess
+mp-1201,-0.383199846000002,2,Return only the formation energy per atom (eV/atom) for mp-1201.,-3.75,3.366800153999998,-3.75,0.7142038345336914,wrong_value,mode_guess
+mp-7988,-1.180246544770117,1,Give the formation energy per atom of mp-7988 in eV/atom. No extra text.,3.58,4.760246544770117,3.58,0.7195992469787598,wrong_value,other_wrong
+mp-22881,-1.2745155149999992,1,Give the formation energy per atom of mp-22881 in eV/atom. No extra text.,3.75,5.024515514999999,3.75,0.7087059020996094,wrong_value,mode_guess
+mp-27972,-2.494519163125,0,What is the formation energy per atom (eV/atom) of material mp-27972? Answer with a single number.,0.0,2.494519163125,0.0,0.6596379280090332,wrong_value,mode_guess
+mp-1184796,-1.406990803749999,0,What is the formation energy per atom (eV/atom) of material mp-1184796? Answer with a single number.,0.0,1.406990803749999,0.0,0.7822237014770508,wrong_value,mode_guess
+mp-2697,-2.204479133333331,1,Give the formation energy per atom of mp-2697 in eV/atom. No extra text.,0.0,2.204479133333331,0.0,0.7158420085906982,wrong_value,mode_guess
+mp-706630,-0.095264628645833,1,Give the formation energy per atom of mp-706630 in eV/atom. No extra text.,2.58,2.675264628645833,2.58,0.9214091300964355,wrong_value,other_wrong
+mp-27857,-0.694771309999999,0,What is the formation energy per atom (eV/atom) of material mp-27857? Answer with a single number.,0.0,0.694771309999999,0.0,0.699383020401001,wrong_value,mode_guess

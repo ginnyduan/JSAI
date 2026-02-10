@@ -1,0 +1,401 @@
+mp_id,property,tool_value,round1_natural_language,round2_cove_extracted
+mp-619575,band_gap,2.5175,The band gap of mp-619575 is 2.5175 eV.,2.5175
+mp-23184,band_gap,4.7135,The band gap of mp-23184 is 4.7135 eV.,4.7135
+mp-2793,formation_energy_per_atom,-0.140219074531245,The formation energy per atom for mp-2793 is -0.140219074531245 eV/atom.,-0.140219074531245
+mp-619575,formation_energy_per_atom,-0.6182932559375001,The formation energy per atom of mp-619575 is -0.6182932559375001 eV/atom.,-0.6182932559375001
+mp-9851,band_gap,0.1063,The band gap of mp-9851 is 0.1063 eV.,0.1063
+mp-23184,formation_energy_per_atom,-1.0426612775,The formation energy per atom of mp-23184 is -1.0426612775 eV/atom.,-1.0426612775
+mp-9851,formation_energy_per_atom,-0.630045229146825,The formation energy per atom of mp-9851 is -0.630045229146825 eV/atom.,-0.630045229146825
+mp-2793,band_gap,0.262799999999999,The band gap of mp-2793 is 0.2628 eV.,0.2628
+mp-30140,band_gap,4.1443,The band gap of mp-30140 is 4.1443 eV.,4.1443
+mp-1213622,formation_energy_per_atom,-1.5970489985714291,The formation energy per atom of mp-1213622 is -1.5970489985714291 eV/atom.,-1.5970489985714291
+mp-1213622,band_gap,0.5263,The band gap of mp-1213622 is 0.5263 eV.,0.5263
+mp-30140,formation_energy_per_atom,-0.836349655000001,The formation energy per atom of mp-30140 is -0.836349655000001 eV/atom.,-0.836349655000001
+mp-1232276,formation_energy_per_atom,-2.021422001041666,The formation energy per atom of mp-1232276 is -2.021422001041666 eV/atom.,-2.021422001041666
+mp-1232276,band_gap,0.4328,The band gap of mp-1232276 is 0.4328 eV.,0.4328
+mp-1227290,band_gap,0.1101,The band gap of mp-1227290 is 0.1101 eV.,0.1101
+mp-1227290,formation_energy_per_atom,-0.006925372499999,The formation energy per atom of mp-1227290 is -0.006925372499999 eV/atom.,-0.006925372499999
+mp-1170,band_gap,1.514799999999999,The band gap of mp-1170 is 1.5148 eV.,1.5148
+mp-32633,formation_energy_per_atom,-1.930073411158088,The formation energy per atom of mp-32633 is -1.930073411158088 eV/atom.,-1.930073411158088
+mp-1170,formation_energy_per_atom,-0.473969728541665,The formation energy per atom of mp-1170 is -0.473969728541665 eV/atom.,-0.473969728541665
+mp-1195922,band_gap,0.376,"According to the database, the band gap of mp-1195922 is 0.376 eV.",0.376
+mp-32633,band_gap,0.5265000000000001,The band gap of mp-32633 is 0.5265 eV.,0.5265
+mp-254,band_gap,7.6164,The band gap of mp-254 is 7.6164 eV.,7.6164
+mp-1195922,formation_energy_per_atom,-0.417257172291664,The formation energy per atom of mp-1195922 is -0.417257172291664 eV/atom.,-0.417257172291664
+mp-18299,band_gap,0.2155,The band gap of mp-18299 is 0.2155 eV.,0.2155
+mp-23185,band_gap,2.8624,The band gap of mp-23185 is 2.8624 eV.,2.8624
+mp-254,formation_energy_per_atom,-4.452365858958333,The formation energy per atom of mp-254 is -4.452365858958333 eV/atom.,-4.452365858958333
+mp-23290,band_gap,1.7917,The band gap of mp-23290 is 1.7917 eV.,1.7917
+mp-23185,formation_energy_per_atom,-0.857616325999999,The formation_energy_per_atom of mp-23185 is -0.857616325999999 eV per atom.,-0.857616325999999
+mp-18299,formation_energy_per_atom,-3.992617684583336,The formation energy per atom of mp-18299 is -3.992617684583336 eV/atom.,-3.992617684583336
+mp-23290,formation_energy_per_atom,-0.475064009999998,The formation energy per atom of mp-23290 is -0.47506401 eV/atom.,-0.47506401
+mp-30031,formation_energy_per_atom,-1.89441126,The formation energy per atom of mp-30031 is -1.89441126 eV/atom.,-1.89441126
+mp-555908,band_gap,2.2721,The band gap of mp-555908 is 2.2721 eV.,2.2721
+mp-30031,band_gap,3.8971,The band gap of mp-30031 is 3.8971 eV.,3.8971
+mp-22398,band_gap,3.1061,The band gap of mp-22398 is 3.1061 eV.,3.1061
+mp-555908,formation_energy_per_atom,-2.341685073333334,The formation energy per atom of mp-555908 is -2.341685073333334 eV/atom.,-2.341685073333334
+mp-22398,formation_energy_per_atom,-2.648772015416667,The formation energy per atom of mp-22398 is -2.648772015416667 eV/atom.,-2.648772015416667
+mp-27628,band_gap,1.3552,The band gap of mp-27628 is 1.3552 eV.,1.3552
+mp-27628,formation_energy_per_atom,-0.3329571455,The formation energy per atom of mp-27628 is -0.3329571455 eV/atom.,-0.3329571455
+mp-1212833,band_gap,0.3912,"According to the database, the band gap of mp-1212833 is 0.3912 eV.",0.3912
+mp-1212833,formation_energy_per_atom,-0.299415060454546,The formation_energy_per_atom of mp-1212833 is -0.299415060454546 eV/atom.,-0.299415060454546
+mp-571518,band_gap,1.9169,The band gap of mp-571518 is 1.9169 eV.,1.9169
+mp-9852,band_gap,0.1259,The band gap of mp-9852 is 0.1259 eV.,0.1259
+mp-571518,formation_energy_per_atom,-0.946381717857144,The formation energy per atom of mp-571518 is -0.946381717857144 eV/atom.,-0.946381717857144
+mp-34202,band_gap,0.3388,The band gap of mp-34202 is 0.3388 eV.,0.3388
+mp-570796,formation_energy_per_atom,-0.7330447383333331,The formation energy per atom of mp-570796 is -0.7330447383333331 eV/atom.,-0.7330447383333331
+mp-34202,formation_energy_per_atom,-0.274401004000003,The formation energy per atom of mp-34202 is -0.274401004000003 eV/atom.,-0.274401004000003
+mp-570796,band_gap,1.537399999999999,The band gap of mp-570796 is approximately 1.5374 eV.,1.5374
+mp-9852,formation_energy_per_atom,-0.616732226646824,The formation_energy_per_atom of mp-9852 is -0.616732226646824 eV per atom.,-0.616732226646824
+mp-1195,formation_energy_per_atom,-0.50608046735294,The formation energy per atom of mp-1195 is -0.50608046735294 eV/atom.,-0.50608046735294
+mp-1195,band_gap,1.8930999999999991,The band gap of mp-1195 is 1.8931 eV.,1.8931
+mp-672204,band_gap,0.378699999999999,The band gap of mp-672204 is 0.378699999999999 eV.,0.378699999999999
+mp-29179,formation_energy_per_atom,-1.055039141666666,The formation_energy_per_atom of mp-29179 is -1.055039141666666 eV per atom.,-1.055039141666666
+mp-672204,formation_energy_per_atom,-0.400380674374999,The formation energy per atom of mp-672204 is -0.400380674374999 eV per atom.,-0.400380674374999
+mp-29179,band_gap,3.1002,The band gap of mp-29179 is 3.1002 eV according to the database.,3.1002
+mp-1205121,band_gap,0.2452,The band gap of mp-1205121 is 0.2452 eV.,0.2452
+mp-10497,band_gap,2.2919,The band gap of mp-10497 is 2.2919 eV.,2.2919
+mp-1205121,formation_energy_per_atom,-0.510760389375001,The formation energy per atom of mp-1205121 is -0.510760389375001 eV/atom.,-0.510760389375001
+mp-1545417,band_gap,0.7358999999999991,The band gap of mp-1545417 is 0.7359 eV.,0.7359
+mp-10497,formation_energy_per_atom,-0.127321634999998,The formation energy per atom of mp-10497 is -0.127321634999998 eV/atom.,-0.127321634999998
+mp-1545417,formation_energy_per_atom,-1.718154452499998,The formation_energy_per_atom of mp-1545417 is -1.718154452499998 eV per atom.,-1.718154452499998
+mp-27148,formation_energy_per_atom,-0.319383066011903,The formation_energy_per_atom of mp-27148 is -0.319383066011903 eV per atom.,-0.319383066011903
+mp-1203760,band_gap,1.0648,The band gap of mp-1203760 is 1.0648 eV.,1.0648
+mp-1203760,formation_energy_per_atom,-0.553621656590911,The formation energy per atom of mp-1203760 is -0.553621656590911 eV per atom.,-0.553621656590911
+mp-27148,band_gap,0.836199999999999,The band gap of mp-27148 is approximately 0.8362 eV.,0.8362
+mp-470,band_gap,1.2157,The band gap of mp-470 is 1.2157 eV according to the database.,1.2157
+mp-22859,band_gap,1.6513,The band gap of mp-22859 is 1.6513 eV.,1.6513
+mp-16922,band_gap,0.3248,The band gap of mp-16922 is 0.3248 eV.,0.3248
+mp-22859,formation_energy_per_atom,-0.443566703750002,The formation energy per atom of mp-22859 is -0.443566703750002 eV/atom.,-0.443566703750002
+mp-470,formation_energy_per_atom,-2.156655663333334,The formation_energy_per_atom of mp-470 is -2.156655663333334 eV per atom.,-2.156655663333334
+mp-16922,formation_energy_per_atom,-0.962356391249998,The formation energy per atom of mp-16922 is -0.962356391249998 eV/atom.,-0.962356391249998
+mp-624,band_gap,2.6454,The band gap of mp-624 is 2.6454 eV.,2.6454
+mp-624,formation_energy_per_atom,-0.209188941071428,The formation energy per atom of mp-624 is -0.209188941071428 eV/atom.,-0.209188941071428
+mp-31050,band_gap,3.6753,The band gap of mp-31050 is 3.6753 eV.,3.6753
+mp-541013,band_gap,1.0859,The band gap of mp-541013 is 1.0859 eV.,1.0859
+mp-541013,formation_energy_per_atom,-1.031189425666664,The formation energy per atom of mp-541013 is -1.031189425666664 eV/atom.,-1.031189425666664
+mp-31050,formation_energy_per_atom,-0.30258604611111,The formation energy per atom of mp-31050 is −0.30258604611111 eV/atom.,-0.30258604611111
+mp-200,band_gap,0.861699999999999,The band gap of mp-200 is 0.8617 eV.,0.8617
+mp-18536,band_gap,0.208499999999999,The band gap of mp-18536 is approximately 0.2085 eV.,0.2085
+mp-200,formation_energy_per_atom,-0.514802012604166,The formation energy per atom of mp-200 is -0.514802012604166 eV/atom.,-0.514802012604166
+mp-18536,formation_energy_per_atom,-1.128947433749999,The formation energy per atom of mp-18536 is -1.128947433749999 eV per atom.,-1.128947433749999
+mp-7440,band_gap,0.8684000000000001,The band gap of mp-7440 is 0.8684 eV.,0.8684
+mp-23261,band_gap,2.7278,The band gap of mp-23261 is 2.7278 eV.,2.7278
+mp-569867,band_gap,0.378,The band gap of mp-569867 is 0.378 eV.,0.378
+mp-7440,formation_energy_per_atom,-0.499863119613094,The formation_energy_per_atom of mp-7440 is -0.499863119613094 eV/atom.,-0.499863119613094
+mp-23261,formation_energy_per_atom,-0.7564620653571411,The formation energy per atom of mp-23261 is -0.7564620653571411 eV/atom.,-0.7564620653571411
+mp-569867,formation_energy_per_atom,-0.7546754528571421,The formation_energy_per_atom of mp-569867 is -0.7546754528571421 eV/atom.,-0.7546754528571421
+mp-1205852,band_gap,0.8523000000000001,The band gap of mp-1205852 is 0.8523 eV.,0.8523
+mp-28483,formation_energy_per_atom,-0.9345107228571432,The formation energy per atom of mp-28483 is -0.9345107228571432 eV/atom.,-0.9345107228571432
+mp-27871,band_gap,1.2584,The band gap of mp-27871 is 1.2584 eV.,1.2584
+mp-1205852,formation_energy_per_atom,-2.094997655499997,The formation_energy_per_atom of mp-1205852 is -2.094997655499997 eV/atom.,-2.094997655499997
+mp-561664,formation_energy_per_atom,-2.216336207,The formation energy per atom of mp-561664 is -2.216336207 eV/atom.,-2.216336207
+mp-28483,band_gap,1.069899999999999,The band gap of mp-28483 is 1.0699 eV.,1.0699
+mp-561664,band_gap,4.0186,The band gap of mp-561664 is 4.0186 eV.,4.0186
+mp-680339,band_gap,0.755599999999999,The band gap of mp-680339 is approximately 0.7556 eV.,0.7556
+mp-680339,formation_energy_per_atom,-0.28327900617555,The formation energy per atom of mp-680339 is -0.28327900617555 eV/atom.,-0.28327900617555
+mp-27871,formation_energy_per_atom,-0.8457965725000001,The formation energy per atom of mp-27871 is -0.8457965725000001 eV/atom.,-0.8457965725000001
+mp-582753,band_gap,0.8007000000000001,The band gap of mp-582753 is 0.8007 eV.,0.8007
+mp-582753,formation_energy_per_atom,-0.434993182323239,The formation energy per atom of mp-582753 is -0.434993182323239 eV/atom.,-0.434993182323239
+mp-27161,band_gap,2.9118,The band gap of mp-27161 is 2.9118 eV.,2.9118
+mp-30092,band_gap,3.4576,The band gap of mp-30092 is 3.4576 eV.,3.4576
+mp-1018138,band_gap,1.037,The band gap of mp-1018138 is 1.037 eV.,1.037
+mp-27161,formation_energy_per_atom,-0.8721765856249991,The formation_energy_per_atom of mp-27161 is -0.8721765856249991 eV per atom.,-0.8721765856249991
+mp-23155,band_gap,8.5132,The band gap of mp-23155 is 8.5132 eV.,8.5132
+mp-30092,formation_energy_per_atom,-1.725360933333334,The formation energy per atom of mp-30092 is -1.725360933333334 eV/atom.,-1.725360933333334
+mp-1018138,formation_energy_per_atom,-0.7411700000000001,The formation energy per atom of mp-1018138 is -0.74117 eV/atom.,-0.74117
+mp-1197742,band_gap,0.8515,The band gap of mp-1197742 is 0.8515 eV.,0.8515
+mp-23155,formation_energy_per_atom,0.0,The formation energy per atom for mp-23155 is 0.0 eV per atom.,0.0
+mp-1197742,formation_energy_per_atom,-0.327354584285715,The formation energy per atom of mp-1197742 is -0.327354584285715 eV/atom.,-0.327354584285715
+mp-647579,band_gap,3.2214,The band gap of mp-647579 is 3.2214 eV.,3.2214
+mp-15649,formation_energy_per_atom,-0.571072849166668,The formation energy per atom of mp-15649 is -0.571072849166668 eV/atom.,-0.571072849166668
+mp-15649,band_gap,0.8155000000000001,The band gap of mp-15649 is approximately 0.8155 eV.,0.8155
+mp-647579,formation_energy_per_atom,-1.267659339375001,The formation energy per atom of mp-647579 is -1.267659339375001 eV/atom.,-1.267659339375001
+mp-557993,band_gap,1.1596,The band gap of mp-557993 is 1.1596 eV.,1.1596
+mp-7904,band_gap,0.6551,The band gap of mp-7904 is 0.6551 eV.,0.6551
+mp-557993,formation_energy_per_atom,-1.459764126666667,The formation energy per atom of mp-557993 is -1.459764126666667 eV/atom.,-1.459764126666667
+mp-7904,formation_energy_per_atom,-0.120742532380951,The formation energy per atom for mp-7904 is -0.120742532380951 eV/atom.,-0.120742532380951
+mp-570738,band_gap,2.4744,The band gap of mp-570738 is 2.4744 eV.,2.4744
+mp-628742,formation_energy_per_atom,-0.486485566153847,The formation_energy_per_atom of mp-628742 is -0.486485566153847 eV per atom.,-0.486485566153847
+mp-570738,formation_energy_per_atom,-0.727731253611111,The formation energy per atom of mp-570738 is -0.727731253611111 eV/atom.,-0.727731253611111
+mp-628742,band_gap,0.5845,The band gap of mp-628742 is 0.5845 eV.,0.5845
+mp-1204356,formation_energy_per_atom,-0.305946444868422,The formation energy per atom of mp-1204356 is -0.305946444868422 eV/atom.,-0.305946444868422
+mp-1204356,band_gap,1.8389,The band gap of mp-1204356 is 1.8389 eV.,1.8389
+mp-7262,band_gap,0.224099999999999,The band gap of mp-7262 is approximately 0.2241 eV.,0.2241
+mp-28879,band_gap,1.1418,The band gap of mp-28879 is 1.1418 eV.,1.1418
+mp-7262,formation_energy_per_atom,-0.148990749583333,The formation energy per atom of mp-7262 is -0.148990749583333 eV/atom.,-0.148990749583333
+mp-28879,formation_energy_per_atom,-1.057331754908424,The formation energy per atom of mp-28879 is -1.057331754908424 eV/atom.,-1.057331754908424
+mp-27684,band_gap,1.099199999999999,The band gap of mp-27684 is 1.0992 eV.,1.0992
+mp-27684,formation_energy_per_atom,-0.932556454761906,The formation energy per atom of mp-27684 is -0.932556454761906 eV/atom.,-0.932556454761906
+mp-541404,formation_energy_per_atom,-2.522468176666668,The formation energy per atom of mp-541404 is -2.522468176666668 eV/atom.,-2.522468176666668
+mp-1391848,band_gap,2.0863,The band gap of mp-1391848 is 2.0863 eV.,2.0863
+mp-541404,band_gap,0.7584000000000001,The band gap of mp-541404 is 0.7584 eV.,0.7584
+mp-1184796,band_gap,8.0745,The band gap of mp-1184796 is 8.0745 eV according to the database.,8.0745
+mp-1391848,formation_energy_per_atom,-2.063723397142856,The formation_energy_per_atom of mp-1391848 is -2.063723397142856 eV per atom.,-2.063723397142856
+mp-9268,band_gap,0.7039000000000001,The band gap of mp-9268 is 0.7039 eV.,0.7039
+mp-1184796,formation_energy_per_atom,-1.406990803749999,The formation energy per atom of mp-1184796 is -1.406990803749999 eV/atom.,-1.406990803749999
+mp-540922,band_gap,0.1806,The band gap of mp-540922 is 0.1806 eV.,0.1806
+mp-9268,formation_energy_per_atom,-1.167954419796875,The formation energy per atom of mp-9268 is -1.167954419796875 eV/atom.,-1.167954419796875
+mp-540675,band_gap,3.0664,The band gap of mp-540675 is 3.0664 eV.,3.0664
+mp-540922,formation_energy_per_atom,-0.450521733124998,The formation_energy_per_atom of mp-540922 is -0.450521733124998 eV/atom.,-0.450521733124998
+mp-1208424,band_gap,2.5242,The band gap of mp-1208424 is 2.5242 eV.,2.5242
+mp-27971,band_gap,5.0865,The band gap of mp-27971 is 5.0865 eV.,5.0865
+mp-571235,band_gap,2.021,The band gap of mp-571235 is 2.021 eV.,2.021
+mp-540675,formation_energy_per_atom,-0.349825507562499,The formation energy per atom of mp-540675 is -0.349825507562499 eV/atom.,-0.349825507562499
+mp-571235,formation_energy_per_atom,-1.227871009333331,The formation energy per atom of mp-571235 is -1.227871009333331 eV/atom.,-1.227871009333331
+mp-1208424,formation_energy_per_atom,-0.812674219083331,The formation energy per atom of mp-1208424 is -0.812674219083331 eV/atom.,-0.812674219083331
+mp-22909,band_gap,4.0533,The band gap of mp-22909 is 4.0533 eV.,4.0533
+mp-27971,formation_energy_per_atom,-2.788094297499999,The formation energy per atom of mp-27971 is -2.788094297499999 eV/atom.,-2.788094297499999
+mp-22909,formation_energy_per_atom,-1.291011926666667,The formation energy per atom of mp-22909 is -1.291011926666667 eV/atom.,-1.291011926666667
+mp-556516,band_gap,0.7668,The database reports that the band gap of mp-556516 is 0.7668 eV.,0.7668
+mp-21526,formation_energy_per_atom,-0.362189247187497,The formation energy per atom of mp-21526 is -0.362189247187497 eV/atom.,-0.362189247187497
+mp-21526,band_gap,0.5708000000000001,The band gap of mp-21526 is 0.5708 eV.,0.5708
+mp-1274279,formation_energy_per_atom,-1.481519387499999,The formation energy per atom of mp-1274279 is -1.481519387499999 eV/atom.,-1.481519387499999
+mp-554855,band_gap,1.5712000000000002,The band gap of mp-554855 is 1.5712 eV.,1.5712
+mp-556516,formation_energy_per_atom,-0.505116372129634,The formation energy per atom of mp-556516 is -0.505116372129634 eV/atom.,-0.505116372129634
+mp-554855,formation_energy_per_atom,-2.60675029,The formation energy per atom of mp-554855 is -2.60675029 eV/atom.,-2.60675029
+mp-510557,band_gap,4.2395,The band gap of mp-510557 is 4.2395 eV.,4.2395
+mp-27291,band_gap,0.155399999999999,The band gap of mp-27291 is 0.1554 eV.,0.1554
+mp-510557,formation_energy_per_atom,-0.216854790312499,The formation energy per atom of mp-510557 is -0.216854790312499 eV/atom.,-0.216854790312499
+mp-568348,band_gap,1.8454,The band gap of mp-568348 is 1.8454 eV.,1.8454
+mp-27291,formation_energy_per_atom,-2.149853655000001,The formation_energy_per_atom of mp-27291 is -2.149853655000001 eV/atom.,-2.149853655000001
+mp-1274279,band_gap,1.8157,The band gap of mp-1274279 is 1.8157 eV.,1.8157
+mp-2084,band_gap,0.9437999999999992,The band gap of mp-2084 is approximately 0.9438 eV.,0.9438
+mp-995393,band_gap,2.1989,The band gap of mp-995393 is 2.1989 eV.,2.1989
+mp-568348,formation_energy_per_atom,0.0,"According to the database, the formation_energy_per_atom of mp-568348 is 0.0 eV/atom.",0.0
+mp-2084,formation_energy_per_atom,-0.6734596323437501,The formation energy per atom of mp-2084 is -0.6734596323437501 eV/atom.,-0.6734596323437501
+mp-1345,band_gap,0.3443,The band gap of mp-1345 is 0.3443 eV.,0.3443
+mp-995393,formation_energy_per_atom,-0.612184769666665,The formation energy per atom of mp-995393 is -0.612184769666665 eV/atom.,-0.612184769666665
+mp-1193140,formation_energy_per_atom,-0.743681253794641,The formation energy per atom of mp-1193140 is -0.743681253794641 eV/atom.,-0.743681253794641
+mp-23265,band_gap,2.0054,The band gap of mp-23265 is 2.0054 eV.,2.0054
+mp-1193140,band_gap,1.8661999999999992,The band gap of mp-1193140 is 1.8662 eV.,1.8662
+mp-29657,band_gap,0.665199999999999,The band gap of mp-29657 is 0.6652 eV.,0.6652
+mp-1345,formation_energy_per_atom,-1.2564584531547611,The formation energy per atom of mp-1345 is -1.2564584531547611 eV/atom.,-1.2564584531547611
+mp-23265,formation_energy_per_atom,-2.506313930624998,The formation energy per atom of mp-23265 is -2.506313930624998 eV/atom.,-2.506313930624998
+mp-29657,formation_energy_per_atom,-0.214525574374999,The formation energy per atom of mp-29657 is -0.214525574374999 eV/atom.,-0.214525574374999
+mp-542812,band_gap,1.0066,The band gap of mp-542812 is 1.0066 eV.,1.0066
+mp-27725,band_gap,2.0942,The band gap of mp-27725 is 2.0942 eV.,2.0942
+mp-542812,formation_energy_per_atom,-0.442993200833332,The formation energy per atom of mp-542812 is -0.442993200833332 eV/atom.,-0.442993200833332
+mp-10802,formation_energy_per_atom,-0.417557193125,The formation energy per atom of mp-10802 is -0.417557193125 eV/atom.,-0.417557193125
+mp-10802,band_gap,0.5879000000000001,The band gap of mp-10802 is 0.5879 eV.,0.5879
+mp-27725,formation_energy_per_atom,-0.265866406249999,The formation_energy_per_atom of mp-27725 is -0.265866406249999 eV/atom.,-0.265866406249999
+mp-1080428,formation_energy_per_atom,-1.326321304000006,The formation energy per atom of mp-1080428 is -1.326321304000006 eV/atom.,-1.326321304000006
+mp-1080428,band_gap,0.8728,The band gap of mp-1080428 is 0.8728 eV.,0.8728
+mp-569561,band_gap,3.1165,The band gap of mp-569561 is 3.1165 eV.,3.1165
+mp-484,band_gap,0.4326,The band gap of mp-484 is 0.4326 eV according to the database.,0.4326
+mp-569561,formation_energy_per_atom,-0.639768098499999,The formation energy per atom of mp-569561 is -0.639768098499999 eV/atom.,-0.639768098499999
+mp-743,formation_energy_per_atom,-0.140204309375,The formation energy per atom of mp-743 is -0.140204309375 eV/atom.,-0.140204309375
+mp-1864,band_gap,0.1139,The band gap of mp-1864 is 0.1139 eV.,0.1139
+mp-484,formation_energy_per_atom,-0.001508734,The formation energy per atom of mp-484 is -0.001508734 eV/atom.,-0.001508734
+mp-743,band_gap,4.1608,The band gap of mp-743 is 4.1608 eV.,4.1608
+mp-1864,formation_energy_per_atom,-0.678575252480158,The formation energy per atom of mp-1864 is -0.678575252480158 eV/atom.,-0.678575252480158
+mp-30520,band_gap,1.667899999999999,The band gap of mp-30520 is 1.6679 eV.,1.6679
+mp-30520,formation_energy_per_atom,-0.498485183452379,The formation energy per atom of mp-30520 is -0.498485183452379 eV/atom.,-0.498485183452379
+mp-23221,formation_energy_per_atom,-2.306216135416666,The formation energy per atom of mp-23221 is -2.306216135416666 eV/atom.,-2.306216135416666
+mp-23221,band_gap,3.429599999999999,The band gap of mp-23221 is 3.4296 eV.,3.4296
+mp-149,band_gap,0.6105,The band gap of mp-149 is 0.6105 eV.,0.6105
+mp-149,formation_energy_per_atom,0.0,The formation_energy_per_atom of mp-149 is 0.0 eV per atom.,0.0
+mp-1863,band_gap,1.451899999999999,The band gap of mp-1863 is 1.4519 eV.,1.4519
+mp-1863,formation_energy_per_atom,-0.119684392083333,The formation energy per atom for mp-1863 is -0.119684392083333 eV/atom.,-0.119684392083333
+mp-1524446,band_gap,1.0487,The band gap of mp-1524446 is 1.0487 eV.,1.0487
+mp-1524446,formation_energy_per_atom,-1.452075918750001,The formation energy per atom of mp-1524446 is -1.452075918750001 eV/atom.,-1.452075918750001
+mp-730101,formation_energy_per_atom,0.0,The formation energy per atom of mp-730101 is 0.0 eV/atom.,0.0
+mp-730101,band_gap,9.7197,The band gap of mp-730101 is 9.7197 eV according to the database.,9.7197
+mp-31049,band_gap,3.4112,The band gap of mp-31049 is 3.4112 eV.,3.4112
+mp-31049,formation_energy_per_atom,-3.159657924166664,The formation energy per atom of mp-31049 is -3.159657924166664 eV/atom.,-3.159657924166664
+mp-1213805,formation_energy_per_atom,-0.723041855833334,The formation_energy_per_atom of mp-1213805 is -0.723041855833334 eV per atom.,-0.723041855833334
+mp-573812,band_gap,1.4052,The band gap of mp-573812 is 1.4052 eV.,1.4052
+mp-573812,formation_energy_per_atom,-0.28239570742611,The formation energy per atom for mp-573812 is -0.28239570742611 eV/atom.,-0.28239570742611
+mp-1213805,band_gap,1.159,The band gap of mp-1213805 is 1.159 eV.,1.159
+mp-7188,band_gap,0.289899999999999,The band gap of mp-7188 is 0.2899 eV.,0.2899
+mp-680422,band_gap,2.9265,The band gap of mp-680422 is 2.9265 eV.,2.9265
+mp-7188,formation_energy_per_atom,-0.670291663333335,The formation energy per atom of mp-7188 is -0.670291663333335 eV/atom.,-0.670291663333335
+mp-1683,band_gap,0.3979,The band gap of mp-1683 is 0.3979 eV.,0.3979
+mp-1100,band_gap,1.0375,The band gap of mp-1100 is 1.0375 eV.,1.0375
+mp-1683,formation_energy_per_atom,-1.236771233046873,The formation energy per atom of mp-1683 is -1.236771233046873 eV/atom.,-1.236771233046873
+mp-680422,formation_energy_per_atom,-0.215968716874999,The formation_energy_per_atom of mp-680422 is -0.215968716874999.,-0.215968716874999
+mp-306,band_gap,6.3017,The band gap of mp-306 is 6.3017 eV.,6.3017
+mp-1100,formation_energy_per_atom,-0.377014445,The formation energy per atom of mp-1100 is -0.377014445 eV/atom.,-0.377014445
+mp-11054,band_gap,0.877899999999999,The band gap of mp-11054 is 0.8779 eV.,0.8779
+mp-1018040,band_gap,2.5765,The band gap of mp-1018040 is 2.5765 eV.,2.5765
+mp-306,formation_energy_per_atom,-2.798056310000001,The formation energy per atom of mp-306 is -2.798056310000001 eV/atom.,-2.798056310000001
+mp-11054,formation_energy_per_atom,-0.278649864374999,The formation energy per atom of mp-11054 is -0.278649864374999 eV per atom.,-0.278649864374999
+mp-12957,formation_energy_per_atom,0.0,"According to the database, the formation energy per atom of mp-12957 is 0.0 eV/atom.",0.0
+mp-12957,band_gap,1.0933,The band gap of mp-12957 is 1.0933 eV.,1.0933
+mp-1018040,formation_energy_per_atom,-1.474296713671875,The formation energy per atom of mp-1018040 is −1.474296713671875 eV/atom.,-1.474296713671875
+mp-8377,band_gap,3.0604,The band gap of mp-8377 is 3.0604 eV.,3.0604
+mp-23933,band_gap,2.197699999999999,The band gap of mp-23933 is 2.197699999999999 eV.,2.197699999999999
+mp-8377,formation_energy_per_atom,-1.4950600038888862,The formation energy per atom of mp-8377 is -1.4950600038888862 eV/atom.,-1.4950600038888862
+mp-13568,band_gap,0.3379,The band gap of mp-13568 is 0.3379 eV.,0.3379
+mp-23933,formation_energy_per_atom,-0.073632082812499,The formation energy per atom of mp-23933 is -0.073632082812499 eV/atom.,-0.073632082812499
+mp-13568,formation_energy_per_atom,-2.015935722708332,The formation energy per atom of mp-13568 is -2.015935722708332 eV/atom.,-2.015935722708332
+mp-1154,band_gap,0.7510000000000001,The band gap of mp-1154 is 0.751 eV.,0.751
+mp-571442,band_gap,3.0417,The band gap of mp-571442 is 3.0417 eV.,3.0417
+mp-571442,formation_energy_per_atom,-1.710965791249998,The formation energy per atom of mp-571442 is -1.710965791249998 eV/atom.,-1.710965791249998
+mp-1524481,band_gap,8.309,The band gap of mp-1524481 is 8.309 eV.,8.309
+mp-27972,formation_energy_per_atom,-2.494519163125,The formation energy per atom of mp-27972 is -2.494519163125 eV/atom.,-2.494519163125
+mp-1524481,formation_energy_per_atom,-1.27488559425,The formation energy per atom of mp-1524481 is -1.27488559425 eV/atom.,-1.27488559425
+mp-1154,formation_energy_per_atom,-0.286120912954541,The formation energy per atom of mp-1154 is -0.286120912954541 eV/atom.,-0.286120912954541
+mp-1524458,band_gap,3.1633,The band gap of mp-1524458 is 3.1633 eV.,3.1633
+mp-27972,band_gap,4.103299999999999,The band gap of mp-27972 is 4.1033 eV.,4.1033
+mp-27153,formation_energy_per_atom,-1.76299271,The formation energy per atom of mp-27153 is -1.76299271 eV/atom.,-1.76299271
+mp-27153,band_gap,0.2115,The database reports the band gap of mp-27153 as 0.2115 eV.,0.2115
+mp-1524458,formation_energy_per_atom,-1.529192906999997,The formation energy per atom of mp-1524458 is -1.529192906999997 eV/atom.,-1.529192906999997
+mp-634859,formation_energy_per_atom,-2.206560153333333,The formation energy per atom of mp-634859 is -2.206560153333333 eV/atom.,-2.206560153333333
+mp-634859,band_gap,2.7345,The band gap of mp-634859 is 2.7345 eV.,2.7345
+mp-468,band_gap,7.6012,The band gap of mp-468 is 7.6012 eV.,7.6012
+mp-559931,formation_energy_per_atom,-3.238528048750001,The formation energy per atom of mp-559931 is -3.238528048750001 eV/atom.,-3.238528048750001
+mp-559931,band_gap,1.6025,The band gap of mp-559931 is 1.6025 eV.,1.6025
+mp-1206891,band_gap,1.0096,The band gap of mp-1206891 is 1.0096 eV.,1.0096
+mp-468,formation_energy_per_atom,-3.86576940625,The formation energy per atom of mp-468 is -3.86576940625 eV/atom.,-3.86576940625
+mp-1206891,formation_energy_per_atom,-0.5667571437499991,The formation energy per atom of mp-1206891 is -0.5667571437499991 eV/atom.,-0.5667571437499991
+mp-1095275,band_gap,0.4889,The band gap of mp-1095275 is 0.4889 eV.,0.4889
+mp-1095275,formation_energy_per_atom,-0.009709900654762,The formation energy per atom of mp-1095275 is -0.009709900654762 eV/atom.,-0.009709900654762
+mp-1201,band_gap,0.1314,The band gap of mp-1201 is 0.1314 eV.,0.1314
+mp-1201,formation_energy_per_atom,-0.383199846000002,The formation energy per atom of mp-1201 is -0.383199846000002 eV/atom.,-0.383199846000002
+mp-570437,formation_energy_per_atom,-0.827083558444443,The formation energy per atom of mp-570437 is -0.827083558444443 eV/atom.,-0.827083558444443
+mp-27358,band_gap,2.9034,The band gap of mp-27358 is 2.9034 eV.,2.9034
+mp-27358,formation_energy_per_atom,-1.022062649955356,The formation energy per atom of mp-27358 is -1.022062649955356 eV/atom.,-1.022062649955356
+mp-570437,band_gap,2.3382,The band gap of mp-570437 is 2.3382 eV.,2.3382
+mp-754815,band_gap,3.976499999999999,The band gap of mp-754815 is 3.9765 eV.,3.9765
+mp-754815,formation_energy_per_atom,-2.30537281125,The formation energy per atom of mp-754815 is -2.30537281125 eV/atom.,-2.30537281125
+mp-1025522,band_gap,0.6758999999999991,The band gap of mp-1025522 is 0.6759 eV.,0.6759
+mp-568263,band_gap,1.2121,The band gap of mp-568263 is 1.2121 eV.,1.2121
+mp-571011,band_gap,1.7836,The band gap of mp-571011 is 1.7836 eV.,1.7836
+mp-571011,formation_energy_per_atom,-0.975770047431038,The formation energy per atom of mp-571011 is -0.975770047431038 eV per atom.,-0.975770047431038
+mp-568263,formation_energy_per_atom,-0.69001870828125,The formation energy per atom of mp-568263 is -0.69001870828125 eV/atom.,-0.69001870828125
+mp-1025522,formation_energy_per_atom,-1.162119996249998,The formation energy per atom of mp-1025522 is -1.162119996249998 eV/atom.,-1.162119996249998
+mp-28044,band_gap,4.918,The band gap of mp-28044 is 4.918 eV according to the database.,4.918
+mp-28044,formation_energy_per_atom,-2.512653630624999,The formation energy per atom of mp-28044 is -2.512653630624999 eV/atom.,-2.512653630624999
+mp-1217322,band_gap,0.7062,The band gap of mp-1217322 is 0.7062 eV.,0.7062
+mp-541155,band_gap,0.9239,The band gap of mp-541155 is 0.9239 eV.,0.9239
+mp-19,band_gap,0.1856,The band gap of mp-19 is 0.1856 eV.,0.1856
+mp-1217322,formation_energy_per_atom,-0.010930726197914,The formation energy per atom of mp-1217322 is -0.010930726197914 eV/atom.,-0.010930726197914
+mp-19,formation_energy_per_atom,0.0,The formation_energy_per_atom of mp-19 is 0.0 eV/atom.,0.0
+mp-22885,band_gap,2.686199999999999,The band gap of mp-22885 is 2.6862 eV.,2.6862
+mp-22885,formation_energy_per_atom,-0.7818107566666681,The formation energy per atom of mp-22885 is -0.7818107566666681 eV/atom.,-0.7818107566666681
+mp-541155,formation_energy_per_atom,-0.9510626574999992,The formation energy per atom of mp-541155 is -0.9510626574999992 eV/atom.,-0.9510626574999992
+mp-20652,band_gap,1.9078,The band gap of mp-20652 is 1.9078 eV.,1.9078
+mp-20652,formation_energy_per_atom,-2.26442824375,The formation energy per atom of mp-20652 is -2.26442824375 eV/atom.,-2.26442824375
+mp-985829,band_gap,1.2237,The band gap of mp-985829 is 1.2237 eV.,1.2237
+mp-985829,formation_energy_per_atom,-1.806995168541668,The formation energy per atom for mp-985829 is -1.806995168541668 eV/atom.,-1.806995168541668
+mp-30034,band_gap,4.4707,The band gap of mp-30034 is 4.4707 eV.,4.4707
+mp-27857,formation_energy_per_atom,-0.694771309999999,The formation energy per atom of mp-27857 is -0.694771309999999 eV/atom.,-0.694771309999999
+mp-30034,formation_energy_per_atom,-1.853706801666665,The formation energy per atom of mp-30034 is -1.853706801666665 eV/atom.,-1.853706801666665
+mp-22881,band_gap,3.5244,The band gap of mp-22881 is 3.5244 eV.,3.5244
+mp-32755,band_gap,1.0395,The band gap of mp-32755 is 1.0395 eV.,1.0395
+mp-22881,formation_energy_per_atom,-1.2745155149999992,The formation energy per atom of mp-22881 is -1.2745155149999992 eV/atom.,-1.2745155149999992
+mp-27857,band_gap,0.9792,The band gap of mp-27857 is 0.9792 eV.,0.9792
+mp-32755,formation_energy_per_atom,-1.857414943749999,The formation energy per atom of mp-32755 is -1.857414943749999 eV/atom.,-1.857414943749999
+mp-2715,band_gap,0.172299999999999,The band gap of mp-2715 is 0.1723 eV.,0.1723
+mp-2715,formation_energy_per_atom,-0.290117705833334,The formation energy per atom of mp-2715 is -0.290117705833334 eV/atom.,-0.290117705833334
+mp-504759,band_gap,0.9911,The band gap of mp-504759 is 0.9911 eV.,0.9911
+mp-504759,formation_energy_per_atom,-2.631161137083333,The formation energy per atom of mp-504759 is -2.631161137083333 eV/atom.,-2.631161137083333
+mp-865194,band_gap,5.3798,The band gap of mp-865194 is 5.3798 eV.,5.3798
+mp-1525121,formation_energy_per_atom,0.0,The formation_energy_per_atom of mp-1525121 is 0.0 eV per atom.,0.0
+mp-1525121,band_gap,1.687399999999999,The band gap of mp-1525121 is 1.6874 eV.,1.6874
+mp-865194,formation_energy_per_atom,-4.181989037499999,The formation energy per atom of mp-865194 is -4.181989037499999 eV/atom.,-4.181989037499999
+mp-541610,band_gap,2.597,The band gap of mp-541610 is 2.597 eV.,2.597
+mp-28933,band_gap,1.7587000000000002,The band gap of mp-28933 is 1.7587 eV.,1.7587
+mp-541610,formation_energy_per_atom,-0.927984858749999,The formation energy per atom of mp-541610 is -0.927984858749999 eV/atom.,-0.927984858749999
+mp-985831,band_gap,0.5342,"According to the database, the band gap of mp-985831 is 0.5342 eV.",0.5342
+mp-28933,formation_energy_per_atom,-0.198695136500001,The formation_energy_per_atom of mp-28933 is -0.198695136500001 eV per atom.,-0.198695136500001
+mp-23205,formation_energy_per_atom,-1.3037782916666671,The formation energy per atom of mp-23205 is -1.3037782916666671 eV/atom.,-1.3037782916666671
+mp-23205,band_gap,3.6162,The database reports a band gap of 3.6162 eV for mp-23205.,3.6162
+mp-540829,band_gap,0.710199999999999,The band gap of mp-540829 is 0.7102 eV.,0.7102
+mp-540829,formation_energy_per_atom,-1.872036438333334,The formation_energy_per_atom of mp-540829 is -1.872036438333334 eV/atom.,-1.872036438333334
+mp-1525632,band_gap,2.8979,The band gap of mp-1525632 is 2.8979 eV.,2.8979
+mp-985831,formation_energy_per_atom,-1.564946299374999,The formation_energy_per_atom of mp-985831 is -1.564946299374999 eV per atom.,-1.564946299374999
+mp-573815,band_gap,0.9469999999999992,The calculated band gap for mp-573815 is approximately 0.947 eV.,0.947
+mp-1525632,formation_energy_per_atom,0.0,The formation_energy_per_atom of mp-1525632 is 0.0 eV per atom.,0.0
+mp-607450,band_gap,0.229,The band gap of mp-607450 is 0.229 eV.,0.229
+mp-573815,formation_energy_per_atom,-0.348767611458335,The formation energy per atom of mp-573815 is -0.348767611458335 eV/atom.,-0.348767611458335
+mp-607450,formation_energy_per_atom,-0.235972947500002,The formation energy per atom of mp-607450 is -0.235972947500002 eV/atom.,-0.235972947500002
+mp-23162,band_gap,1.0479,The band gap of mp-23162 is 1.0479 eV.,1.0479
+mp-23162,formation_energy_per_atom,-1.87860569,The formation energy per atom of mp-23162 is -1.87860569 eV/atom.,-1.87860569
+mp-2402,formation_energy_per_atom,-0.069361268125,The formation energy per atom of mp-2402 is -0.069361268125 eV/atom.,-0.069361268125
+mp-9922,band_gap,1.1326,The band gap of mp-9922 is 1.1326 eV.,1.1326
+mp-2402,band_gap,1.1286,The band gap of mp-2402 is 1.1286 eV.,1.1286
+mp-1545216,band_gap,0.4836,The band gap of mp-1545216 is 0.4836 eV.,0.4836
+mp-9922,formation_energy_per_atom,-1.373804485859373,The formation energy per atom of mp-9922 is -1.373804485859373 eV/atom.,-1.373804485859373
+mp-1968,formation_energy_per_atom,-3.8759289195,The formation energy per atom of mp-1968 is -3.8759289195 eV/atom.,-3.8759289195
+mp-1545216,formation_energy_per_atom,-0.907728662126436,The formation energy per atom of mp-1545216 is -0.907728662126436 eV/atom.,-0.907728662126436
+mp-1968,band_gap,3.824799999999999,The band gap of mp-1968 is 3.8248 eV.,3.8248
+mp-29711,band_gap,0.638899999999999,The band gap of mp-29711 is 0.6389 eV.,0.6389
+mp-2133,band_gap,0.7227,The band gap of mp-2133 is 0.7227 eV.,0.7227
+mp-29711,formation_energy_per_atom,-0.444227307333335,The formation energy per atom of mp-29711 is -0.444227307333335 eV/atom.,-0.444227307333335
+mp-1185959,band_gap,1.133699999999999,The band gap of mp-1185959 is 1.1337 eV.,1.1337
+mp-2133,formation_energy_per_atom,-1.7908991124999991,The formation energy per atom of mp-2133 is -1.7908991124999991 eV/atom.,-1.7908991124999991
+mp-985278,formation_energy_per_atom,-4.467987469375,The formation energy per atom of mp-985278 is -4.467987469375 eV/atom.,-4.467987469375
+mp-985278,band_gap,6.0693,The band gap of mp-985278 is 6.0693 eV.,6.0693
+mp-1185959,formation_energy_per_atom,-1.154441889999999,The formation_energy_per_atom of mp-1185959 is -1.154441889999999 eV per atom.,-1.154441889999999
+mp-23710,formation_energy_per_atom,-0.2827190725,The formation energy per atom of mp-23710 is -0.2827190725 eV/atom.,-0.2827190725
+mp-341,band_gap,1.9022,The band gap of mp-341 is 1.9022 eV.,1.9022
+mp-23710,band_gap,3.709699999999999,The band gap of mp-23710 is 3.7097 eV.,3.7097
+mp-32800,band_gap,2.2962,The band gap of mp-32800 is 2.2962 eV.,2.2962
+mp-341,formation_energy_per_atom,-1.990905017999998,The formation energy per atom of mp-341 is -1.990905017999998 eV/atom.,-1.990905017999998
+mp-685014,formation_energy_per_atom,-1.068962764541666,The formation energy per atom of mp-685014 is -1.068962764541666 eV/atom.,-1.068962764541666
+mp-685014,band_gap,2.0644,The band gap of mp-685014 is 2.0644 eV.,2.0644
+mp-32800,formation_energy_per_atom,-2.4930635934375,The formation energy per atom of mp-32800 is -2.4930635934375 eV/atom.,-2.4930635934375
+mp-559798,band_gap,4.9116,The band gap of mp-559798 is 4.9116 eV.,4.9116
+mp-559798,formation_energy_per_atom,-2.23065729,The formation energy per atom of mp-559798 is -2.23065729 eV/atom.,-2.23065729
+mp-1080821,formation_energy_per_atom,-3.19318655375,The formation energy per atom of mp-1080821 is -3.19318655375 eV/atom.,-3.19318655375
+mp-540625,formation_energy_per_atom,-0.5793224153125001,The formation energy per atom of mp-540625 is -0.5793224153125001 eV/atom.,-0.5793224153125001
+mp-1080821,band_gap,0.7896000000000001,The band gap of mp-1080821 is 0.7896 eV.,0.7896
+mp-540625,band_gap,1.7063,The band gap of mp-540625 is 1.7063 eV.,1.7063
+mp-556911,band_gap,1.6921,The band gap of mp-556911 is 1.6921 eV.,1.6921
+mp-1025442,formation_energy_per_atom,-0.44096969,The formation energy per atom of mp-1025442 is -0.44096969 eV/atom.,-0.44096969
+mp-1025442,band_gap,1.3846999999999992,The band gap of mp-1025442 is 1.3847 eV.,1.3847
+mp-556911,formation_energy_per_atom,-2.590574678333332,The formation energy per atom of mp-556911 is -2.590574678333332 eV/atom.,-2.590574678333332
+mp-23263,band_gap,2.9266,The band gap of mp-23263 is 2.9266 eV.,2.9266
+mp-16911,formation_energy_per_atom,-0.955290041071428,The formation energy per atom of mp-16911 is -0.955290041071428 eV per atom.,-0.955290041071428
+mp-23263,formation_energy_per_atom,-2.423042803749999,The formation energy per atom of mp-23263 is -2.423042803749999 eV/atom.,-2.423042803749999
+mp-16911,band_gap,1.9539,The band gap of mp-16911 is 1.9539 eV.,1.9539
+mp-561197,band_gap,5.5366,The band gap of mp-561197 is 5.5366 eV.,5.5366
+mp-1705,band_gap,0.5057,The band gap of mp-1705 is 0.5057 eV.,0.5057
+mp-1705,formation_energy_per_atom,-1.74803409,The formation energy per atom of mp-1705 is -1.74803409 eV per atom.,-1.74803409
+mp-561197,formation_energy_per_atom,-3.404466658305554,The formation energy per atom of mp-561197 is -3.404466658305554 eV/atom.,-3.404466658305554
+mp-23183,band_gap,4.299799999999999,The band gap of mp-23183 is 4.2998 eV.,4.2998
+mp-23280,band_gap,3.9873,The band gap of mp-23280 is 3.9873 eV.,3.9873
+mp-23183,formation_energy_per_atom,-2.585905556250001,The formation energy per atom for mp-23183 is -2.585905556250001 eV/atom.,-2.585905556250001
+mp-23280,formation_energy_per_atom,-0.755685861249999,The formation energy per atom of mp-23280 is -0.755685861249999 eV/atom.,-0.755685861249999
+mp-1524462,band_gap,2.7061,The band gap of mp-1524462 is 2.7061 eV.,2.7061
+mp-1524462,formation_energy_per_atom,0.0,The formation_energy_per_atom for mp-1524462 is 0.0 eV per atom.,0.0
+mp-706630,band_gap,3.606099999999999,The band gap of mp-706630 is 3.6061 eV.,3.6061
+mp-706630,formation_energy_per_atom,-0.095264628645833,The formation energy per atom of mp-706630 is -0.095264628645833 eV/atom.,-0.095264628645833
+mp-541837,band_gap,0.3769,The band gap of mp-541837 is 0.3769 eV.,0.3769
+mp-541837,formation_energy_per_atom,-0.434076935437502,The formation energy per atom of mp-541837 is -0.434076935437502 eV/atom.,-0.434076935437502
+mp-1819,formation_energy_per_atom,-1.839006646249989,The formation energy per atom of mp-1819 is -1.839006646249989 eV/atom.,-1.839006646249989
+mp-7988,formation_energy_per_atom,-1.180246544770117,The formation energy per atom of mp-7988 is -1.180246544770117 eV/atom.,-1.180246544770117
+mp-1819,band_gap,2.028799999999999,The band gap of mp-1819 is 2.0288 eV.,2.0288
+mp-7988,band_gap,0.583199999999999,The band gap of mp-7988 is approximately 0.5832 eV.,0.5832
+mp-2049132,formation_energy_per_atom,-0.298604841000002,The formation energy per atom of mp-2049132 is -0.298604841000002 eV/atom.,-0.298604841000002
+mp-7943,band_gap,0.3285,The database reports a band gap of 0.3285 eV for mp-7943.,0.3285
+mp-2049132,band_gap,0.216299999999999,The band gap of mp-2049132 is 0.2163 eV.,0.2163
+mp-7943,formation_energy_per_atom,-0.588209097083334,The formation energy per atom of mp-7943 is -0.588209097083334 eV/atom.,-0.588209097083334
+mp-30792,band_gap,0.1566,The band gap of mp-30792 is 0.1566 eV.,0.1566
+mp-352,band_gap,4.0165,The band gap of mp-352 is 4.0165 eV.,4.0165
+mp-30792,formation_energy_per_atom,-0.269950954999998,The formation energy per atom of mp-30792 is −0.269950954999998 eV/atom.,-0.269950954999998
+mp-15954,band_gap,0.2625,The band gap of mp-15954 is 0.2625 eV.,0.2625
+mp-15954,formation_energy_per_atom,-0.5725928316666651,The formation energy per atom of mp-15954 is -0.5725928316666651 eV/atom.,-0.5725928316666651
+mp-352,formation_energy_per_atom,-4.019811040833332,The formation energy per atom of mp-352 is −4.019811040833332 eV/atom.,-4.019811040833332
+mp-23165,band_gap,0.8929,"According to the database, the band gap of mp-23165 is 0.8929 eV.",0.8929
+mp-23165,formation_energy_per_atom,-0.6577550981249981,The formation energy per atom of mp-23165 is -0.6577550981249981 eV/atom.,-0.6577550981249981
+mp-2251,formation_energy_per_atom,-0.4825014221875,The formation energy per atom of mp-2251 is -0.4825014221875 eV/atom.,-0.4825014221875
+mp-181,band_gap,0.216299999999999,The band gap of mp-181 is 0.2163 eV.,0.2163
+mp-2251,band_gap,0.984,The band gap of mp-2251 is 0.984 eV.,0.984
+mp-181,formation_energy_per_atom,-0.1726160249375,The formation energy per atom of mp-181 is −0.1726160249375 eV/atom.,-0.1726160249375
+mp-2340,band_gap,1.7361,The band gap of mp-2340 is 1.7361 eV.,1.7361
+mp-2340,formation_energy_per_atom,-1.2980963948563211,The formation_energy_per_atom of mp-2340 is -1.2980963948563211 eV/atom.,-1.2980963948563211
+mp-1443,band_gap,3.1684,The band gap of mp-1443 is 3.1684 eV.,3.1684
+mp-1443,formation_energy_per_atom,-2.537928646818182,The formation energy per atom of mp-1443 is -2.537928646818182 eV/atom.,-2.537928646818182
+mp-680463,band_gap,0.391399999999999,The band gap of mp-680463 is 0.3914 eV.,0.3914
+mp-2697,band_gap,2.8495,The band gap of mp-2697 is 2.8495 eV.,2.8495
+mp-2697,formation_energy_per_atom,-2.204479133333331,The formation energy per atom of mp-2697 is -2.204479133333331 eV/atom.,-2.204479133333331
+mp-680463,formation_energy_per_atom,-0.157726345384613,The formation_energy_per_atom of mp-680463 is -0.157726345384613 eV/atom.,-0.157726345384613
+mp-542810,band_gap,1.9674,The band gap of mp-542810 is 1.9674 eV.,1.9674
+mp-542810,formation_energy_per_atom,-0.159580558906249,The formation energy per atom of mp-542810 is -0.159580558906249 eV/atom.,-0.159580558906249
+mp-971787,band_gap,1.1332,The band gap of mp-971787 is 1.1332 eV.,1.1332
+mp-1105,band_gap,2.2352,The band gap of mp-1105 is 2.2352 eV.,2.2352
+mp-971787,formation_energy_per_atom,-1.208906696666668,The formation energy per atom of mp-971787 is -1.208906696666668 eV/atom.,-1.208906696666668
+mp-1105,formation_energy_per_atom,-2.170192663333334,The formation energy per atom of mp-1105 is -2.170192663333334 eV/atom.,-2.170192663333334

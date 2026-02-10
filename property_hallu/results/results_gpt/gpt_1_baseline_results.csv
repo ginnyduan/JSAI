@@ -1,0 +1,2427 @@
+mp_id,property,ground_truth,gpt_output
+mp-619575,band_gap,2.5175,"I can’t access the Materials Project database from here, so I can’t look up mp-619575. Please provide the band_gap value or grant access (Materials Project API key) and I can fetch it."
+mp-619575,formation_energy_per_atom,-0.6182932559375001,"I can’t query the Materials Project from here, so I can’t look up mp-619575 directly. If you want to get it yourself, use one of these methods:
+
+Python (pymatgen):
+from pymatgen import MPRester
+with MPRester(""YOUR_API_KEY"") as m:
+    data = m.get_data(""mp-619575"")
+    print(data[0][""formation_energy_per_atom""])
+
+cURL:
+curl -s ""https://api.materialsproject.org/rest/v2/materials/mp-619575/vasp"" -H ""X-API-KEY: YOUR_API_KEY"" | jq '.response[0].formation_energy_per_atom'
+
+If you provide the Materials Project value or your API key (or allow me to fetch it), I will return the single numeric value."
+mp-9851,band_gap,0.1063,"I can’t access the Materials Project from here, so I can’t look up mp-9851’s band gap. Please provide the data or allow a lookup."
+mp-9851,formation_energy_per_atom,-0.630045229146825,"I don't have live access to the Materials Project, so I can't look up mp-9851 directly. I can show you how to get it yourself with a short Python snippet (using pymatgen) — run this and it will print the formation_energy_per_atom:
+
+from pymatgen.ext.matproj import MPRester
+with MPRester(""YOUR_API_KEY"") as m:
+    doc = m.get_data(""mp-9851"")[0]
+    print(doc[""formation_energy_per_atom""])
+
+If you paste the returned number here (or provide an API key), I will confirm or extract it for you."
+mp-2793,band_gap,0.262799999999999,"I can’t access the Materials Project or external databases from here, so I can’t look up mp-2793. Please provide the value or allow me to fetch it; alternatively, you can view it at https://materialsproject.org/materials/mp-2793 and read the ""band_gap (eV)"" field."
+mp-2793,formation_energy_per_atom,-0.140219074531245,"I can’t query the Materials Project from here, so I can’t directly provide that number. 
+
+You can retrieve it quickly yourself (replace YOUR_API_KEY):
+
+Python (pymatgen):
+from pymatgen.ext.matproj import MPRester
+with MPRester(""YOUR_API_KEY"") as m:
+    data = m.get_data(""mp-2793"")[0]
+    print(data[""formation_energy_per_atom""])
+
+Or visit https://materialsproject.org/materials/mp-2793 and read the ""Formation Energy/atom"" field."
+mp-23184,band_gap,4.7135,"I can’t access the Materials Project database from here, so I can’t look up mp-23184’s band gap. If you fetch it from materialsproject.org (or allow me to query a provided API/key), I’ll report or process the value."
+mp-23184,formation_energy_per_atom,-1.0426612775,"I can’t query the Materials Project from here. I don’t want to guess the value.
+
+If you can run Python, this will print the formation_energy_per_atom for mp-23184 (replace YOUR_API_KEY):
+
+Using pymatgen's MPRester:
+from pymatgen import MPRester
+with MPRester(""YOUR_API_KEY"") as m:
+    data = m.get_data(""mp-23184"")
+    print(data[0][""formation_energy_per_atom""])
+
+Or using the new mp-api client:
+from mp_api.client import MPRester
+with MPRester(""YOUR_API_KEY"") as m:
+    data = m.materials.get_data(""mp-23184"", mp_decode=False)
+    print(data[0][""formation_energy_per_atom""])
+
+If you run one of these and paste the result here, I’ll confirm and use it."
+mp-1213622,band_gap,0.5263,"I don’t have live access to the Materials Project, so I can’t look up mp-1213622’s band gap. If you run this (with your API key) it will return the band_gap in eV:
+
+python
+from pymatgen.ext.matproj import MPRester
+with MPRester(""YOUR_API_KEY"") as m:
+    print(m.get_data(""mp-1213622"")[0][""band_gap""])
+
+If you paste the result here, I’ll use it."
+mp-1213622,formation_energy_per_atom,-1.5970489985714291,"I don't have live access to the Materials Project from here, so I can't look up mp-1213622 directly. I won't guess a numeric value.
+
+If you want to fetch it yourself, here's a quick way:
+
+- Using pymatgen (Python):
+  ```
+  from pymatgen.ext.matproj import MPRester
+  with MPRester(""YOUR_API_KEY"") as m:
+      doc = m.get_data(""mp-1213622"")[0]
+      print(doc[""formation_energy_per_atom""])
+  ```
+
+- Or using the REST API (replace API_KEY):
+  ```
+  curl -H ""X-API-KEY: YOUR_API_KEY"" ""https://www.materialsproject.org/rest/v2/materials/mp-1213622/vasp""
+  ```
+  then read the ""formation_energy_per_atom"" field in the returned JSON.
+
+If you paste the output here or provide an API key (if you want me to run it), I will extract the single-number answer for you."
+mp-30140,band_gap,4.1443,"I can’t access the Materials Project database from here, so I can’t look up mp-30140. Please provide the band gap or allow me to query the Materials Project API."
+mp-30140,formation_energy_per_atom,-0.836349655000001,"I don’t have live access to the Materials Project API, so I can’t fetch mp-30140 here. Please run this short Python snippet (replace YOUR_API_KEY) to get the single number:
+
+from pymatgen.ext.matproj import MPRester
+with MPRester(""YOUR_API_KEY"") as m:
+    entry = m.get_data(""mp-30140"")[0]
+print(entry[""formation_energy_per_atom""])
+
+If you prefer, provide your API key here (or paste the returned value) and I’ll extract the number for you."
+mp-1232276,band_gap,0.4328,"I can’t query the Materials Project from here, so I can’t look up mp-1232276. If you want to fetch it yourself, run this Python snippet with your Materials Project API key:
+
+from pymatgen.ext.matproj import MPRester
+with MPRester(""YOUR_API_KEY"") as m:
+    data = m.get_data(""mp-1232276"")
+    print(data[0].get(""band_gap""))
+
+If you paste the returned value here, I’ll respond with just that number."
+mp-1232276,formation_energy_per_atom,-2.021422001041666,"I can’t access the Materials Project from here, so I can’t look up mp-1232276. I won’t guess a number. Run this (with your API key) to get the formation_energy_per_atom:
+
+Python (pymatgen)
+from pymatgen.ext.matproj import MPRester
+with MPRester(""YOUR_API_KEY"") as m:
+    data = m.get_data(""mp-1232276"")
+    print(data[0]['formation_energy_per_atom'])
+
+If you prefer the REST API:
+curl -s ""https://materialsproject.org/rest/v2/materials/mp-1232276/vasp?API_KEY=YOUR_API_KEY"" | jq '.response[0].formation_energy_per_atom'
+
+Paste the returned number here if you want me to interpret it."
+mp-1227290,band_gap,0.1101,"I can’t access the Materials Project database from here, so I can’t look up mp-1227290’s band gap. If you want, allow me to fetch it or paste the entry and I’ll extract the band_gap for you."
+mp-1227290,formation_energy_per_atom,-0.006925372499999,"I can’t query the Materials Project database from here, so I can’t look up mp-1227290 directly. If you can run code or provide an API key I can use, here are two quick ways to get the formation_energy_per_atom:
+
+1) Python (pymatgen):
+from pymatgen.ext.matproj import MPRester
+with MPRester(""YOUR_API_KEY"") as m:
+    data = m.get_data(""mp-1227290"")
+    print(data[0][""formation_energy_per_atom""])
+
+2) REST API (curl):
+curl -H ""X-API-KEY: YOUR_API_KEY"" https://materialsproject.org/rest/v2/materials/mp-1227290/vasp > out.json
+Then inspect out.json -> response[0].formation_energy_per_atom
+
+If you run one of those and paste the result here, I’ll confirm or use it."
+mp-1170,band_gap,1.514799999999999,"Sorry — I don’t have direct access to the Materials Project database right now, so I can’t reliably look up mp-1170. I won’t guess a number. 
+
+If you can paste the material formula or the entry data, I’ll extract the band_gap for you. Or I can tell you exactly how to look up mp-1170 on materialsproject.org. Which would you prefer?"
+mp-1170,formation_energy_per_atom,-0.473969728541665,"I can’t directly query the Materials Project from here, so I can’t look up mp-1170. If you want the exact number, either run this Python snippet with your Materials Project API key or paste your key here and I can fetch it for you.
+
+Python (pymatgen) example:
+from pymatgen.ext.matproj import MPRester
+with MPRester(""YOUR_API_KEY"") as m:
+    res = m.query({""task_id"": ""mp-1170""}, [""formation_energy_per_atom""])
+    print(res[0][""formation_energy_per_atom""])
+
+REST example:
+GET https://materialsproject.org/rest/v2/materials/mp-1170/vasp?API_KEY=YOUR_API_KEY
+Then read data.response[0].formation_energy_per_atom
+
+If you provide permission (or your API key), I will fetch and return the single number."
+mp-32633,band_gap,0.5265000000000001,"I don't have live access to the Materials Project database, so I can't look up mp-32633 directly. If you want to retrieve it yourself, use the Materials Project API. Example (Python, pymatgen):
+
+from pymatgen.ext.matproj import MPRester
+with MPRester(""YOUR_API_KEY"") as m:
+    props = m.query({""task_id"":""mp-32633""}, [""band_gap""])
+    print(props[0][""band_gap""])
+
+Run that and it will print the band gap in eV. If you paste the result here I will respond with the single-number answer."
+mp-32633,formation_energy_per_atom,-1.930073411158088,"I can’t access the Materials Project from here, so I can’t look up mp-32633 and must not guess the number. 
+
+You can get it yourself quickly:
+
+- Visit: https://materialsproject.org/materials/mp-32633/
+- Or use the Python API (pymatgen) — example:
+
+from pymatgen.ext.matproj import MPRester
+with MPRester(""YOUR_API_KEY"") as m:
+    data = m.get_data(""mp-32633"")
+    print(data[0][""formation_energy_per_atom""])
+
+If you paste the returned number here, I’ll confirm or use it as needed. If you want, provide your Materials Project API key and I can fetch it for you."
+mp-1195922,band_gap,0.376,"I don't have access to the Materials Project database right now, so I can't look up mp-1195922. If you can share its band gap or allow me to fetch the entry, I can help further."
+mp-1195922,formation_energy_per_atom,-0.417257172291664,"I can’t query the Materials Project from here, so I can’t look up mp-1195922 and give a reliable single-number answer.
+
+If you want to fetch it yourself, here are two quick options:
+
+1) Python (pymatgen)
+- Install pymatgen and set your MAPI_KEY in environment.
+- Example:
+  ```
+  from pymatgen import MPRester
+  with MPRester(""YOUR_API_KEY"") as m:
+      data = m.get_data(""mp-1195922"")
+      print(data[0][""formation_energy_per_atom""])
+  ```
+
+2) REST API (curl)
+- Replace YOUR_API_KEY:
+  ```
+  curl -s ""https://materialsproject.org/rest/v2/materials/mp-1195922/vasp"" \
+    -H ""X-API-KEY: YOUR_API_KEY"" | jq '.response[0].formation_energy_per_atom'
+  ```
+
+If you paste the Materials Project JSON for mp-1195922 or supply your API key here (or ask me to fetch it via an authorized method), I’ll extract and return the single number."
+mp-254,band_gap,7.6164,"I can't access the Materials Project database from here. If you want the exact value, either paste the mp-254 page data or give me permission/API key to look it up. Otherwise, you can view it yourself at: https://materialsproject.org/materials/mp-254 and read the ""band_gap (eV)"" field."
+mp-254,formation_energy_per_atom,-4.452365858958333,I don't have direct access to the Materials Project database from here. I can look up mp-254 for you if you want — either by fetching it now (if you give me permission to use an external query) or by showing you the exact commands to run locally. Which would you prefer?
+mp-18299,band_gap,0.2155,"I can’t access the Materials Project database from here, so I can’t look up mp-18299. Please either provide the material formula/structure or allow me to fetch the entry — then I can return the band gap."
+mp-18299,formation_energy_per_atom,-3.992617684583336,"I can’t access the Materials Project database from here, so I can’t retrieve mp-18299’s formation_energy_per_atom. Please provide the value or allow me to fetch the entry (or check https://materialsproject.org/materials/mp-18299) and I’ll respond with the single number."
+mp-23185,band_gap,2.8624,"I can’t access external databases (Materials Project) from here, so I can’t look up mp-23185’s band gap. Please provide the value or allow me to fetch it."
+mp-23185,formation_energy_per_atom,-0.857616325999999,"I can’t access the Materials Project from here to look up mp-23185. Please provide the value or allow me to query the API. 
+
+(If you can run it locally, this will print the number:
+from pymatgen.ext.matproj import MPRester
+with MPRester(""YOUR_API_KEY"") as m:
+    print(m.get_data(""mp-23185"")[0][""formation_energy_per_atom""]))"
+mp-23290,band_gap,1.7917,"I can’t access the Materials Project database from here, so I can’t look up mp-23290. If you can allow me to fetch it or provide the data, I’ll report the band gap. Otherwise you can get it yourself with:
+
+- Using the Materials Project website: https://materialsproject.org/materials/mp-23290
+- Or using pymatgen/MP API: MPRester(""YOUR_API_KEY"").get_data(""mp-23290"")[0][""band_gap""]"
+mp-23290,formation_energy_per_atom,-0.475064009999998,"I can’t access the Materials Project from here, so I can’t look up mp-23290 directly. If you run this (with your API key) it will print the formation_energy_per_atom:
+
+from pymatgen.ext.matproj import MPRester
+with MPRester(""YOUR_API_KEY"") as m:
+    print(m.get_data(""mp-23290"")[0][""formation_energy_per_atom""])
+
+If you paste the output here I’ll confirm or use it."
+mp-30031,band_gap,3.8971,"I can’t access the Materials Project database from here, so I can’t reliably look up mp-30031 and must not guess a number. If you paste the mp-30031 entry (or allow me to fetch it), I’ll extract the band_gap value for you."
+mp-30031,formation_energy_per_atom,-1.89441126,"I can’t access the Materials Project database from here, so I can’t look up mp-30031. If you provide the entry data or allow API access, I can extract the formation_energy_per_atom."
+mp-555908,band_gap,2.2721,I can’t access the Materials Project to look up mp-555908. Please provide the value or allow me to query the database so I can give the correct band gap.
+mp-555908,formation_energy_per_atom,-2.341685073333334,"I can’t access the Materials Project database from here, so I can’t look up mp-555908 directly. If you want to get the formation_energy_per_atom (eV/atom) yourself, use the Materials Project API (pymatgen) as follows:
+
+Python (pymatgen):
+from pymatgen.ext.matproj import MPRester
+
+api_key = ""YOUR_API_KEY""
+with MPRester(api_key) as m:
+    entry = m.get_entry_by_material_id(""mp-555908"")
+    print(entry.data.get(""formation_energy_per_atom"", entry.formation_energy_per_atom))
+
+Or view the material page at https://materialsproject.org/materials/mp-555908 and read the ""formation energy per atom"" value."
+mp-22398,band_gap,3.1061,"I can’t access the Materials Project from here, so I can’t look up mp-22398’s band gap — please allow web lookup or provide the value/structure so I can help."
+mp-22398,formation_energy_per_atom,-2.648772015416667,"I don't have direct access to the Materials Project database from here, so I can't look up mp-22398 and give a single-number answer. If you run the following Python snippet with your Materials Project API key it will return the formation_energy_per_atom:
+
+Python (requires pymatgen):
+from pymatgen.ext.matproj import MPRester
+
+api_key = ""YOUR_API_KEY""
+with MPRester(api_key) as m:
+    data = m.query(criteria={""task_id"": ""mp-22398""}, properties=[""formation_energy_per_atom""])
+    print(data[0][""formation_energy_per_atom""])
+
+Or with the REST API (curl):
+curl -H ""X-API-KEY: YOUR_API_KEY"" ""https://materialsproject.org/rest/v2/materials/mp-22398/vasp"" | jq '.response[0].formation_energy_per_atom'
+
+If you paste the result here (or give me permission and an API key), I will report the single-number answer."
+mp-27628,band_gap,1.3552,"I can’t access the Materials Project database from here, so I can’t directly look up mp-27628. If you want to retrieve it yourself, run this Python snippet (replace YOUR_API_KEY):
+
+from pymatgen.ext.matproj import MPRester
+with MPRester(""YOUR_API_KEY"") as m:
+    entry = m.get_data(""mp-27628"")[0]
+    print(entry[""band_gap""])
+
+If you prefer, paste the mp-27628 page or the band gap value here and I’ll use it."
+mp-27628,formation_energy_per_atom,-0.3329571455,"I can’t query the Materials Project from here, so I can’t look up mp-27628. I won’t guess. You can get it quickly with this Python snippet (Materials Project API key required):
+
+from pymatgen.ext.matproj import MPRester
+with MPRester(""YOUR_API_KEY"") as m:
+    print(m.get_entry_by_material_id(""mp-27628"")[""formation_energy_per_atom""])
+
+Run that and it will print the formation_energy_per_atom (eV/atom)."
+mp-1212833,band_gap,0.3912,"I can’t access the Materials Project database from here to look up mp-1212833. Please run the following Python snippet (replace ""YOUR_API_KEY"") to get the band_gap in eV:
+
+from pymatgen.ext.matproj import MPRester
+with MPRester(""YOUR_API_KEY"") as m:
+    data = m.get_data(""mp-1212833"")
+    print(data[0].get(""band_gap""))
+
+Run that and tell me the number, or paste the Materials Project page and I’ll extract it."
+mp-1212833,formation_energy_per_atom,-0.299415060454546,"I can’t access the Materials Project database from here, so I can’t look up mp-1212833’s formation_energy_per_atom. If you want, provide the value or an API key (or allow me to query via the Materials Project API), and I’ll fetch it. Alternatively, you can get it yourself with:
+
+- Materials Project website: open https://materialsproject.org/materials/mp-1212833 and read ""formation_energy_per_atom"".
+- Python (pymatgen / MPRester):
+  from pymatgen.ext.matproj import MPRester
+  with MPRester(""YOUR_API_KEY"") as m:
+      data = m.get_data(""mp-1212833"")[0]
+      print(data[""formation_energy_per_atom""])
+
+Tell me how you’d like to proceed."
+mp-571518,band_gap,1.9169,"I can’t access the Materials Project from here, so I can’t look up mp-571518. I can show how you can retrieve the band_gap yourself (or you can paste the entry). For example, using pymatgen:
+
+from pymatgen.ext.matproj import MPRester
+with MPRester(""YOUR_API_KEY"") as m:
+    data = m.get_data(""mp-571518"")[0]
+    print(data[""band_gap""])
+
+If you prefer, paste the mp-571518 entry here and I’ll extract the band_gap."
+mp-571518,formation_energy_per_atom,-0.946381717857144,"I can’t access the Materials Project database from here, so I can’t look up mp-571518. Please provide the value or an API key/permission to query the database."
+mp-9852,band_gap,0.1259,"I can’t query the Materials Project from here, so I can’t look up mp-9852 directly. If you run this (with your Materials Project API key) it will return the band gap:
+
+Python (pymatgen):
+from pymatgen.ext.matproj import MPRester
+with MPRester(""YOUR_API_KEY"") as m:
+    data = m.get_data(""mp-9852"")
+    print(data[0][""band_gap""])
+
+Run that and paste the number here, or authorize me to fetch it and I’ll return the single numeric value."
+mp-9852,formation_energy_per_atom,-0.616732226646824,"I can’t access the Materials Project database from here, so I can’t reliably provide that numeric value. If you want, I can show a short Python snippet (using MPRester and your API key) to fetch mp-9852’s formation_energy_per_atom, or you can paste the mp-9852 entry and I’ll read the value for you. Which would you prefer?"
+mp-34202,band_gap,0.3388,"I don’t have live access to the Materials Project, so I can’t look up mp-34202 directly. If you want the value now, I can fetch it if you allow web access or you can run this Python snippet:
+
+from pymatgen.ext.matproj import MPRester
+with MPRester(""YOUR_API_KEY"") as m:
+    data = m.get_data(""mp-34202"")[0]
+    print(data.get(""band_gap""))
+
+If you prefer, give me permission to query the web and I’ll return the single-number answer."
+mp-34202,formation_energy_per_atom,-0.274401004000003,"I can’t access the Materials Project from here, so I can’t look up mp-34202. If you want to fetch it yourself, run (replace YOUR_API_KEY):
+
+Python (pymatgen):
+from pymatgen.ext.matproj import MPRester
+with MPRester(""YOUR_API_KEY"") as m:
+    print(m.query({""task_id"":""mp-34202""}, [""formation_energy_per_atom""]))
+
+Or via REST:
+https://materialsproject.org/rest/v2/materials/mp-34202/vasp?API_KEY=YOUR_API_KEY&fields=formation_energy_per_atom
+
+Provide the returned number or an API key and I’ll fetch it."
+mp-570796,band_gap,1.537399999999999,"I can’t query the Materials Project from here, so I can’t directly retrieve mp-570796’s band gap. If you run this (with your API key) it will return the single number:
+
+from pymatgen.ext.matproj import MPRester
+with MPRester(""YOUR_API_KEY"") as m:
+    print(m.get_materials_summary(""mp-570796"")[""band_gap""])"
+mp-570796,formation_energy_per_atom,-0.7330447383333331,"I can’t access the Materials Project database from here, so I can’t look up mp-570796 directly. If you want to get the formation_energy_per_atom yourself, you can use either the Materials Project REST API or pymatgen. Example methods:
+
+1) curl (REST API)
+Replace YOUR_API_KEY and run:
+curl -s ""https://materialsproject.org/rest/v2/materials/mp-570796/vasp?API_KEY=YOUR_API_KEY&fields=formation_energy_per_atom""
+
+2) Python (pymatgen)
+from pymatgen.ext.matproj import MPRester
+with MPRester(""YOUR_API_KEY"") as mpr:
+    data = mpr.get_data(""mp-570796"", data_type=""vasp"")
+    print(data[0][""formation_energy_per_atom""])
+
+If you provide an API key (or paste the returned JSON), I can extract the single numeric value for you."
+mp-1195,band_gap,1.8930999999999991,"Sorry—I can’t access the Materials Project from here, so I can’t fetch mp-1195’s band gap. You can get it at https://materialsproject.org/materials/mp-1195/ or with:
+
+from pymatgen.ext.matproj import MPRester
+MPRester(""YOUR_API_KEY"").get_data(""mp-1195"")[0][""band_gap""]"
+mp-1195,formation_energy_per_atom,-0.50608046735294,"I can’t access the Materials Project database from here, so I can’t look up mp-1195 directly. If you want to retrieve it yourself, use this short Python snippet (requires a Materials Project API key and pymatgen):
+
+from pymatgen.ext.matproj import MPRester
+with MPRester(""YOUR_API_KEY"") as m:
+    data = m.get_data(""mp-1195"")[0]
+    print(data[""formation_energy_per_atom""])
+
+If you share the result or grant me access to the API key, I can report the single-number value for you."
+mp-672204,band_gap,0.378699999999999,"I can’t access the Materials Project database from here. Please provide the band gap value or allow me to query mp-id 672204 (e.g., give API access), and I’ll return the number."
+mp-672204,formation_energy_per_atom,-0.400380674374999,"I can’t access the Materials Project database from here, so I can’t look up mp-672204 and must not fabricate a value. 
+
+You can retrieve it yourself with the Materials Project API (example Python using pymatgen):
+
+from pymatgen.ext.matproj import MPRester
+with MPRester(""YOUR_API_KEY"") as m:
+    data = m.get_data(""mp-672204"")
+    print(data[0][""formation_energy_per_atom""])
+
+Run that and it will print the formation_energy_per_atom in eV/atom. If you paste the returned value here, I can help interpret it."
+mp-29179,band_gap,3.1002,"I can’t access the Materials Project (mp-29179) from here, so I can’t look up that band gap. If you want the number, either paste the Materials Project entry/page or allow me to fetch it; otherwise here's how you can find it yourself:
+
+1. Go to https://materialsproject.org and sign in.
+2. Enter ""mp-29179"" in the search bar.
+3. Open the material page and read the ""Band Gap (eV)"" field.
+
+Which would you prefer — paste the entry here or allow me to fetch it?"
+mp-29179,formation_energy_per_atom,-1.055039141666666,"I can’t access the Materials Project from here, so I can’t retrieve mp-29179’s formation_energy_per_atom. If you can run a query, use: curl -s -H ""X-API-KEY:YOUR_KEY"" ""https://materialsproject.org/rest/v2/materials/mp-29179/vasp"" | jq .response[0].formation_energy_per_atom"
+mp-1205121,band_gap,0.2452,"I can’t access the Materials Project database from here, so I can’t look up mp-1205121. Please provide the band_gap value or allow me to fetch the entry and I’ll return the number."
+mp-1205121,formation_energy_per_atom,-0.510760389375001,"I can’t access external databases (Materials Project) from here, so I can’t retrieve mp-1205121 or give its formation_energy_per_atom. If you can run code, use this Python snippet to get it:
+
+from pymatgen.ext.matproj import MPRester
+api_key = ""YOUR_API_KEY""
+with MPRester(api_key) as m:
+    entry = m.get_data(""mp-1205121"")[0]
+    print(entry[""formation_energy_per_atom""])
+
+Run that and paste the number here and I’ll confirm or use it."
+mp-10497,band_gap,2.2919,"I can’t access the Materials Project database from here. Please either allow me to look it up or paste the mp-10497 entry (or its band_gap), and I’ll extract the number."
+mp-10497,formation_energy_per_atom,-0.127321634999998,"I can’t access the Materials Project from here, so I can’t look up mp-10497 directly. If you want to retrieve it yourself, use this short Python snippet (pymatgen):
+
+from pymatgen.ext.matproj import MPRester
+with MPRester(""YOUR_API_KEY"") as m:
+    data = m.query(criteria={""task_ids"":""mp-10497""},
+                   properties=[""formation_energy_per_atom""])
+    print(data[0][""formation_energy_per_atom""])
+
+If you provide the value or an API key I can fetch it for you, or I can show the equivalent REST API curl command."
+mp-27148,band_gap,0.836199999999999,I don’t have live access to the Materials Project database from here. Do you want me to fetch mp-27148’s band gap (DFT value) if you allow a lookup or provide an API key?
+mp-27148,formation_energy_per_atom,-0.319383066011903,"I can’t fetch live Materials Project data from here, so I can’t truthfully give that number. 
+
+You can get it yourself with the Materials Project API. Example (Python, using pymatgen):
+
+from pymatgen.ext.matproj import MPRester
+with MPRester(""YOUR_API_KEY"") as m:
+    data = m.get_data(""mp-27148"")
+    print(data[0][""formation_energy_per_atom""])
+
+Replace ""YOUR_API_KEY"" with your API key (from materialsproject.org). The printed value will be the formation_energy_per_atom in eV/atom."
+mp-1545417,band_gap,0.7358999999999991,"I don't have live access to the Materials Project database, so I can't look up mp-1545417. Please either paste the band gap value here or allow me to fetch it; otherwise I can't responsibly provide a single-number answer."
+mp-1545417,formation_energy_per_atom,-1.718154452499998,"I can’t access the Materials Project database right now, so I cannot retrieve mp-1545417’s formation_energy_per_atom. Please provide the entry or allow me to query the database, and I’ll return the value."
+mp-1203760,band_gap,1.0648,"I can’t access the Materials Project from here, so I can’t look up mp-1203760. If you want to retrieve it yourself, use this short Python snippet (requires a Materials Project API key):
+
+from pymatgen.ext.matproj import MPRester
+with MPRester(""YOUR_API_KEY"") as m:
+    data = m.get_data(""mp-1203760"")
+    print(data[0]['band_gap'])
+
+Run that and paste the number here if you want me to interpret it."
+mp-1203760,formation_energy_per_atom,-0.553621656590911,"I can’t query the Materials Project from here, so I can’t return that live number. If you run one of these locally (with your Materials Project API key) it will give the single-number value.
+
+cURL:
+curl -H ""X-API-KEY: YOUR_API_KEY"" ""https://www.materialsproject.org/rest/v2/materials/mp-1203760?fields=formation_energy_per_atom""
+
+Python (pymatgen):
+from pymatgen.ext.matproj import MPRester
+with MPRester(""YOUR_API_KEY"") as m:
+    doc = m.get_materials_id(""mp-1203760"")
+    print(doc['formation_energy_per_atom'])
+
+If you run that and paste the result here, I will confirm and/or use it."
+mp-470,band_gap,1.2157,"I can’t access the Materials Project database from here, so I can’t reliably provide mp-470’s band gap — please allow me to look it up or provide the value."
+mp-470,formation_energy_per_atom,-2.156655663333334,"I can’t access the Materials Project database from here, so I can’t fetch mp-470 and give a reliable single-number answer. 
+
+You can retrieve it yourself quickly by visiting https://materialsproject.org/materials/mp-470/ or running this Python snippet (replace YOUR_API_KEY):
+
+from pymatgen.ext.matproj import MPRester
+with MPRester(""YOUR_API_KEY"") as m:
+    data = m.get_data(""mp-470"")[0]
+    print(data[""formation_energy_per_atom""])
+
+If you paste the value shown there, I’ll confirm or use it for further calculations."
+mp-16922,band_gap,0.3248,"I can’t access the Materials Project (mp-16922) from here, so I can’t look up the band gap. If you can run code, use this Python snippet (pymatgen) to get it:
+
+from pymatgen.ext.matproj import MPRester
+with MPRester(""YOUR_API_KEY"") as m:
+    data = m.get_data(""mp-16922"")
+    print(data[0][""band_gap""])
+
+Run that and tell me the result, or paste the material details and I’ll extract the band gap."
+mp-16922,formation_energy_per_atom,-0.962356391249998,"I don't have live access to the Materials Project, so I can't look up mp-16922 directly. You can retrieve the formation_energy_per_atom with this short Python snippet (requires pymatgen and your Materials Project API key):
+
+from pymatgen.ext.matproj import MPRester
+
+with MPRester(""YOUR_API_KEY"") as m:
+    data = m.get_data(""mp-16922"", [""formation_energy_per_atom""])
+    print(data[0][""formation_energy_per_atom""])
+
+Run that and it will print the single number (in eV/atom). If you run it and paste the result here, I can use it."
+mp-624,band_gap,2.6454,I don’t have direct access to the Materials Project database from here. Would you like me to look up mp-624’s band gap (and return the value)?
+mp-624,formation_energy_per_atom,-0.209188941071428,"I can’t query the Materials Project from here, so I can’t retrieve mp-624’s value directly. If you want to get it yourself, run (with your API key):
+
+from pymatgen.ext.matproj import MPRester
+with MPRester(""YOUR_API_KEY"") as m:
+    data = m.query({""task_id"":""mp-624""}, [""formation_energy_per_atom""])
+    print(data[0][""formation_energy_per_atom""])
+
+If you provide an API key I can run the query for you, or paste the returned JSON and I’ll extract the single number."
+mp-22859,band_gap,1.6513,"I don’t have access to the Materials Project database from here, so I can’t retrieve mp-22859. Please allow me to look it up or provide the band_gap value you have; I can then confirm or convert it."
+mp-22859,formation_energy_per_atom,-0.443566703750002,"Sorry — I don't have live access to the Materials Project, so I can't look up mp-22859 for you. I can show you how to get it yourself:
+
+In Python with pymatgen:
+from pymatgen.ext.matproj import MPRester
+with MPRester(""YOUR_API_KEY"") as m:
+    d = m.get_data(""mp-22859"")[0]
+    print(d[""formation_energy_per_atom""])
+
+If you paste the returned number here, I’ll confirm or use it as needed."
+mp-31050,band_gap,3.6753,"I don’t have live access to the Materials Project, so I can’t look up mp-31050 right now. If you want the single-number answer, either allow me to fetch the page or paste the material JSON/output here and I’ll extract the band_gap (eV)."
+mp-31050,formation_energy_per_atom,-0.30258604611111,"I can't access the Materials Project database from here, so I can't fetch mp-31050's formation_energy_per_atom. Please provide the value or allow me to look it up (or I can tell you how to find it on materialsproject.org)."
+mp-541013,band_gap,1.0859,"I can’t access the Materials Project database from here, so I can’t look up mp-541013. If you want to fetch it yourself, run this (replace YOUR_API_KEY):
+
+Python (pymatgen):
+from pymatgen.ext.matproj import MPRester
+with MPRester(""YOUR_API_KEY"") as m:
+    res = m.query({""material_id"":""mp-541013""}, [""band_gap""])
+    print(res[0][""band_gap""])
+
+If you run that and paste the result here, I’ll confirm or use it."
+mp-541013,formation_energy_per_atom,-1.031189425666664,"I don’t have live access to the Materials Project, so I can’t look up mp-541013 directly. If you want the single number now, either paste the value here or allow me to query the Materials Project with an API key.
+
+If you can run a quick script, this will return the formation_energy_per_atom (eV/atom):
+
+Python (pymatgen):
+from pymatgen.ext.matproj import MPRester
+with MPRester(""YOUR_API_KEY"") as m:
+    entry = m.get_data(""mp-541013"")[0]
+    print(entry[""formation_energy_per_atom""])
+
+Run that and paste the printed number here if you want me to confirm or use it."
+mp-18536,band_gap,0.208499999999999,"I can’t access the Materials Project database from here, so I can’t look up mp-18536 directly. If you want the band gap yourself, run this Python snippet (requires a Materials Project API key):
+
+from pymatgen.ext.matproj import MPRester
+with MPRester(""YOUR_API_KEY"") as m:
+    doc = m.get_data(""mp-18536"", data_type=""vasp"")  # or m.get_materials_id(""mp-18536"")
+    print(doc[0].get(""band_gap"") if doc else ""not found"")
+
+Run that and the printed value is the band_gap (eV). If you can run it and paste the result, I’ll confirm or help interpret it."
+mp-18536,formation_energy_per_atom,-1.128947433749999,"I can’t access the Materials Project database from here, so I can’t look up mp-18536 and must not invent a value. 
+
+You can get it yourself with the Materials Project API. Example (Python, pymatgen):
+
+from pymatgen.ext.matproj import MPRester
+with MPRester(""YOUR_API_KEY"") as m:
+    data = m.get_data(""mp-18536"")
+    print(data[0][""formation_energy_per_atom""])
+
+Run that and it will print the formation_energy_per_atom (eV/atom). If you paste the result here I’ll confirm or use it for further calculations."
+mp-200,band_gap,0.861699999999999,"Do you mean the Materials Project entry ""mp-200""? I don't have live access to the Materials Project—would you like me to look it up if you can grant a link or provide the material name?"
+mp-200,formation_energy_per_atom,-0.514802012604166,"I can’t query the Materials Project from here, so I can’t look up mp-200. I don’t have the formation_energy_per_atom value available.
+
+You can get it yourself with the Materials Project API. Example (Python, pymatgen):
+
+from pymatgen.ext.matproj import MPRester
+with MPRester(""YOUR_API_KEY"") as m:
+    doc = m.get_data(""mp-200"")[0]
+    print(doc[""formation_energy_per_atom""])
+
+If you paste the returned number here I’ll use it however you need."
+mp-23261,band_gap,2.7278,"I can’t access the Materials Project database from here, so I can’t retrieve mp-23261’s band gap. Would you like instructions to look it up (or paste the material’s data so I can estimate)?"
+mp-23261,formation_energy_per_atom,-0.7564620653571411,"I don’t have live access to the Materials Project, so I can’t look up mp-23261 directly. I can show you exactly how to get the formation_energy_per_atom (eV/atom) yourself.
+
+If you have a Materials Project API key and Python with pymatgen installed, run:
+
+from pymatgen.ext.matproj import MPRester
+with MPRester(""YOUR_API_KEY"") as m:
+    data = m.get_data(""mp-23261"")
+    print(data[0][""formation_energy_per_atom""])
+
+This prints the formation_energy_per_atom in eV/atom. If you prefer, paste the result here and I’ll confirm or explain it."
+mp-7440,band_gap,0.8684000000000001,"I can’t access the Materials Project database from here. Do you want me to look up mp-7440 (if you grant access) or would you like instructions to retrieve it yourself (visit https://materialsproject.org/materials/mp-7440/ and read the ""band_gap"" field)?"
+mp-7440,formation_energy_per_atom,-0.499863119613094,"I can’t access the Materials Project database from here, so I can’t look up mp-7440’s formation_energy_per_atom. If you want to retrieve it yourself, run this Python snippet (needs a Materials Project API key):
+
+from pymatgen.ext.matproj import MPRester
+api_key = ""YOUR_API_KEY""
+with MPRester(api_key) as m:
+    data = m.get_data(""mp-7440"")
+    print(data[0][""formation_energy_per_atom""])
+
+If you provide the value or allow me to fetch it, I’ll return the single-number answer."
+mp-569867,band_gap,0.378,"I can’t query the Materials Project from here, so I can’t reliably fetch mp-569867’s band gap. Please either allow me to look it up or paste the material entry (or its band_gap) and I’ll return the requested number."
+mp-569867,formation_energy_per_atom,-0.7546754528571421,"I can’t query the Materials Project from here, so I can’t look up mp-569867 directly and must not fabricate a number.
+
+If you want to get it yourself, here are two quick ways:
+
+1) Using pymatgen (Python)
+from pymatgen.ext.matproj import MPRester
+with MPRester(""YOUR_API_KEY"") as m:
+    data = m.get_data(""mp-569867"")
+    print(data[0][""formation_energy_per_atom""])
+
+2) Using the REST API (curl)
+curl -X GET ""https://materialsproject.org/rest/v2/materials/mp-569867?API_KEY=YOUR_API_KEY""
+
+Either method returns JSON where the formation_energy_per_atom field is the value (in eV/atom).
+
+If you provide the value or allow me to use your API key, I can return the single-number answer."
+mp-1205852,band_gap,0.8523000000000001,I can’t access the Materials Project (mp-1205852) from here. Please provide the entry data or allow an API lookup so I can report the band_gap.
+mp-1205852,formation_energy_per_atom,-2.094997655499997,"I can’t directly query the Materials Project from here. If you run this Python snippet (with your Materials Project API key) it will return the single number:
+
+from pymatgen.ext.matproj import MPRester
+with MPRester(""YOUR_API_KEY"") as m:
+    data = m.get_data(""mp-1205852"")[0]
+    print(data[""formation_energy_per_atom""])
+
+If you prefer, paste the API output here and I’ll extract the number for you."
+mp-28483,band_gap,1.069899999999999,"I don't have live access to the Materials Project, so I can't retrieve mp-28483's band gap directly. If you want, I can look it up now if you allow me to use the web — otherwise you can find it at https://materialsproject.org/materials/mp-28483/ where the ""band gap"" field gives the value in eV. Which would you prefer?"
+mp-28483,formation_energy_per_atom,-0.9345107228571432,"I can’t query the Materials Project from here, so I can’t look up mp-28483 and give a reliable single-number answer.
+
+You can get it quickly yourself. Example using pymatgen/MPRester:
+
+from pymatgen.ext.matproj import MPRester
+with MPRester(""YOUR_API_KEY"") as m:
+    d = m.get_data(""mp-28483"")[0]
+    print(d[""formation_energy_per_atom""])
+
+Or with curl (replace YOUR_API_KEY):
+
+curl -H ""X-API-KEY: YOUR_API_KEY"" ""https://materialsproject.org/rest/v2/materials/mp-28483/vasp?fields=formation_energy_per_atom""
+
+If you provide an API key here I can format the exact request for you, or paste the returned JSON and I’ll extract the single number."
+mp-561664,band_gap,4.0186,"I can’t access the Materials Project or other external databases from here, so I can’t look up mp-561664 and must not guess a number. If you want to fetch it yourself, here are two quick ways:
+
+1) On the Materials Project website: search for ""mp-561664"" — the band_gap (eV) is shown in the material's summary.
+
+2) Using Python + pymatgen (replace YOUR_API_KEY with your Materials Project API key):
+from pymatgen.ext.matproj import MPRester
+with MPRester(""YOUR_API_KEY"") as m:
+    data = m.get_data(""mp-561664"")
+    print(data[0].get(""band_gap""))
+
+If you can fetch the value and paste it here, I’ll help interpret it."
+mp-561664,formation_energy_per_atom,-2.216336207,"I can’t access the Materials Project from here, so I can’t look up mp-561664 and therefore can’t give a number. You can fetch it yourself with this Python snippet (pymatgen):
+
+from pymatgen.ext.matproj import MPRester
+with MPRester(""YOUR_API_KEY"") as m:
+    res = m.query({""material_id"": ""mp-561664""}, [""formation_energy_per_atom""])
+print(res[0][""formation_energy_per_atom""])
+
+Run that and it will print the formation_energy_per_atom (eV/atom)."
+mp-27871,band_gap,1.2584,"I can't access the Materials Project database from here, so I can't look up mp-27871 directly. If you want to fetch it yourself, run (Python/pymatgen):
+
+from pymatgen.ext.matproj import MPRester
+with MPRester(""YOUR_API_KEY"") as m:
+    print(m.get_data(""mp-27871"")[0][""band_gap""])
+
+That will return the band_gap in eV."
+mp-27871,formation_energy_per_atom,-0.8457965725000001,"I can’t query the Materials Project from here, so I can’t look up mp-27871 or give a verified number. 
+
+You can get the formation_energy_per_atom (eV/atom) yourself with this short Python snippet (pymatgen):
+
+from pymatgen.ext.matproj import MPRester
+
+with MPRester(""YOUR_API_KEY"") as m:
+    data = m.get_data(""mp-27871"", properties=[""formation_energy_per_atom""])
+    print(data[0][""formation_energy_per_atom""])
+
+Run that and it will print the single numeric value you asked for."
+mp-680339,band_gap,0.755599999999999,"I can’t access the Materials Project or other external databases from here, so I can’t look up mp-680339’s band gap. Please provide the data or allow me to fetch it."
+mp-680339,formation_energy_per_atom,-0.28327900617555,"I can’t query the Materials Project from here. I don’t have that value locally — please either (a) grant access / provide an API response for mp-680339, or (b) allow me to use your Materials Project API key so I can fetch it. Otherwise I can tell you how to look it up yourself. Which do you prefer?"
+mp-582753,band_gap,0.8007000000000001,"I can’t access the Materials Project database from here to look up mp-582753. Run this short Python snippet on your machine to get the band gap (in eV):
+
+from pymatgen.ext.matproj import MPRester
+with MPRester(""YOUR_API_KEY"") as m:
+    doc = m.get_materials_summary(""mp-582753"")
+    print(doc.get(""band_gap""))
+
+If you run it and paste the number here, I’ll confirm or use it."
+mp-582753,formation_energy_per_atom,-0.434993182323239,"I don’t have live access to the Materials Project database. I can fetch it for you if you either (a) give me permission to use an API key you provide, or (b) run a short script locally. Which do you prefer?
+
+If you want to run it locally, here’s a minimal Python snippet (requires pymatgen and an MPRester API key):
+
+from pymatgen.ext.matproj import MPRester
+with MPRester(""YOUR_API_KEY"") as m:
+    doc = m.get_data(""mp-582753"", data_type=""vasp"")  # or m.get_data(""mp-582753"")
+    # If get_data returns a list, take first entry:
+    if isinstance(doc, list):
+        doc = doc[0]
+    print(doc.get(""formation_energy_per_atom""))
+
+Run that and paste the printed number here and I’ll answer with the single-number output you requested."
+mp-30092,band_gap,3.4576,"I can’t access the Materials Project database from here, so I can’t look up mp-30092. Please either paste the band_gap value or allow me to fetch it. 
+
+You can get it yourself quickly with this Python snippet (Materials API key required):
+
+from pymatgen.ext.matproj import MPRester
+with MPRester(""YOUR_API_KEY"") as m:
+    data = m.get_data(""mp-30092"")[0]
+    print(data[""band_gap""])
+
+If you paste the result here I’ll respond with the single-number answer."
+mp-30092,formation_energy_per_atom,-1.725360933333334,"I can’t access the Materials Project database from here, so I can’t reliably look up mp-30092 or give a single-number answer. 
+
+You can retrieve it yourself with the Materials Project API. Example (Python, pymatgen):
+from pymatgen.ext.matproj import MPRester
+with MPRester(""YOUR_API_KEY"") as m:
+    d = m.get_data(""mp-30092"")[0]
+    print(d[""formation_energy_per_atom""])
+
+Or open https://materialsproject.org/materials/mp-30092 and read the ""formation_energy_per_atom"" value."
+mp-27161,band_gap,2.9118,"I can’t access the Materials Project (mp-27161) from here, so I can’t look up its band gap. Please either:
+
+- provide the band_gap value you have, or
+- allow me to query the Materials Project, or
+- run this locally and tell me the result:
+
+Python (pymatgen):
+from pymatgen.ext.matproj import MPRester
+with MPRester(""YOUR_API_KEY"") as m:
+    d = m.get_data(""mp-27161"")[0]
+    print(d.get(""band_gap""))
+
+Then reply with the number and I’ll use it."
+mp-27161,formation_energy_per_atom,-0.8721765856249991,"I can’t access the Materials Project database from here, so I can’t retrieve mp-27161’s formation_energy_per_atom. If you want to fetch it yourself, run (with your Materials Project API key):
+
+from pymatgen.ext.matproj import MPRester
+with MPRester(""YOUR_API_KEY"") as m:
+    print(m.get_data(""mp-27161"")[0][""formation_energy_per_atom""])
+
+Provide the result and I’ll use it."
+mp-1018138,band_gap,1.037,"I don’t have live access to the Materials Project database, so I can’t look up mp-1018138 here. If you want to get it yourself, use the Materials Project API (MPRester) and request the band_gap field, for example:
+
+- Python (pymatgen): 
+  from pymatgen.ext.matproj import MPRester
+  with MPRester(""YOUR_API_KEY"") as m:
+      print(m.get_data(""mp-1018138"", data_type=""vasp"", fields=[""band_gap""]))
+
+Provide the value you get and I’ll use it."
+mp-1018138,formation_energy_per_atom,-0.7411700000000001,"I can’t access the Materials Project database from here, so I can’t look up mp-1018138. You can retrieve it yourself with the Materials Project API, for example:
+
+from pymatgen.ext.matproj import MPRester
+with MPRester(""YOUR_API_KEY"") as m:
+    d = m.get_data(""mp-1018138"")[0]
+    print(d[""formation_energy_per_atom""])
+
+Run that to get the single number."
+mp-23155,band_gap,8.5132,I can’t access the Materials Project from here to look up mp-23155. Please provide the band_gap value or allow me to query the database.
+mp-23155,formation_energy_per_atom,0.0,"I can’t access the Materials Project from here, so I can’t look up mp-23155. Please either run this (with your API key) or share the result and I’ll confirm:
+
+Python (pymatgen):
+from pymatgen.ext.matproj import MPRester
+with MPRester(""YOUR_API_KEY"") as m:
+    data = m.query({""material_id"":""mp-23155""}, [""formation_energy_per_atom""])
+    print(data)
+
+If you want me to fetch it, provide the formation_energy_per_atom value or enable access."
+mp-1197742,band_gap,0.8515,"I can't access the Materials Project database from here. I can't reliably give mp-1197742's band gap without querying their API.
+
+If you want to fetch it yourself, run this Python snippet (replace ""YOUR_API_KEY""):
+
+from pymatgen.ext.matproj import MPRester
+with MPRester(""YOUR_API_KEY"") as m:
+    data = m.get_data(""mp-1197742"")
+    print(data[0].get(""band_gap""))
+
+If you run that and paste the number here, I'll confirm or use it."
+mp-1197742,formation_energy_per_atom,-0.327354584285715,"I don't have live access to the Materials Project, so I can't retrieve mp-1197742's formation_energy_per_atom directly. If you want to fetch it yourself, run this (replace YOUR_API_KEY):
+
+from pymatgen.ext.matproj import MPRester
+with MPRester(""YOUR_API_KEY"") as m:
+    data = m.get_data(""mp-1197742"")
+    print(data[0]['formation_energy_per_atom'])
+
+This will print the formation_energy_per_atom in eV/atom. If you paste the result here I can interpret it."
+mp-647579,band_gap,3.2214,"I can’t access the Materials Project database from here, so I can’t look up mp-647579’s band gap. Please provide the material data (or allow me to query the database) and I’ll return the band gap."
+mp-647579,formation_energy_per_atom,-1.267659339375001,"I don’t have live access to the Materials Project, so I can’t look up mp-647579 directly. If you can run a quick query (or provide the entry data), I’ll extract the number.
+
+If you can run Python, this prints the formation energy per atom (replace ""YOUR_API_KEY""):
+
+from pymatgen.ext.matproj import MPRester
+with MPRester(""YOUR_API_KEY"") as m:
+    d = m.get_data(""mp-647579"")
+    print(d[0][""formation_energy_per_atom""])
+
+Or use the REST endpoint:
+GET https://materialsproject.org/rest/v2/materials/mp-647579/vasp?API_KEY=YOUR_API_KEY
+and read the field ""formation_energy_per_atom"".
+
+Provide the returned number and I’ll confirm."
+mp-15649,band_gap,0.8155000000000001,"I can’t access the Materials Project database from here, so I’m unable to retrieve mp-15649’s band gap. Please provide the value or allow a query to materialsproject.org."
+mp-15649,formation_energy_per_atom,-0.571072849166668,"I can't access the Materials Project database from here. I can fetch that value if you either provide an API key or allow me to query the API. 
+
+If you want to get it yourself, run (replace YOUR_API_KEY):
+
+from pymatgen.ext.matproj import MPRester
+with MPRester(""YOUR_API_KEY"") as m:
+    data = m.get_data(""mp-15649"")
+    print(data[0][""formation_energy_per_atom""])
+
+Or visit https://materialsproject.org/materials/mp-15649 and read ""Formation Energy per Atom"".
+
+Would you like to provide an API key so I can fetch the number for you?"
+mp-557993,band_gap,1.1596,"I can’t access the Materials Project database from here, so I’m unable to look up mp-557993’s band_gap. Please provide the value or allow me to query the database."
+mp-557993,formation_energy_per_atom,-1.459764126666667,"I can’t access the Materials Project database from here, so I cannot retrieve mp-557993’s formation_energy_per_atom."
+mp-7904,band_gap,0.6551,"I can’t access the Materials Project database right now, so I can’t retrieve mp-7904’s band gap. Please provide the value or allow me to look it up."
+mp-7904,formation_energy_per_atom,-0.120742532380951,"I don’t have access to the Materials Project database from here, so I can’t look up mp-7904. If you want to retrieve it yourself, run:
+
+from pymatgen.ext.matproj import MPRester
+with MPRester(""YOUR_API_KEY"") as m:
+    d = m.get_data(""mp-7904"")
+    print(d[0][""formation_energy_per_atom""])
+
+and you’ll get the formation_energy_per_atom (eV/atom)."
+mp-570738,band_gap,2.4744,"I can’t access external databases (Materials Project) from here, so I can’t look up mp-570738. I won’t fabricate a value. If you want to fetch it yourself, run:
+
+from pymatgen.ext.matproj import MPRester
+with MPRester(""YOUR_API_KEY"") as m:
+    print(m.get_data(""mp-570738"")[0][""band_gap""])
+
+Provide the returned number and I’ll use it."
+mp-570738,formation_energy_per_atom,-0.727731253611111,"I can’t access the Materials Project database from here, so I can’t safely provide that single-number value. You can retrieve it yourself with this Python snippet (replace ""YOUR_API_KEY""):
+
+from pymatgen.ext.matproj import MPRester
+with MPRester(""YOUR_API_KEY"") as mpr:
+    data = mpr.get_data(""mp-570738"", fields=[""formation_energy_per_atom""])
+    print(data[0][""formation_energy_per_atom""])
+
+Or via HTTP:
+https://materialsproject.org/rest/v2/materials/mp-570738/vasp?API_KEY=YOUR_API_KEY
+(look for ""formation_energy_per_atom"" in the JSON)."
+mp-628742,band_gap,0.5845,"I can't access the Materials Project or external databases from here, so I cannot look up mp-628742. Please provide the material details or allow me to query the database so I can give the band gap."
+mp-628742,formation_energy_per_atom,-0.486485566153847,"I don't have access to the Materials Project database from here, so I can't look up mp-628742 directly. If you run one of these (replace YOUR_API_KEY):
+
+Python (pymatgen):
+from pymatgen.ext.matproj import MPRester
+with MPRester(""YOUR_API_KEY"") as m:
+    print(m.get_data(""mp-628742"")[0]['formation_energy_per_atom'])
+
+or using requests:
+import requests
+r = requests.get(""https://api.materialsproject.org/rest/v2/materials/mp-628742/vasp"",
+                 headers={""X-API-KEY"":""YOUR_API_KEY""})
+print(r.json()['response'][0]['formation_energy_per_atom'])
+
+it will print the formation_energy_per_atom (eV/atom). If you run that and paste the result here, I'll respond with the single number."
+mp-1204356,band_gap,1.8389,I can’t access the Materials Project from here to retrieve mp-1204356’s band gap — please provide the value or allow me to look it up.
+mp-1204356,formation_energy_per_atom,-0.305946444868422,"I can’t access the Materials Project database from here, so I can’t look up mp-1204356. If you run this (with your Materials Project API key) it will return the formation_energy_per_atom as a single number:
+
+Python (pymatgen):
+from pymatgen.ext.matproj import MPRester
+with MPRester(""YOUR_API_KEY"") as m:
+    data = m.get_data(""mp-1204356"")
+    print(data[0][""formation_energy_per_atom""])
+
+Or curl (REST):
+curl -H ""X-API-KEY: YOUR_API_KEY"" ""https://materialsproject.org/rest/v2/materials/mp-1204356/vasp""
+Then read the JSON field formation_energy_per_atom."
+mp-7262,band_gap,0.224099999999999,"I can’t access the Materials Project database from here, so I can’t reliably provide mp-7262’s band gap. I can look it up if you paste the entry or allow web access."
+mp-7262,formation_energy_per_atom,-0.148990749583333,"I don't have live access to the Materials Project database from here, so I can't look up mp-7262. If you want to fetch it yourself, run:
+
+from pymatgen.ext.matproj import MPRester
+with MPRester(""YOUR_API_KEY"") as m:
+    print(m.get_data(""mp-7262"")[0][""formation_energy_per_atom""])
+
+Provide the result and I will confirm or use it."
+mp-28879,band_gap,1.1418,I can’t access the Materials Project database from here. Please provide the band-gap value or an API key/permission so I can look up mp-28879.
+mp-28879,formation_energy_per_atom,-1.057331754908424,"I can’t access the Materials Project from here, so I can’t look up mp-28879. If you want to fetch it yourself, run:
+
+from pymatgen.ext.matproj import MPRester
+with MPRester(""YOUR_API_KEY"") as m:
+    e = m.get_data(""mp-28879"")[0]
+    print(e[""formation_energy_per_atom""])
+
+Run that and paste the number here if you want me to interpret it."
+mp-27684,band_gap,1.099199999999999,"I can’t access the Materials Project database from here. Please provide the mp-27684 entry or allow me to query it, and I’ll return the band_gap."
+mp-27684,formation_energy_per_atom,-0.932556454761906,"I don’t have live access to the Materials Project, so I can’t look up mp-27684 right now. I won’t guess — if you want the value immediately you can either:
+
+- Open https://materialsproject.org/materials/mp-27684 and read ""formation_energy_per_atom"" on the page, or
+- Run this Python (requires a Materials Project API key):
+
+from pymatgen.ext.matproj import MPRester
+with MPRester(""YOUR_API_KEY"") as m:
+    data = m.get_data(""mp-27684"")
+    print(data[0][""formation_energy_per_atom""])
+
+If you’d like, provide the returned value and I’ll confirm or use it."
+mp-541404,band_gap,0.7584000000000001,"I can't access the Materials Project from here to look up mp-541404, so I can't provide a reliable band_gap value. Please provide the data or allow me to query the database."
+mp-541404,formation_energy_per_atom,-2.522468176666668,"I can’t query the Materials Project from here, so I can’t directly provide that single-number value. 
+
+You can retrieve it quickly yourself with the Materials Project API. Example (Python/pymatgen):
+
+from pymatgen.ext.matproj import MPRester
+with MPRester(""YOUR_API_KEY"") as m:
+    entry = m.get_entry_by_material_id(""mp-541404"")
+    print(entry.formation_energy_per_atom)
+
+Or use the REST endpoint:
+https://materialsproject.org/rest/v2/materials/mp-541404/vasp?API_KEY=YOUR_API_KEY
+
+If you paste the returned value here, I’ll confirm or use it."
+mp-1391848,band_gap,2.0863,"I can’t access the Materials Project (or other external databases) from here, so I can’t look up mp-1391848 and I won’t guess a value. If you want the band gap yourself, here are two quick ways to fetch it.
+
+Python (pymatgen):
+from pymatgen.ext.matproj import MPRester
+with MPRester(""YOUR_API_KEY"") as m:
+    d = m.get_data(""mp-1391848"")[0]
+    print(d[""band_gap""])
+
+REST API (replace YOUR_API_KEY):
+https://materialsproject.org/rest/v2/materials/mp-1391848?API_KEY=YOUR_API_KEY
+
+If you paste the returned JSON or the band_gap value here, I’ll give any follow-up analysis you want."
+mp-1391848,formation_energy_per_atom,-2.063723397142856,"I don’t have live access to the Materials Project database, so I can’t directly look up mp-1391848. If you want the exact number, either:
+
+- Provide the JSON/object for mp-1391848 (I’ll read formation_energy_per_atom), or
+- Give me permission and your Materials Project API key and I can query it for you.
+
+If you prefer, I can show the exact command to run locally (using pymatgen or the REST API) to get the formation_energy_per_atom. Which would you prefer?"
+mp-1184796,band_gap,8.0745,"I can’t access the Materials Project (mp-1184796) from here. If you want me to fetch it, either paste the value or allow me to use an API key. Otherwise you can run this (Python) to get the band gap:
+
+python:
+from pymatgen.ext.matproj import MPRester
+with MPRester(""YOUR_API_KEY"") as m:
+    data = m.get_data(""mp-1184796"")[0]
+    print(data.get(""band_gap""))
+
+Run that and paste the printed number and I’ll use it."
+mp-1184796,formation_energy_per_atom,-1.406990803749999,"I can’t access the Materials Project from here, so I can’t look up mp-1184796 and must not guess the value. 
+
+You can get the formation_energy_per_atom yourself with this short Python snippet (requires a Materials Project API key and pymatgen):
+
+from pymatgen.ext.matproj import MPRester
+with MPRester(""YOUR_API_KEY"") as m:
+    entry = m.get_entry_by_material_id(""mp-1184796"")
+    print(entry.formation_energy_per_atom)
+
+Run that and it will print the formation_energy_per_atom (in eV/atom). If you paste the printed value here, I’ll confirm or use it."
+mp-9268,band_gap,0.7039000000000001,"I can't access the Materials Project database from here, so I can't look up mp-9268 and give a single-number answer. 
+
+If you want to fetch it yourself, run this Python snippet with your Materials Project API key:
+
+from pymatgen.ext.matproj import MPRester
+with MPRester(""YOUR_API_KEY"") as m:
+    result = m.query({""material_id"": ""mp-9268""}, [""band_gap""])
+    print(result[0][""band_gap""])
+
+Run that and paste the returned number here if you want any follow-up."
+mp-9268,formation_energy_per_atom,-1.167954419796875,"I can’t access the Materials Project database from here, so I can’t look up mp-9268 directly. If you run this (with your Materials Project API key) it will return the single number:
+
+from pymatgen.ext.matproj import MPRester
+with MPRester(""YOUR_API_KEY"") as m:
+    print(m.get_data(""mp-9268"")[0][""formation_energy_per_atom""])
+
+Or visit https://materialsproject.org/materials/mp-9268/ and read ""formation_energy_per_atom"" on the page. If you paste the value here I’ll confirm or use it."
+mp-540922,band_gap,0.1806,"I can’t access the Materials Project from here, so I can’t look up mp-540922’s band gap. If you want, I can show a short script (using MPRester) or steps to retrieve it and then you can share the value. Which do you prefer?"
+mp-540922,formation_energy_per_atom,-0.450521733124998,"I can’t access the Materials Project or other external databases from here, so I can’t look up mp-540922 directly.
+
+You can get the formation_energy_per_atom yourself with the Materials Project API. Example (Python with pymatgen):
+
+from pymatgen.ext.matproj import MPRester
+api_key = ""YOUR_API_KEY""
+with MPRester(api_key) as m:
+    data = m.get_data(""mp-540922"")
+    print(data[0].get(""formation_energy_per_atom""))
+
+Or using curl (replace YOUR_API_KEY):
+
+curl -s ""https://materialsproject.org/rest/v2/materials/mp-540922/thermo?API_KEY=YOUR_API_KEY"" | jq '.response[0].formation_energy_per_atom'
+
+Run one of these to get the single numeric value. If you paste the returned value here, I can confirm or use it."
+mp-540675,band_gap,3.0664,"I can’t access the Materials Project database from here, so I can’t look up mp-540675. Please provide the value or check https://materialsproject.org/materials/mp-540675/ and I’ll help interpret it."
+mp-540675,formation_energy_per_atom,-0.349825507562499,"I can’t access the Materials Project database from here, so I can’t look up mp-540675 and give a single number. If you can run code, this will return the formation_energy_per_atom:
+
+Python (pymatgen):
+from pymatgen.ext.matproj import MPRester
+api_key = ""YOUR_API_KEY""
+with MPRester(api_key) as m:
+    entry = m.get_data(""mp-540675"", data_type=""vasp"")  # or m.get_data(""mp-540675"")
+    print(entry[0][""formation_energy_per_atom""])
+
+Run that and paste the number here and I’ll confirm or use it."
+mp-571235,band_gap,2.021,"I’m unable to access the Materials Project database from here, so I can’t look up mp-571235’s band_gap."
+mp-571235,formation_energy_per_atom,-1.227871009333331,"I can’t access the Materials Project from here, so I can’t look up mp-571235. If you want to fetch it yourself, use:
+
+from pymatgen.ext.matproj import MPRester
+with MPRester(""YOUR_API_KEY"") as m:
+    e = m.get_entry_by_material_id(""mp-571235"")
+    print(e.formation_energy_per_atom)
+
+Provide the result and I’ll use it."
+mp-1208424,band_gap,2.5242,"I can’t access the Materials Project database from here to look up mp-1208424. Please provide the band_gap value or an API key/permission to query the Materials Project, and I’ll return the number."
+mp-1208424,formation_energy_per_atom,-0.812674219083331,"I can’t query the Materials Project from here. I don’t have external web access, so I can’t return mp-1208424’s formation_energy_per_atom directly.
+
+If you want to fetch it yourself, here are two quick ways:
+
+1) Python (pymatgen)
+```
+from pymatgen.ext.matproj import MPRester
+with MPRester(""YOUR_API_KEY"") as m:
+    data = m.get_data(""mp-1208424"")
+    print(data[0][""formation_energy_per_atom""])
+```
+
+2) REST API (curl)
+```
+curl -s ""https://materialsproject.org/rest/v2/materials/mp-1208424/vasp?API_KEY=YOUR_API_KEY"" \
+  | jq -r '.response[0].formation_energy_per_atom'
+```
+
+If you paste the returned JSON or the number here, I’ll use it or confirm it. If you’d like, provide an API key and I can run the lookup for you."
+mp-27971,band_gap,5.0865,"I can't access the Materials Project database from here, so I can't look up mp-27971 — please provide the compound or allow me to query."
+mp-27971,formation_energy_per_atom,-2.788094297499999,"I can’t access the Materials Project (mp-27971) from here, so I can’t look up that number directly.
+
+You can get it yourself with the Materials Project API. Example Python (pymatgen) snippet:
+
+from pymatgen.ext.matproj import MPRester
+with MPRester(""YOUR_API_KEY"") as m:
+    data = m.get_data(""mp-27971"")
+    print(data[0][""formation_energy_per_atom""])
+
+Or on the website, open https://materialsproject.org/materials/mp-27971 and read ""Formation Energy per Atom"".
+
+If you run that and paste the result here, I’ll confirm or use it for whatever you need."
+mp-22909,band_gap,4.0533,"I can’t access the Materials Project database from here, so I can’t look up mp-22909. Please provide the band gap value or allow me to fetch it (I can give the exact API/pymatgen command to retrieve it)."
+mp-22909,formation_energy_per_atom,-1.291011926666667,"I can’t query the Materials Project from here. I don’t have internet access to look up mp-22909, so I can’t return the requested number directly.
+
+If you want to fetch it yourself, here are two quick ways:
+
+1) On the website: open https://materialsproject.org/materials/mp-22909 and read the ""formation_energy_per_atom"" value.
+
+2) With Python/pymatgen (replace YOUR_API_KEY):
+
+from pymatgen.ext.matproj import MPRester
+with MPRester(""YOUR_API_KEY"") as m:
+    data = m.get_data(""mp-22909"")
+    print(data[0][""formation_energy_per_atom""])
+
+If you paste the returned number here, I’ll confirm or use it in further calculations."
+mp-556516,band_gap,0.7668,"I can’t access the Materials Project (mp-556516) from here, so I can’t look up the band gap. If you run the following Python snippet locally it will return the band_gap (eV):
+
+from pymatgen.ext.matproj import MPRester
+with MPRester(""YOUR_API_KEY"") as m:
+    doc = m.get_data(""mp-556516"")[0]
+    print(doc.get(""band_gap""))
+
+Run that and paste the number here if you want it confirmed or converted."
+mp-556516,formation_energy_per_atom,-0.505116372129634,"I don’t have live access to the Materials Project, so I can’t look up mp-556516 directly. If you want to retrieve it yourself, run this Python snippet (replace YOUR_API_KEY):
+
+from pymatgen.ext.matproj import MPRester
+with MPRester(""YOUR_API_KEY"") as m:
+    data = m.get_data(""mp-556516"")
+    print(data[0][""formation_energy_per_atom""])
+
+Run that and paste the number here, or give me permission to look it up (or provide the value) and I’ll respond with the single number."
+mp-21526,band_gap,0.5708000000000001,I can't access the Materials Project or other external databases from here. Please provide the data for mp-21526 or allow me to fetch it; I can't give the band gap without that.
+mp-21526,formation_energy_per_atom,-0.362189247187497,"I don't have live access to the Materials Project database from here, so I can't look up mp-21526 directly. If you can either:
+
+- provide the formation_energy_per_atom value from your copy of the Materials Project entry, or
+- give me permission and an API key to query the Materials Project REST/API,
+
+I can return or confirm the single-number answer. Otherwise I can show you the exact API call you can run locally to get the value. Which would you prefer?"
+mp-1274279,band_gap,1.8157,"I can’t access the Materials Project from here, so I’m unable to look up mp-1274279’s band gap — please provide the value or the structure so I can compute/estimate it."
+mp-1274279,formation_energy_per_atom,-1.481519387499999,"I can't query the Materials Project from here. If you run this (replace YOUR_API_KEY) you'll get the single number:
+
+curl -s ""https://materialsproject.org/rest/v2/materials/mp-1274279/?API_KEY=YOUR_API_KEY&fields=formation_energy_per_atom""
+
+Or in Python (pymatgen):
+from pymatgen.ext.matproj import MPRester
+with MPRester(""YOUR_API_KEY"") as m:
+    print(m.get_data(""mp-1274279"", props=[""formation_energy_per_atom""])[0][""formation_energy_per_atom""])
+
+Provide the result or your API key and I can fetch it for you."
+mp-554855,band_gap,1.5712000000000002,I can’t access the Materials Project database from here. Please provide the band_gap value or allow me to look it up — otherwise I can’t give a reliable single-number answer.
+mp-554855,formation_energy_per_atom,-2.60675029,"I can’t access the Materials Project (mp-554855) from here, so I can’t retrieve that value. You can get it yourself with this short Python snippet (replace ""YOUR_API_KEY""):
+
+from pymatgen.ext.matproj import MPRester
+with MPRester(""YOUR_API_KEY"") as m:
+    print(m.get_data(""mp-554855"")[0][""formation_energy_per_atom""])
+
+Run that and it will print the formation_energy_per_atom (eV/atom)."
+mp-510557,band_gap,4.2395,"I can’t access the Materials Project from here, so I can’t look up mp-510557. I won’t guess a number. If you want to retrieve it yourself, run:
+
+from pymatgen.ext.matproj import MPRester
+with MPRester(""YOUR_API_KEY"") as m:
+    d = m.get_data(""mp-510557"")
+    print(d[0][""band_gap""])
+
+If you run that and paste the value here, I can help interpret it."
+mp-510557,formation_energy_per_atom,-0.216854790312499,"Sorry — I don't have live access to the Materials Project, so I can't look up mp-510557 myself. I can show you how to fetch the formation_energy_per_atom quickly; run this in Python (replace YOUR_API_KEY):
+
+from pymatgen.ext.matproj import MPRester
+with MPRester(""YOUR_API_KEY"") as m:
+    data = m.get_data(""mp-510557"")
+    print(data[0][""formation_energy_per_atom""])
+
+If you run that and paste the returned number here, I'll confirm or use it."
+mp-27291,band_gap,0.155399999999999,I can’t access the Materials Project database from here to look up mp-27291. Please either provide the value or allow me to query the Materials Project API (I can give the exact steps or a script). Which would you prefer?
+mp-27291,formation_energy_per_atom,-2.149853655000001,"I don't have live access to the Materials Project from here, so I can't look up mp-27291 directly. If you want the single-number answer now, either:
+
+- give me permission and a Materials Project API key so I can fetch it for you, or
+- run this locally and paste the result.
+
+Python (pymatgen) snippet to run locally:
+
+from pymatgen.ext.matproj import MPRester
+with MPRester(""YOUR_API_KEY"") as mpr:
+    data = mpr.get_data(""mp-27291"")
+    print(data[0]['formation_energy_per_atom'])
+
+This will print the formation_energy_per_atom in eV/atom."
+mp-568348,band_gap,1.8454,I can’t access the Materials Project database from here. Please provide the band gap value or allow me to query the API so I can return the number.
+mp-568348,formation_energy_per_atom,0.0,"I can’t access the Materials Project database from here, so I can’t look up mp-568348. I can’t give the single-number answer without live access.
+
+You can get it quickly yourself with this Python (pymatgen) snippet:
+
+from pymatgen.ext.matproj import MPRester
+with MPRester(""YOUR_API_KEY"") as m:
+    data = m.query(criteria={""task_id"":""mp-568348""}, properties=[""formation_energy_per_atom""])
+    print(data[0][""formation_energy_per_atom""])
+
+Or with curl (replace YOUR_KEY):
+
+curl -H ""X-API-KEY: YOUR_KEY"" ""https://www.materialsproject.org/rest/v2/materials/mp-568348/vasp?properties=formation_energy_per_atom""
+
+If you run either of those and paste the returned number here, I will confirm or use it as requested."
+mp-2084,band_gap,0.9437999999999992,I can’t access the Materials Project database from here. Please allow me to look it up or provide the data for mp-2084.
+mp-2084,formation_energy_per_atom,-0.6734596323437501,"I can’t access the Materials Project from here, so I can’t look up mp-2084. If you want to retrieve it yourself, run this Python snippet (replace YOUR_API_KEY):
+
+from pymatgen.ext.matproj import MPRester
+with MPRester(""YOUR_API_KEY"") as m:
+    data = m.get_data(""mp-2084"")
+    print(data[0][""formation_energy_per_atom""])
+
+Run that and it will print the formation_energy_per_atom (eV/atom). If you give me a valid Materials Project API key I can fetch it for you and return the single number."
+mp-995393,band_gap,2.1989,"I can’t access the Materials Project database from here, so I can’t look up mp-995393. Please provide the band_gap value or allow me to query the database so I can answer."
+mp-995393,formation_energy_per_atom,-0.612184769666665,"I don’t have live access to the Materials Project, so I can’t look up mp-995393 directly. If you want the single numeric value, you can either:
+
+- Give me permission / an API key so I can fetch it, or
+- Run this short Python snippet (requires pymatgen and a Materials Project API key) to get the number yourself:
+
+from pymatgen.ext.matproj import MPRester
+with MPRester(""YOUR_API_KEY"") as m:
+    data = m.get_data(""mp-995393"")
+    print(data[0][""formation_energy_per_atom""])
+
+Or open https://materialsproject.org/materials/mp-995393 and read the ""formation_energy_per_atom"" field. 
+
+Tell me if you want me to fetch it (provide an API key) or paste the result here and I’ll confirm."
+mp-1345,band_gap,0.3443,"I can’t access the Materials Project database from here, so I can’t look up mp-1345. Please either allow me to fetch external data or check it yourself (Materials Project page: https://materialsproject.org/materials/mp-1345) or via the API:
+
+Python (pymatgen):
+from pymatgen.ext.matproj import MPRester
+with MPRester(""YOUR_API_KEY"") as m:
+    data = m.get_data(""mp-1345"")[0]
+    print(data[""band_gap""])
+
+If you fetch it and paste the value here, I’ll confirm or use it."
+mp-1345,formation_energy_per_atom,-1.2564584531547611,"I can't access the Materials Project from here, so I can't retrieve mp-1345's value. You can get it yourself with:
+
+from pymatgen.ext.matproj import MPRester
+with MPRester(""YOUR_API_KEY"") as m:
+    print(m.get_data(""mp-1345"")[0][""formation_energy_per_atom""])"
+mp-1193140,band_gap,1.8661999999999992,"I can’t access the Materials Project from here, so I can’t look up mp-1193140’s band_gap. Provide the value or give permission/API key to fetch it and I’ll return the number."
+mp-1193140,formation_energy_per_atom,-0.743681253794641,"I can’t query the Materials Project from here, so I can’t look up mp-1193140 directly. If you want the number now, run this (replace YOUR_API_KEY):
+
+from pymatgen.ext.matproj import MPRester
+with MPRester(""YOUR_API_KEY"") as m:
+    print(m.get_data(""mp-1193140"")[0][""formation_energy_per_atom""])
+
+If you prefer, paste the API response or give me an API key and I’ll fetch it for you."
+mp-29657,band_gap,0.665199999999999,"I can’t access the Materials Project database from here, so I can’t look up mp-29657 and won’t guess. If you want to retrieve it yourself, run this locally with your Materials Project API key:
+
+from pymatgen.ext.matproj import MPRester
+with MPRester(""YOUR_API_KEY"") as m:
+    print(m.get_data(""mp-29657"")[0][""band_gap""])
+
+If you paste the entry or the band gap value here, I’ll use it."
+mp-29657,formation_energy_per_atom,-0.214525574374999,"I don't have live access to the Materials Project, so I can't look up mp-29657 directly. If you want to fetch it yourself, run this Python snippet with your Materials Project API key:
+
+from pymatgen.ext.matproj import MPRester
+with MPRester(""YOUR_API_KEY"") as m:
+    print(m.get_data(""mp-29657"")[0][""formation_energy_per_atom""])
+
+If you provide the value I can return it in the exact format you want."
+mp-23265,band_gap,2.0054,"I can’t access the Materials Project from here to look up mp-23265. Please provide the band gap value or allow me to fetch it, and I’ll return the single-number answer."
+mp-23265,formation_energy_per_atom,-2.506313930624998,"I can’t query the Materials Project from here, so I can’t retrieve mp-23265’s value directly. If you want to get it yourself, run this Python (pymatgen) snippet with your API key:
+
+from pymatgen.ext.matproj import MPRester
+with MPRester(""YOUR_API_KEY"") as m:
+    data = m.get_data(""mp-23265"")
+    print(data[0].get(""formation_energy_per_atom""))
+
+If you paste the returned number here, I’ll confirm or use it."
+mp-542812,band_gap,1.0066,"I can’t access the Materials Project database from here, so I can’t look up mp-542812. Please provide the material data or allow me to fetch it; otherwise tell me if you want instructions to retrieve the band gap yourself."
+mp-542812,formation_energy_per_atom,-0.442993200833332,"I can’t access the Materials Project database from here, so I can’t retrieve mp-542812’s formation_energy_per_atom. If you provide the value or allow me to query the Materials Project API (API key), I can fetch it."
+mp-10802,band_gap,0.5879000000000001,"I don’t have live access to the Materials Project, so I can’t look up mp-10802 directly. If you want, I can show the exact Materials Project API or pymatgen commands to fetch the band gap, or you can paste the entry and I’ll extract the number. Which would you prefer?"
+mp-10802,formation_energy_per_atom,-0.417557193125,"I can’t access the Materials Project from here, so I can’t look up mp-10802. Please either provide the entry data or run this (with your API key) to get formation_energy_per_atom:
+
+from pymatgen.ext.matproj import MPRester
+with MPRester(""YOUR_API_KEY"") as m:
+    print(m.get_data(""mp-10802"")[0][""formation_energy_per_atom""])"
+mp-27725,band_gap,2.0942,"I can’t access the Materials Project database from here. If you want the exact band gap, allow me to fetch it (or provide the data/API response). You can also view it directly at https://materialsproject.org/materials/mp-27725 to read the ""band_gap"" value."
+mp-27725,formation_energy_per_atom,-0.265866406249999,"I can’t query the Materials Project from here. If you want to get mp-27725’s formation_energy_per_atom yourself, run this (requires an API key):
+
+Python (pymatgen):
+from pymatgen.ext.matproj import MPRester
+with MPRester(""YOUR_API_KEY"") as m:
+    d = m.get_data(""mp-27725"")[0]
+    print(d[""formation_energy_per_atom""])
+
+Run that and paste the number here, or allow me to fetch it if you provide an API key."
+mp-1080428,band_gap,0.8728,"I don't have live access to the Materials Project, so I can't look up mp-1080428 and must not guess. If you want to fetch it yourself, use this short Python snippet (pymatgen):
+
+from pymatgen.ext.matproj import MPRester
+with MPRester(""YOUR_API_KEY"") as m:
+    d = m.get_data(""mp-1080428"")[0]
+    print(d[""band_gap""])
+
+Provide the value here or grant access to the database and I will return the single-number answer."
+mp-1080428,formation_energy_per_atom,-1.326321304000006,I can’t access the Materials Project database from here to look up mp-1080428. Please provide the entry data or allow me to query the Materials Project API (or run this code) and I’ll extract the formation_energy_per_atom.
+mp-569561,band_gap,3.1165,I can’t access the Materials Project database from here. Please allow me to look it up or provide the mp-569561 page/data.
+mp-569561,formation_energy_per_atom,-0.639768098499999,"I can’t query the Materials Project from here, so I can’t directly return mp-569561’s formation_energy_per_atom. If you can run code, use this Python snippet (requires pymatgen and an MP API key) to get the value:
+
+from pymatgen.ext.matproj import MPRester
+with MPRester(""YOUR_API_KEY"") as m:
+    d = m.get_data(""mp-569561"")[0]
+    print(d.get(""formation_energy_per_atom""))
+
+Run that and paste the number here (or give me API access) and I’ll answer with the single number."
+mp-743,band_gap,4.1608,I don’t have access to the Materials Project database from here. I can look up mp-743 if you allow web access or paste the material name/structure — otherwise I can’t reliably provide a single-number band gap.
+mp-743,formation_energy_per_atom,-0.140204309375,"I don’t have live access to the Materials Project, so I can’t look up mp-743 directly. If you can run code or provide an API key I can use, retrieve it with this Python snippet:
+
+from pymatgen.ext.matproj import MPRester
+with MPRester(""YOUR_API_KEY"") as m:
+    print(m.get_data(""mp-743"")[0][""formation_energy_per_atom""])
+
+Run that and paste the returned number and I’ll confirm."
+mp-484,band_gap,0.4326,"I can’t access the Materials Project database from here, so I can’t look up mp-484’s band gap. Please provide the material name or allow me to fetch the data."
+mp-484,formation_energy_per_atom,-0.001508734,"I can’t access the Materials Project from here, so I can’t look up mp-484. I won’t guess a numeric value.
+
+If you want to get it yourself, run this Python snippet (requires pymatgen and a Materials Project API key):
+
+from pymatgen.ext.matproj import MPRester
+with MPRester(""YOUR_API_KEY"") as m:
+    data = m.get_data(""mp-484"")
+    print(data[0][""formation_energy_per_atom""])
+
+If you paste the mp-484 entry JSON here I’ll extract and return the single number."
+mp-1864,band_gap,0.1139,I can't access the Materials Project from here to look up mp-1864. Please provide the compound name or allow me to fetch the entry so I can give the band_gap.
+mp-1864,formation_energy_per_atom,-0.678575252480158,"I can’t access the Materials Project database from here, so I can’t look up mp-1864 directly. If you want to retrieve it yourself, run this Python snippet (requires pymatgen and an MP API key):
+
+from pymatgen.ext.matproj import MPRester
+with MPRester(""YOUR_API_KEY"") as m:
+    print(m.get_data(""mp-1864"")[0][""formation_energy_per_atom""])
+
+If you provide the value or grant an API key I can fetch it for you."
+mp-30520,band_gap,1.667899999999999,"I can’t access the Materials Project (mp-30520) from here, so I can’t reliably provide its band gap number. Would you like instructions to look it up or to paste the material data so I can read the band gap?"
+mp-30520,formation_energy_per_atom,-0.498485183452379,"I can’t access the Materials Project or external databases from here, so I can’t look up mp-30520. If you paste the material entry/JSON or allow me to fetch it, I’ll extract the formation_energy_per_atom. Otherwise you can view it at https://materialsproject.org/materials/mp-30520 or via the Materials Project REST API (/materials/mp-30520/)."
+mp-23221,band_gap,3.429599999999999,"I can’t query the Materials Project from here, so I can’t directly retrieve mp-23221’s band gap. If you run the following (with your API key) it will print the value:
+
+from pymatgen.ext.matproj import MPRester
+with MPRester(""YOUR_API_KEY"") as m:
+    print(m.get_data(""mp-23221"")[0][""band_gap""])
+
+If you prefer, paste the result here and I’ll interpret it."
+mp-23221,formation_energy_per_atom,-2.306216135416666,"I’m unable to access the Materials Project from here, so I can’t retrieve mp-23221’s formation_energy_per_atom. Please provide the value or an API key/permission to query the database."
+mp-149,band_gap,0.6105,0.62
+mp-149,formation_energy_per_atom,0.0,0.0
+mp-1863,band_gap,1.451899999999999,"I can't access the Materials Project database from here. Please provide the band_gap value or grant access (e.g., an API key) so I can look up mp-1863."
+mp-1863,formation_energy_per_atom,-0.119684392083333,"I can’t query the Materials Project from here, so I can’t look up mp-1863 directly. If you want the exact number now, you can either:
+
+- Run this short Python snippet (requires a Materials Project API key and pymatgen):
+
+  from pymatgen.ext.matproj import MPRester
+  with MPRester(""YOUR_API_KEY"") as m:
+      data = m.get_data(""mp-1863"")[0]
+      print(data['formation_energy_per_atom'])
+
+- Or open https://materialsproject.org/materials/mp-1863 and read the ""Formation Energy per atom"" field on the material page.
+
+If you provide an API key or the mp-1863 page output, I can fetch/extract the single number for you."
+mp-1524446,band_gap,1.0487,"I don't have access to the Materials Project database from here, so I can't retrieve mp-1524446's band gap. If you want, I can tell you how to look it up (materialsproject.org/materials/mp-1524446) or you can paste the entry and I'll extract the band gap."
+mp-1524446,formation_energy_per_atom,-1.452075918750001,"I can't access the Materials Project database from here, so I can't look up mp-1524446. I can show how you (or I, if you allow me to query) can fetch it.
+
+Using pymatgen (requires an API key):
+from pymatgen.ext.matproj import MPRester
+with MPRester(""YOUR_API_KEY"") as m:
+    data = m.get_data(""mp-1524446"", prop=""formation_energy_per_atom"")
+    print(data[0][""formation_energy_per_atom""])
+
+Or using the REST API with curl (replace YOUR_API_KEY):
+curl -H ""X-API-KEY: YOUR_API_KEY"" ""https://www.materialsproject.org/rest/v2/materials/mp-1524446/formation_energy_per_atom""
+
+Run one of those and paste the returned number, and I can confirm or use it further."
+mp-730101,band_gap,9.7197,"I can’t query the Materials Project from here, so I can’t look up mp-730101. Please either provide the value or run this (with your API key) and paste the result:
+
+Using the REST API:
+curl -H ""X-API-KEY: YOUR_API_KEY"" ""https://materialsproject.org/rest/v2/materials/mp-730101/vasp"" 
+
+Or with pymatgen:
+from pymatgen.ext.matproj import MPRester
+with MPRester(""YOUR_API_KEY"") as m:
+    print(m.get_data(""mp-730101"")[0][""band_gap""])
+
+If you paste the returned band_gap I will respond with the single number."
+mp-730101,formation_energy_per_atom,0.0,"I can’t query the Materials Project from here, so I can’t look up mp-730101 directly. Please run this (with your Materials Project API key) to get the formation_energy_per_atom:
+
+Python (pymatgen):
+from pymatgen import MPRester
+with MPRester(""YOUR_API_KEY"") as m:
+    data = m.get_data(""mp-730101"")
+    print(data[0][""formation_energy_per_atom""])
+
+Run that and tell me the result if you want further help."
+mp-31049,band_gap,3.4112,"I can’t access the Materials Project database from here, so I can’t reliably provide mp-31049’s band gap. If you want, I can look it up now if you allow me to query the web or you can paste the material entry and I’ll extract the band_gap."
+mp-31049,formation_energy_per_atom,-3.159657924166664,"I can’t access the Materials Project or external databases from here, so I can’t look up mp-31049. If you run the following Python snippet (with your Materials Project API key) it will return the formation_energy_per_atom:
+
+```python
+from pymatgen.ext.matproj import MPRester
+api_key = ""YOUR_API_KEY""
+with MPRester(api_key) as m:
+    entry = m.get_data(""mp-31049"", data_type=""vasp"")  # or use m.get_materials_ids/filter if needed
+    # Alternatively:
+    # doc = m.get_materials_id(""mp-31049"")
+    # print(doc)
+    # The simplest:
+    doc = m.get_data(""mp-31049"")[0]
+    print(doc.get(""formation_energy_per_atom""))
+```
+
+If you prefer, paste the mp-31049 entry JSON here and I’ll read out the formation_energy_per_atom."
+mp-573812,band_gap,1.4052,"I can’t access the Materials Project database from here, so I don’t have the band_gap for mp-573812. If you want, I can tell you how to fetch it (Materials Project REST API or pymatgen) or you can paste the entry and I’ll extract the band gap."
+mp-573812,formation_energy_per_atom,-0.28239570742611,"I can’t access the Materials Project database from here, so I can’t look up mp-573812. Please either provide the formation_energy_per_atom value or allow me to fetch it (for example by giving a Materials Project API key or permission to query), and I’ll return the number."
+mp-1213805,band_gap,1.159,"I can’t access the Materials Project right now, so I can’t reliably look up mp-1213805. I won’t guess a number. 
+
+If you want to retrieve it yourself: open https://materialsproject.org/materials/mp-1213805 or use the Materials Project API (MPRester from pymatgen) and check the “band_gap” field. If you paste the result here I can help interpret it."
+mp-1213805,formation_energy_per_atom,-0.723041855833334,"I can’t access the Materials Project from here, so I can’t look up mp-1213805 directly. If you want to retrieve it yourself, run this (requires a Materials Project API key and pymatgen):
+
+Python (pymatgen):
+from pymatgen.ext.matproj import MPRester
+with MPRester(""YOUR_API_KEY"") as m:
+    res = m.query({""task_id"": ""mp-1213805""}, [""formation_energy_per_atom""])
+    print(res[0][""formation_energy_per_atom""])
+
+Or use the REST endpoint in a browser (replace YOUR_API_KEY):
+https://www.materialsproject.org/rest/v2/materials/mp-1213805?fields=formation_energy_per_atom&API_KEY=YOUR_API_KEY
+
+If you paste the returned value here (or provide an API key with permission), I’ll give the single-number answer."
+mp-7188,band_gap,0.289899999999999,"I’m unable to access the Materials Project database right now, so I can’t look up mp-7188’s band gap. Please provide the value or allow me to query the site."
+mp-7188,formation_energy_per_atom,-0.670291663333335,"I can’t access the Materials Project from here, so I can’t look up mp-7188 or give a (real) numeric answer. 
+
+You can get it yourself with the Materials Project web page (https://materialsproject.org/materials/mp-7188) or with the Python API. Example using pymatgen MPRester:
+
+from pymatgen import MPRester
+
+with MPRester(""YOUR_API_KEY"") as m:
+    data = m.get_data(""mp-7188"")
+    print(data[0][""formation_energy_per_atom""])
+
+Run that (replace YOUR_API_KEY) and it will print the formation_energy_per_atom in eV/atom."
+mp-680422,band_gap,2.9265,"Sorry — I can’t access the Materials Project database right now, so I can’t look up mp-680422’s band gap."
+mp-680422,formation_energy_per_atom,-0.215968716874999,"I can’t access the Materials Project from here to look up mp-680422. I can show code you can run (replace YOUR_API_KEY) to get the formation_energy_per_atom:
+
+from pymatgen.ext.matproj import MPRester
+with MPRester(""YOUR_API_KEY"") as m:
+    data = m.get_data(""mp-680422"", data_type=""summary"")
+    print(data[0][""formation_energy_per_atom""])
+
+Run that and it will print the single number (eV/atom). If you run it and paste the result here, I’ll confirm or use it."
+mp-1683,band_gap,0.3979,"I can’t look up Materials Project entries from here. I don’t have direct access to mp-1683’s data — please either provide the value or allow me to query the Materials Project (you can supply an API key). 
+
+If you can run code, here’s the exact Python snippet (pymatgen) to get the band gap:
+
+from pymatgen.ext.matproj import MPRester
+with MPRester(""YOUR_API_KEY"") as m:
+    print(m.get_data(""mp-1683"")[0][""band_gap""])
+
+Run that and paste the number and I’ll confirm/interpret it."
+mp-1683,formation_energy_per_atom,-1.236771233046873,"I can’t access the Materials Project from here. If you run this Python snippet with your Materials Project API key it will return the formation_energy_per_atom for mp-1683 as a single number:
+
+from pymatgen.ext.matproj import MPRester
+with MPRester(""YOUR_API_KEY"") as m:
+    print(m.get_data(""mp-1683"")[0][""formation_energy_per_atom""])
+
+If you provide the value or allow me to use your API key, I can return the number here."
+mp-1100,band_gap,1.0375,"I can’t access the Materials Project right now, so I can’t reliably look up mp-1100’s band gap. Please provide the entry or allow me to fetch it."
+mp-1100,formation_energy_per_atom,-0.377014445,"I can’t look up live Materials Project entries from here. I don’t have internet access to fetch mp-1100’s formation_energy_per_atom.
+
+If you can run one of these yourself, it will return the single number:
+
+- Python (pymatgen):
+  from pymatgen.ext.matproj import MPRester
+  with MPRester(""YOUR_API_KEY"") as m:
+      print(m.get_data(""mp-1100"", data_type=""vasp"")[0][""formation_energy_per_atom""])
+
+- REST API:
+  GET https://materialsproject.org/rest/v2/materials/mp-1100?API_KEY=YOUR_API_KEY&fields=formation_energy_per_atom
+
+If you run one of those and paste the result here, I’ll confirm/interpret it."
+mp-11054,band_gap,0.877899999999999,I can’t access the Materials Project database from here to look up mp-11054. Please provide the value or allow me to query the API so I can return the band gap.
+mp-11054,formation_energy_per_atom,-0.278649864374999,"I can't access the Materials Project from here, so I cannot fetch mp-11054's formation_energy_per_atom. 
+
+To retrieve it yourself, run:
+
+from pymatgen.ext.matproj import MPRester
+with MPRester(""YOUR_API_KEY"") as m:
+    entry = m.get_entry_by_material_id(""mp-11054"")
+    print(entry.formation_energy_per_atom)
+
+This will print the formation energy per atom in eV/atom."
+mp-306,band_gap,6.3017,"I can't access the Materials Project database from here. Do you want me to look up mp-306's DFT band gap (Materials Project value)? If so, I can fetch it for you — please confirm."
+mp-306,formation_energy_per_atom,-2.798056310000001,"I don’t have access to the Materials Project database from here, so I can’t look up mp-306. If you want, I can show the exact Python (MPRester) query to retrieve formation_energy_per_atom, or you can allow me to fetch it. Which do you prefer?"
+mp-1018040,band_gap,2.5765,"I can’t query the Materials Project from here, so I can’t directly look up mp-1018040. If you want to get it yourself, run this Python (pymatgen) snippet with your Materials Project API key:
+
+from pymatgen.ext.matproj import MPRester
+with MPRester(""YOUR_API_KEY"") as m:
+    data = m.get_materials_ids(""mp-1018040"")  # or directly use m.get_entry_by_material_id(""mp-1018040"")
+    entry = m.get_entry_by_material_id(""mp-1018040"")
+    print(entry.data.get(""band_gap""))
+
+If you paste the returned number here, I’ll proceed with any further analysis."
+mp-1018040,formation_energy_per_atom,-1.474296713671875,"I can’t access the Materials Project database from here, so I can’t look up mp-1018040 and therefore can’t give the number. 
+
+You can get it yourself with this quick Python snippet (needs your Materials Project API key):
+
+from pymatgen.ext.matproj import MPRester
+with MPRester(""YOUR_API_KEY"") as m:
+    data = m.query(criteria={""task_id"":""mp-1018040""},
+                   properties=[""formation_energy_per_atom""])
+    print(data[0][""formation_energy_per_atom""])
+
+Or open https://materialsproject.org/materials/mp-1018040 and check the ""Formation Energy per Atom"" field. If you paste the value here I’ll confirm or use it."
+mp-12957,band_gap,1.0933,"I can’t access the Materials Project database from here, so I can’t look up mp-12957. Please provide the material composition or the band gap value, or allow me to fetch the entry — otherwise I can’t give a reliable single-number answer."
+mp-12957,formation_energy_per_atom,0.0,"I can’t access the Materials Project database from here, so I can’t look up mp-12957 or invent a value. I won’t guess.
+
+You can retrieve it yourself (single number) at https://materialsproject.org/materials/mp-12957 or with pymatgen:
+
+from pymatgen.ext.matproj import MPRester
+with MPRester(""YOUR_API_KEY"") as m:
+    data = m.get_data(""mp-12957"")
+    print(data[0]['formation_energy_per_atom'])
+
+If you paste the returned number here, I’ll confirm or use it."
+mp-8377,band_gap,3.0604,"I can’t access the Materials Project database from here, so I can’t look up mp-8377. Please either provide the band gap value or allow me to fetch the entry (or check https://materialsproject.org/materials/mp-8377 and read the ""band_gap"" field)."
+mp-8377,formation_energy_per_atom,-1.4950600038888862,"I can’t query the Materials Project from here, so I can’t look up mp-8377 directly. If you want to fetch it yourself, run this Python snippet (you need an API key):
+
+from pymatgen.ext.matproj import MPRester
+with MPRester(""YOUR_API_KEY"") as m:
+    data = m.get_data(""mp-8377"")
+    print(data[0][""formation_energy_per_atom""])
+
+If you prefer, paste an API key here (or allow me to query via your environment) and I’ll return the single-number answer."
+mp-23933,band_gap,2.197699999999999,"I can’t access the Materials Project from here, so I can’t look up mp-23933. Please run this (with your API key) to get the band gap:
+
+from pymatgen.ext.matproj import MPRester
+with MPRester(""YOUR_API_KEY"") as m:
+    print(m.get_data(""mp-23933"")[0][""band_gap""])
+
+Or visit https://materialsproject.org/materials/mp-23933 and read the ""band_gap (eV)"" field."
+mp-23933,formation_energy_per_atom,-0.073632082812499,"I can’t query the Materials Project from here, so I can’t look up mp-23933 directly. You can get the formation_energy_per_atom with this Python snippet (requires an API key from materialsproject.org):
+
+from pymatgen.ext.matproj import MPRester
+with MPRester(""YOUR_API_KEY"") as m:
+    result = m.query({""task_id"": ""mp-23933""}, [""formation_energy_per_atom""])
+    print(result[0][""formation_energy_per_atom""])
+
+Run that and it will print the single number. If you want, paste the output here and I’ll interpret it."
+mp-13568,band_gap,0.3379,"I can’t access the Materials Project database from here, so I can’t look up mp-13568 directly. If you want to fetch it yourself, use the Materials Project API. Example (Python, pymatgen):
+
+from pymatgen.ext.matproj import MPRester
+with MPRester(""YOUR_API_KEY"") as m:
+    print(m.get_entry_by_material_id(""mp-13568"")[""band_gap""])
+
+If you provide the band gap value or allow me to look it up, I’ll return the single number."
+mp-13568,formation_energy_per_atom,-2.015935722708332,"I can’t access the Materials Project database from here to look up mp-13568. Please provide the data or allow me to query the API (Materials Project API key), and I’ll return the formation_energy_per_atom."
+mp-571442,band_gap,3.0417,"I can’t access the Materials Project database from here, so I can’t retrieve mp-571442’s band_gap. Please check https://materialsproject.org/materials/mp-571442 (look for the ""band_gap"" field)."
+mp-571442,formation_energy_per_atom,-1.710965791249998,"I can’t access the Materials Project from here, so I can’t retrieve mp-571442’s formation_energy_per_atom. Please check https://materialsproject.org/materials/mp-571442 or use the Materials Project REST API (GET /materials/mp-571442) to get the value."
+mp-1154,band_gap,0.7510000000000001,0.0
+mp-1154,formation_energy_per_atom,-0.286120912954541,"I can’t access the Materials Project database from here, so I can’t look up mp-1154 directly. If you want to fetch it yourself, run (with your API key):
+
+from pymatgen.ext.matproj import MPRester
+with MPRester(""YOUR_API_KEY"") as m:
+    doc = m.get_data(""mp-1154"")[0]
+    print(doc[""formation_energy_per_atom""])
+
+If you provide your API key here (or paste the value), I can run that and return the single-number answer."
+mp-1524481,band_gap,8.309,"I can’t access Materials Project or other external databases from here, so I can’t look up mp-1524481. If you want, I can show a one-line Python snippet using MPRester that returns the band_gap (eV) if you run it with your API key. Which would you prefer?"
+mp-1524481,formation_energy_per_atom,-1.27488559425,"I can’t query the Materials Project from here, so I can’t look up mp-1524481. I won’t fabricate a number.
+
+If you can run Python, use this to fetch it (replace ""YOUR_API_KEY""):
+
+from pymatgen.ext.matproj import MPRester
+with MPRester(""YOUR_API_KEY"") as m:
+    data = m.get_data(""mp-1524481"")
+    print(data[0][""formation_energy_per_atom""])
+
+Run that and paste the number here if you want me to use it."
+mp-27972,band_gap,4.103299999999999,"I can’t query the Materials Project from here, so I can’t directly look up mp-27972. If you can run Python, use this to get the band_gap (eV):
+
+from pymatgen.ext.matproj import MPRester
+with MPRester(""YOUR_API_KEY"") as m:
+    print(m.get_data(""mp-27972"")[0][""band_gap""])
+
+Run that and it will print the single-number band_gap (in eV). If you paste the value here, I can confirm or use it."
+mp-27972,formation_energy_per_atom,-2.494519163125,"I can’t access the Materials Project database from here, so I can’t fetch mp-27972’s formation_energy_per_atom. If you want, you can either:
+
+- Give me permission / provide your Materials Project API key so I can query it, or
+- Run this command yourself (replace YOUR_API_KEY):
+
+  curl -s -H ""X-Api-Key: YOUR_API_KEY"" ""https://materialsproject.org/rest/v2/materials/mp-27972/vasp"" | jq '.response[0].formation_energy_per_atom'
+
+That will return the single numeric value you asked for."
+mp-27153,band_gap,0.2115,"I’m unable to access the Materials Project database from here, so I can’t look up mp-27153. Provide permission/its band_gap or an API key, or allow me to fetch it and I’ll return the single-number value."
+mp-27153,formation_energy_per_atom,-1.76299271,"I can’t access the Materials Project from here, so I can’t look up mp-27153. I won’t guess the number.
+
+If you want to fetch it yourself, run this (requires a Materials Project API key and pymatgen):
+
+from pymatgen.ext.matproj import MPRester
+with MPRester(""YOUR_API_KEY"") as m:
+    data = m.get_data(""mp-27153"")
+    print(data[0][""formation_energy_per_atom""])
+
+Or open: https://materialsproject.org/materials/mp-27153
+
+If you paste the page or the returned value here, I’ll confirm or use it."
+mp-1524458,band_gap,3.1633,"I don't have access to the Materials Project API from here, so I can't retrieve mp-1524458. Provide the entry data or allow an API query and I can return the band gap."
+mp-1524458,formation_energy_per_atom,-1.529192906999997,"I can’t directly query the Materials Project from here. I won’t guess the value. 
+
+If you can run Python, this will return the formation_energy_per_atom for mp-1524458 (replace YOUR_API_KEY):
+
+from pymatgen.ext.matproj import MPRester
+with MPRester(""YOUR_API_KEY"") as m:
+    res = m.query({""material_id"": ""mp-1524458""},
+                  [""formation_energy_per_atom""])
+    print(res[0][""formation_energy_per_atom""])
+
+If you prefer, give me your Materials Project API key (or allow me to fetch it), and I will retrieve the single-number answer for you."
+mp-634859,band_gap,2.7345,"I can’t access the Materials Project (mp-634859) from here, so I can’t retrieve that band_gap value. If you want, I can show how to look it up (website or API) or estimate a gap if you provide the structure."
+mp-634859,formation_energy_per_atom,-2.206560153333333,"I can’t access the Materials Project database from here, so I can’t look up mp-634859 and therefore cannot provide that number. If you want, run this Python snippet with your Materials Project API key to get formation_energy_per_atom:
+
+from pymatgen.ext.matproj import MPRester
+with MPRester(""YOUR_API_KEY"") as m:
+    d = m.get_data(""mp-634859"", data_type=""thermo"")
+    print(d[0].get(""formation_energy_per_atom""))"
+mp-468,band_gap,7.6012,I can’t access the Materials Project (mp-468) from here. Please either provide the material formula/structure or allow me to look it up — otherwise I can’t reliably give a single-number answer for the band gap.
+mp-468,formation_energy_per_atom,-3.86576940625,"I can’t access the Materials Project database from here, so I can’t reliably provide mp-468’s formation_energy_per_atom. You can get it yourself at https://materialsproject.org/materials/mp-468 or via the Python API (MPRester.get_data(""mp-468"") or MPRester.get_materials_experimental(""mp-468"")); paste the value here and I’ll confirm or use it."
+mp-559931,band_gap,1.6025,"I can’t access the Materials Project from here, so I cannot retrieve mp-559931’s band gap — please provide the value or grant an API response and I’ll extract the number."
+mp-559931,formation_energy_per_atom,-3.238528048750001,"I can’t access external databases in real time, so I’m unable to look up mp-559931. Please provide the Materials Project entry or the data, or allow me to fetch the page, and I’ll give the formation_energy_per_atom."
+mp-1206891,band_gap,1.0096,"I can’t access the Materials Project from here, so I can’t look up mp-1206891. Please either provide the value or run this short Python snippet (requires a Materials Project API key) to get the band gap in eV:
+
+from pymatgen.ext.matproj import MPRester
+with MPRester(""YOUR_API_KEY"") as m:
+    print(m.get_property(""mp-1206891"", ""band_gap""))
+
+If you paste the returned number here, I’ll confirm or use it as needed."
+mp-1206891,formation_energy_per_atom,-0.5667571437499991,"I can’t access the Materials Project database from here. Please provide the mp-1206891 entry or allow me to query it (e.g., give an API key), and I’ll return the formation_energy_per_atom."
+mp-1095275,band_gap,0.4889,"I can’t access the Materials Project from here, so I can’t look up mp-1095275 or provide its band gap. If you want to fetch it yourself, use this Python snippet (replace YOUR_API_KEY):
+
+from pymatgen.ext.matproj import MPRester
+with MPRester(""YOUR_API_KEY"") as m:
+    data = m.get_data(""mp-1095275"")
+    print(data[0][""band_gap""])
+
+If you paste the returned number here I’ll use it."
+mp-1095275,formation_energy_per_atom,-0.009709900654762,"I can’t query the Materials Project from here. If you want to fetch it yourself, run (with your API key):
+
+from pymatgen.ext.matproj import MPRester
+with MPRester(""YOUR_API_KEY""):
+    print(MPRester().get_data(""mp-1095275"")[0]['formation_energy_per_atom'])
+
+Provide the number or your API key and I can retrieve it for you."
+mp-1201,band_gap,0.1314,"I can’t access the Materials Project from here, so I can’t look up mp-1201’s band gap directly. If you want the value now, run this (requires a Materials Project API key):
+
+Python (pymatgen):
+from pymatgen.ext.matproj import MPRester
+with MPRester(""YOUR_API_KEY"") as m:
+    data = m.get_data(""mp-1201"")
+    print(data[0].get(""band_gap""))
+
+This will print the band_gap (in eV). If you run it and paste the result here, I can confirm or use it."
+mp-1201,formation_energy_per_atom,-0.383199846000002,"I can’t query the Materials Project from here, so I can’t directly look up mp-1201. If you want to retrieve it yourself, use the Materials Project API. For example, with pymatgen:
+
+from pymatgen.ext.matproj import MPRester
+with MPRester(""YOUR_API_KEY"") as m:
+    data = m.get_data(""mp-1201"")
+    print(data[0][""formation_energy_per_atom""])
+
+Run that and it will print the formation_energy_per_atom (eV/atom). If you run it and paste the result here, I’ll confirm or use it."
+mp-570437,band_gap,2.3382,"I don’t have live access to the Materials Project, so I can’t retrieve mp-570437’s band gap right now. I can fetch it if you allow me to access the web, or you can get it yourself with this Python snippet (replace YOUR_API_KEY):
+
+from pymatgen.ext.matproj import MPRester
+with MPRester(""YOUR_API_KEY"") as m:
+    data = m.get_data(""mp-570437"")
+    print(data[0][""band_gap""])
+
+If you prefer, paste the output here and I’ll extract the single number."
+mp-570437,formation_energy_per_atom,-0.827083558444443,"I can’t query the Materials Project from here. I don’t have live web/API access, so I can’t directly return mp-570437’s value.
+
+You can get it yourself with one of these quick methods:
+
+1) Using pymatgen (Python + your MP API key)
+from pymatgen.ext.matproj import MPRester
+with MPRester(""YOUR_API_KEY"") as m:
+    data = m.get_data(""mp-570437"")
+    print(data[0][""formation_energy_per_atom""])
+
+2) Using the Materials Project REST API (curl)
+curl -H ""X-API-KEY: YOUR_API_KEY"" ""https://materialsproject.org/rest/v2/materials/mp-570437/vasp?fields=formation_energy_per_atom""
+
+Run one of those and paste the number here if you want me to comment on it."
+mp-27358,band_gap,2.9034,"I can’t access the Materials Project database from here, so I can’t look up mp-27358. I can show the exact API query or steps to fetch the band_gap if you’d like."
+mp-27358,formation_energy_per_atom,-1.022062649955356,"I can’t access the Materials Project from here, so I can’t look up mp-27358. I won’t guess the value.
+
+You can get it yourself (web): https://materialsproject.org/materials/mp-27358
+
+Or with pymatgen:
+from pymatgen.ext.matproj import MPRester
+with MPRester(""YOUR_API_KEY"") as m:
+    data = m.get_data(""mp-27358"")
+    print(data[0][""formation_energy_per_atom""])
+
+If you paste the value here I’ll use it."
+mp-754815,band_gap,3.976499999999999,"I don’t have live access to the Materials Project, so I can’t look up mp-754815 here. If you want the exact number, either share the value or let me fetch it (I can if you provide an API key). Otherwise you can run this Python snippet yourself:
+
+from pymatgen.ext.matproj import MPRester
+with MPRester(""YOUR_API_KEY"") as m:
+    data = m.get_data(""mp-754815"")
+    print(data[0].get(""band_gap""))
+
+Run that and paste the printed value if you want me to confirm or use it."
+mp-754815,formation_energy_per_atom,-2.30537281125,"I can’t query the Materials Project from here, so I can’t look up mp-754815 directly. If you can run a quick command, here are two easy ways to get the formation_energy_per_atom:
+
+1) Python (pymatgen):
+from pymatgen.ext.matproj import MPRester
+with MPRester(""YOUR_API_KEY"") as mpr:
+    data = mpr.get_data(""mp-754815"")
+    print(data[0]['formation_energy_per_atom'])
+
+2) cURL (REST API):
+curl -s ""https://materialsproject.org/rest/v2/materials/mp-754815?API_KEY=YOUR_API_KEY"" | jq '.response[0].formation_energy_per_atom'
+
+If you run one of those and paste the returned number here, I’ll confirm or use it."
+mp-568263,band_gap,1.2121,"I can’t access the Materials Project database from here. I don’t know mp-568263’s band gap without querying that database. 
+
+You can find it quickly at https://materialsproject.org/materials/mp-568263 — the ""band_gap"" value is shown on the material's page (or in the API response at https://materialsproject.org/rest/v2/materials/mp-568263/vasp). If you paste the value here I’ll use it."
+mp-568263,formation_energy_per_atom,-0.69001870828125,"I don’t have live access to the Materials Project from here, so I can’t retrieve mp-568263’s formation_energy_per_atom directly. I can, however, give you the exact commands to run locally (or you can provide the result).
+
+Python (pymatgen):
+```
+from pymatgen.ext.matproj import MPRester
+with MPRester(""YOUR_API_KEY"") as m:
+    res = m.query({""material_id"":""mp-568263""}, [""formation_energy_per_atom""])
+    print(res[0][""formation_energy_per_atom""])
+```
+
+curl (REST API v2):
+```
+curl ""https://www.materialsproject.org/rest/v2/materials/mp-568263/vasp?API_KEY=YOUR_API_KEY""
+```
+Then read the JSON field formation_energy_per_atom.
+
+If you run one of those and paste the returned number here, I’ll confirm or use it. If you want me to fetch it for you, paste your Materials Project API key (or allow me to use it)."
+mp-1025522,band_gap,0.6758999999999991,"I can’t access the Materials Project from here to look up mp-1025522, so I can’t provide a reliable band gap value. If you want to retrieve it yourself, use this Python snippet with your Materials Project API key:
+
+from pymatgen.ext.matproj import MPRester
+with MPRester(""YOUR_API_KEY"") as m:
+    data = m.get_data(""mp-1025522"", prop=""band_gap"")
+    print(data[0][""band_gap""])
+
+If you share the value you obtain I can help interpret it."
+mp-1025522,formation_energy_per_atom,-1.162119996249998,"I can’t access the Materials Project database from here, so I can’t directly look up mp-1025522. Use the Materials Project API to get the formation energy per atom. Example (Python):
+
+from pymatgen.ext.matproj import MPRester
+with MPRester(""YOUR_API_KEY"") as m:
+    data = m.get_materials_features([""mp-1025522""], properties=[""formation_energy_per_atom""])
+    print(data[0][""formation_energy_per_atom""])
+
+Run that and it will print the single number. If you paste the returned value here I’ll confirm or use it."
+mp-571011,band_gap,1.7836,"I can’t access the Materials Project database from here to look up mp-571011. Please provide the band-gap value or allow me to query the database, and I’ll return the single-number answer."
+mp-571011,formation_energy_per_atom,-0.975770047431038,"I can’t directly query the Materials Project from here, so I can’t look up mp-571011’s formation_energy_per_atom. If you want to retrieve it yourself, use one of these methods:
+
+Python (pymatgen):
+from pymatgen.ext.matproj import MPRester
+with MPRester(""YOUR_API_KEY"") as m:
+    doc = m.get_data(""mp-571011"")[0]
+    print(doc[""formation_energy_per_atom""])
+
+curl (REST API):
+curl -s ""https://materialsproject.org/rest/v2/materials/mp-571011/vasp?API_KEY=YOUR_API_KEY"" | jq "".response[0].formation_energy_per_atom""
+
+If you paste the returned number here, I’ll confirm or use it. If you provide an API key I can use, I can fetch it for you."
+mp-28044,band_gap,4.918,"I don't have live access to the Materials Project, so I can't look up mp-28044 right now. If you want, I can fetch it if you allow me to access the web, or you can paste the material data here."
+mp-28044,formation_energy_per_atom,-2.512653630624999,"I can’t query the Materials Project from here, so I can’t look up mp-28044 or give a trustworthy number. I won’t fabricate a value.
+
+If you want to retrieve it yourself, here are two quick options:
+
+1) Open https://materialsproject.org/materials/mp-28044 and read the ""formation_energy_per_atom"" field.
+
+2) Use the Python API (replace YOUR_API_KEY):
+
+from pymatgen.ext.matproj import MPRester
+with MPRester(""YOUR_API_KEY"") as m:
+    data = m.get_data(""mp-28044"")
+    print(data[0][""formation_energy_per_atom""])
+
+If you paste the formation_energy_per_atom value here, I can use it or confirm related calculations."
+mp-1217322,band_gap,0.7062,I can’t access the Materials Project (mp-1217322) from here. Please provide the band_gap value or let me know if you want instructions to look it up on materialsproject.org.
+mp-1217322,formation_energy_per_atom,-0.010930726197914,"I’m unable to access the Materials Project from here, so I can’t look up mp-1217322. Please provide the data or allow me to query the API (or give the formation_energy_per_atom) and I’ll report the number."
+mp-541155,band_gap,0.9239,"I can’t access the Materials Project or external databases from here, so I can’t look up mp-541155. Please provide the band gap value or allow me to query the database."
+mp-541155,formation_energy_per_atom,-0.9510626574999992,"I can’t query the Materials Project from here. If you’d like the exact value, either provide permission/API access or run this short Python snippet yourself:
+
+from pymatgen.ext.matproj import MPRester
+with MPRester(""YOUR_API_KEY"") as m:
+    res = m.query({""material_id"": ""mp-541155""}, [""formation_energy_per_atom""])
+    print(res[0][""formation_energy_per_atom""])
+
+Or open https://materialsproject.org/materials/mp-541155 and read ""formation_energy_per_atom"" on the page."
+mp-19,band_gap,0.1856,"I can’t access the Materials Project (mp-19) from here. Please provide the material name or the band gap you want looked up, or allow me to fetch the entry."
+mp-19,formation_energy_per_atom,0.0,"I can't access the Materials Project database from here, so I can't look up mp-19's formation_energy_per_atom. Please provide the data or allow me to fetch it."
+mp-22885,band_gap,2.686199999999999,I can’t access the Materials Project database from here to look up mp-22885. Please allow me to fetch that entry or provide the band-gap value you have; otherwise I can show how to look it up.
+mp-22885,formation_energy_per_atom,-0.7818107566666681,"I can’t access the Materials Project from here, so I can’t look up mp-22885. If you run this Python snippet (replace ""YOUR_API_KEY"") it will print the formation_energy_per_atom:
+
+from pymatgen.ext.matproj import MPRester
+with MPRester(""YOUR_API_KEY"") as m:
+    print(m.query({""task_id"": ""mp-22885""}, [""formation_energy_per_atom""])[0][""formation_energy_per_atom""])
+
+If you paste the returned number here I’ll confirm or use it."
+mp-20652,band_gap,1.9078,"I can’t access the Materials Project database from here, so I can’t retrieve mp-20652’s band gap. If you want, provide the value or allow me to query the API and I’ll return the number."
+mp-20652,formation_energy_per_atom,-2.26442824375,"Sorry — I can’t query the Materials Project from here, so I can’t look up mp-20652. If you have an API key you can get it yourself; for example:
+
+from pymatgen.ext.matproj import MPRester
+with MPRester(""YOUR_API_KEY"") as m:
+    data = m.get_data(""mp-20652"")
+    print(data[0][""formation_energy_per_atom""])
+
+Run that and you’ll get the formation_energy_per_atom (eV/atom)."
+mp-27857,band_gap,0.9792,"I can’t access the Materials Project database from here, so I can’t look up mp-27857. If you want to get it yourself, run (replace YOUR_API_KEY):
+
+Python (pymatgen):
+from pymatgen.ext.matproj import MPRester
+with MPRester(""YOUR_API_KEY"") as m:
+    print(m.get_data(""mp-27857"")[0][""band_gap""])
+
+or use the REST API:
+https://materialsproject.org/rest/v2/materials/mp-27857/vasp?API_KEY=YOUR_API_KEY
+
+If you paste the result here I’ll extract the band gap for you."
+mp-27857,formation_energy_per_atom,-0.694771309999999,"I can't look up Materials Project entries from here. I don't have web/API access to retrieve mp-27857. If you want to get it yourself, run this Python (pymatgen) snippet:
+
+from pymatgen.ext.matproj import MPRester
+with MPRester(""YOUR_API_KEY"") as m:
+    data = m.get_data(""mp-27857"")
+    print(data[0][""formation_energy_per_atom""])
+
+Provide the value or your API key and I can fetch it for you."
+mp-985829,band_gap,1.2237,"I can’t access the Materials Project database from here, so I can’t look up mp-985829. Please provide the band gap or allow me access, or run this locally:
+
+from pymatgen.ext.matproj import MPRester
+with MPRester(""YOUR_API_KEY"") as m:
+    print(m.get_data(""mp-985829"")[0][""band_gap""])"
+mp-985829,formation_energy_per_atom,-1.806995168541668,"I can't access the Materials Project API or external databases from here, so I can't retrieve mp-985829's formation_energy_per_atom. 
+
+You can get it yourself with:
+
+from pymatgen.ext.matproj import MPRester
+with MPRester(""YOUR_API_KEY"") as m:
+    print(m.get_data(""mp-985829"")[0][""formation_energy_per_atom""])"
+mp-30034,band_gap,4.4707,"I can’t access the Materials Project from here, so I can’t look up mp-30034 directly. If you want to fetch it yourself, run this Python snippet (needs pymatgen and your Materials Project API key):
+
+from pymatgen.ext.matproj import MPRester
+
+with MPRester(""YOUR_API_KEY"") as m:
+    data = m.query({""material_id"": ""mp-30034""}, [""band_gap""])
+    print(data[0][""band_gap""])
+
+Or open https://materialsproject.org/materials/mp-30034 in your browser and read the ""band gap (eV)"" value. If you provide your API key here (or allow me web access), I can fetch the single-number answer for you."
+mp-30034,formation_energy_per_atom,-1.853706801666665,"I don’t have live access to the Materials Project, so I can’t retrieve mp-30034’s formation_energy_per_atom. 
+
+You can get it yourself with the Materials Project API. Example Python (pymatgen):
+
+from pymatgen.ext.matproj import MPRester
+with MPRester(""YOUR_API_KEY"") as m:
+    d = m.get_data(""mp-30034"")[0]
+    print(d[""formation_energy_per_atom""])
+
+Run that and paste the number here if you want me to confirm or use it."
+mp-22881,band_gap,3.5244,"I can't access the Materials Project database right now, so I can't retrieve mp-22881's band_gap. Please check https://materialsproject.org/materials/mp-22881 or use MPRester to get the numeric value."
+mp-22881,formation_energy_per_atom,-1.2745155149999992,"I can’t access the Materials Project database from here to look up mp-22881. If you want the value immediately, either provide an API key I can use or run this short Python snippet yourself:
+
+from pymatgen.ext.matproj import MPRester
+with MPRester(""YOUR_API_KEY"") as m:
+    print(m.get_data(""mp-22881"")[0][""formation_energy_per_atom""])
+
+If you share the output I’ll use it."
+mp-32755,band_gap,1.0395,"I can’t access the Materials Project or other external databases from here, so I can’t look up mp-32755. Provide the band gap or allow me to query the database (or I can give code to fetch it), and I’ll return the single-number answer."
+mp-32755,formation_energy_per_atom,-1.857414943749999,"I can’t access the Materials Project database from here. I can fetch mp-32755’s formation_energy_per_atom if you provide your Materials Project API key or run the short Python snippet below locally:
+
+from pymatgen.ext.matproj import MPRester
+with MPRester(""YOUR_API_KEY"") as m:
+    data = m.get_data(""mp-32755"", data_type=""vasp"")
+    print(data[0][""formation_energy_per_atom""])
+
+Run that and paste the number here, or give me permission/API key and I’ll fetch it."
+mp-2715,band_gap,0.172299999999999,"I don't have live access to the Materials Project to look up mp-2715. I can't give a single-number answer without querying the database.
+
+If you can run code or have an API key, you can get it quickly. Example Python (pymatgen) snippet:
+
+from pymatgen.ext.matproj import MPRester
+with MPRester(""YOUR_API_KEY"") as m:
+    d = m.get_data(""mp-2715"")[0]
+    print(d[""band_gap""])
+
+Or open: https://materialsproject.org/materials/mp-2715 and read the ""band_gap (eV)"" field.
+
+If you want, provide access or run one of the snippets and paste the result and I’ll confirm."
+mp-2715,formation_energy_per_atom,-0.290117705833334,"I can’t access the Materials Project from here, so I can’t look up mp-2715. To get the formation_energy_per_atom yourself, run (with your API key):
+
+from pymatgen.ext.matproj import MPRester
+with MPRester(""YOUR_API_KEY"") as m:
+    print(m.get_data(""mp-2715"")[0][""formation_energy_per_atom""])
+
+If you paste the returned number here I’ll confirm or use it."
+mp-504759,band_gap,0.9911,"I can't query the Materials Project from here, so I can't look up mp-504759 directly or give a single-number answer without access. I won't guess.
+
+You can get the band_gap value yourself and paste it here. Example methods:
+
+- Python (pymatgen):
+  from pymatgen.ext.matproj import MPRester
+  with MPRester(""YOUR_API_KEY"") as m:
+      d = m.get_data(""mp-504759"")
+      print(d[0][""band_gap""])
+
+- REST API (replace YOUR_API_KEY or use web UI):
+  https://materialsproject.org/rest/v2/materials/mp-504759
+
+Run one of those and paste the returned ""band_gap"" value and I will confirm or use it."
+mp-504759,formation_energy_per_atom,-2.631161137083333,"I can’t access the Materials Project database from here, so I can’t look up mp-504759 directly. If you want to fetch it yourself, use this short Python snippet (requires pymatgen and your Materials Project API key):
+
+from pymatgen.ext.matproj import MPRester
+with MPRester(""YOUR_API_KEY"") as m:
+    data = m.get_data(""mp-504759"")
+    print(data[0][""formation_energy_per_atom""])
+
+Run that and it will print the formation_energy_per_atom (eV/atom). If you paste the returned value here, I’ll confirm or use it for further calculations."
+mp-1525121,band_gap,1.687399999999999,"I can’t access the Materials Project or external databases right now, so I can’t look up mp-1525121. Please provide the band gap or the material formula, or allow me to fetch the entry."
+mp-1525121,formation_energy_per_atom,0.0,"I can’t access Materials Project from here, so I can’t look up mp-1525121 directly. If you want the single-number answer now, either paste the value or allow me to fetch it (provide an API key). Otherwise you can retrieve it with this short Python snippet:
+
+from mp_api.client import MPRester
+with MPRester(""YOUR_API_KEY"") as mpr:
+    doc = mpr.materials.get_materials_id(""mp-1525121"")
+    print(doc[""formation_energy_per_atom""])
+
+Run that and paste the result and I’ll confirm/format it."
+mp-865194,band_gap,5.3798,"I can’t access the Materials Project from here, so I can’t look up mp-865194 or give its band gap. If you want to get it yourself, use this Python snippet with your API key:
+
+from pymatgen.ext.matproj import MPRester
+with MPRester(""YOUR_API_KEY"") as m:
+    data = m.get_data(""mp-865194"")[0]
+    print(data[""band_gap""])
+
+Paste the returned number here and I’ll use it as requested."
+mp-865194,formation_energy_per_atom,-4.181989037499999,"I can’t access the Materials Project from here, so I can’t look up mp-865194 and won’t fabricate a value. To get the formation_energy_per_atom, run:
+
+from pymatgen.ext.matproj import MPRester
+with MPRester(""YOUR_API_KEY"") as m:
+    data = m.get_data(""mp-865194"")
+    print(data[0][""formation_energy_per_atom""])
+
+If you paste the result here I’ll confirm or use it for further calculations."
+mp-541610,band_gap,2.597,"I can’t access the Materials Project or external databases from here, so I can’t look up mp-541610’s band gap. Please provide the value or the entry data and I’ll extract it."
+mp-541610,formation_energy_per_atom,-0.927984858749999,"I can’t query the Materials Project from here. I don’t have live internet access, so I can’t fetch mp-541610’s formation_energy_per_atom. 
+
+If you want to get it yourself, here are two quick ways:
+
+1) Python (pymatgen):
+from pymatgen.ext.matproj import MPRester
+with MPRester(""YOUR_API_KEY"") as m:
+    data = m.get_data(""mp-541610"")
+    print(data[0][""formation_energy_per_atom""])
+
+2) curl (REST API):
+curl -H ""X-API-KEY: YOUR_API_KEY"" ""https://materialsproject.org/rest/v2/materials/mp-541610""
+Look in the returned JSON for ""formation_energy_per_atom"".
+
+If you paste the JSON or the number here, I’ll confirm or use it."
+mp-28933,band_gap,1.7587000000000002,I can’t access the Materials Project database from here. Provide the entry data or allow me to query the API (or run this locally) and I’ll return the band_gap.
+mp-28933,formation_energy_per_atom,-0.198695136500001,"I can't query the Materials Project from here. If you run this (with your API key) it will return the formation_energy_per_atom:
+
+curl -H ""X-API-KEY: <YOUR_API_KEY>"" ""https://materialsproject.org/rest/v2/materials/mp-28933"" | jq '.response[0].formation_energy_per_atom'
+
+Run that and paste the number here, or give me access to the API key and I can fetch it for you."
+mp-23205,band_gap,3.6162,"I can’t access the Materials Project from here, so I can’t retrieve mp-23205’s band gap. If you want to get it yourself, run (with your Materials Project API key):
+
+from pymatgen.ext.matproj import MPRester
+with MPRester(""YOUR_API_KEY"") as m:
+    data = m.query(criteria={""task_id"":""mp-23205""}, properties=[""band_gap""])
+    print(data[0][""band_gap""])
+
+Provide the retrieved number and I’ll use it."
+mp-23205,formation_energy_per_atom,-1.3037782916666671,"I can’t query the Materials Project from here. I don’t have browsing or API access, so I can’t look up mp-23205 to return its formation_energy_per_atom.
+
+You can get it yourself with the Materials Project Python API (pymatgen) — for example:
+
+from pymatgen.ext.matproj import MPRester
+with MPRester(""YOUR_API_KEY"") as m:
+    entry = m.get_data(""mp-23205"", data_type=""vasp"")[0]
+    print(entry[""formation_energy_per_atom""])
+
+If you paste the returned number here, I’ll use it."
+mp-985831,band_gap,0.5342,"I can’t access the Materials Project database from here, so I can’t look up mp-985831’s band_gap. If you want to retrieve it yourself, use the Materials Project website (https://materialsproject.org/materials/mp-985831/) or this Python snippet:
+
+from pymatgen.ext.matproj import MPRester
+with MPRester(""YOUR_API_KEY"") as m:
+    data = m.get_data(""mp-985831"")
+    print(data[0].get(""band_gap""))
+
+Provide the value you find and I’ll use it — otherwise I can fetch it if you grant me access to the database."
+mp-985831,formation_energy_per_atom,-1.564946299374999,"I can’t query the Materials Project from here, so I can’t look up mp-985831 directly. If you want to retrieve it yourself, use one of these methods:
+
+- Python (pymatgen):
+  from pymatgen.ext.matproj import MPRester
+  with MPRester(""YOUR_API_KEY"") as m:
+      data = m.get_data(""mp-985831"")
+      print(data[0][""formation_energy_per_atom""])
+
+- curl (REST API v2):
+  curl -s -H ""X-API-KEY: YOUR_API_KEY"" ""https://materialsproject.org/rest/v2/materials/mp-985831"" | jq -r '.response[0].formation_energy_per_atom'
+
+If you paste the returned number here, I’ll confirm or use it as needed."
+mp-540829,band_gap,0.710199999999999,"I can’t access the Materials Project database from here, so I can’t retrieve mp-540829’s band gap—please provide the value or allow an API lookup."
+mp-540829,formation_energy_per_atom,-1.872036438333334,"I can’t access the Materials Project or other external databases from here, so I can’t look up mp-540829 and won’t guess a value. 
+
+You can retrieve the formation_energy_per_atom with the Materials Project API. Example Python (pymatgen) code:
+
+from pymatgen.ext.matproj import MPRester
+with MPRester(""YOUR_API_KEY"") as m:
+    data = m.get_data(""mp-540829"")
+    print(data[0][""formation_energy_per_atom""])
+
+Or use the REST API (replace YOUR_API_KEY):
+
+curl -H ""X-API-KEY: YOUR_API_KEY"" ""https://materialsproject.org/rest/v2/materials/mp-540829/vasp"" 
+
+If you paste the returned number here, I will reply with that single numeric value."
+mp-1525632,band_gap,2.8979,"I can’t access the Materials Project from here to look up mp-1525632. If you want to retrieve it yourself, run this Python snippet (replace YOUR_API_KEY):
+
+from pymatgen.ext.matproj import MPRester
+with MPRester(""YOUR_API_KEY"") as m:
+    data = m.get_task_data(""mp-1525632"")
+    print(data[0].get(""band_gap""))
+
+Run that and copy the single number output here and I’ll use it."
+mp-1525632,formation_energy_per_atom,0.0,"I can’t access the Materials Project in real time, so I can’t look up mp-1525632’s formation_energy_per_atom. If you want, I can fetch it for you if you provide the value or an API key, or you can run this Python snippet locally:
+
+from pymatgen.ext.matproj import MPRester
+with MPRester(""YOUR_API_KEY"") as m:
+    print(m.get_data(""mp-1525632"")[0][""formation_energy_per_atom""])
+
+Tell me which option you prefer."
+mp-573815,band_gap,0.9469999999999992,"I don’t have live access to the Materials Project, so I can’t look up mp-573815 and must not guess. If you want to retrieve it yourself, run:
+
+from pymatgen.ext.matproj import MPRester
+with MPRester(""YOUR_API_KEY"") as m:
+    props = m.get_materials_properties([""mp-573815""], properties=[""band_gap""])
+    print(props)
+
+This will show the band_gap (in eV). If you paste the result here, I’ll give the single-number answer."
+mp-573815,formation_energy_per_atom,-0.348767611458335,"I can’t access the Materials Project database from here, so I can’t look up mp-573815 and therefore can’t provide that single-number value.
+
+You can retrieve it yourself with this Python snippet (requires an API key from materialsproject.org):
+
+from pymatgen.ext.matproj import MPRester
+with MPRester(""YOUR_API_KEY"") as m:
+    doc = m.get_data(""mp-573815"", data_type=""vasp"")
+    # Or directly:
+    props = m.get_materials_id(""mp-573815"")
+    print(props[""formation_energy_per_atom""])
+
+Run that and paste the number here if you want me to use it."
+mp-607450,band_gap,0.229,I can’t access the Materials Project (mp-607450) from here to look up its band gap. Please provide the value or allow me to fetch it (or give the material formula/structure) and I’ll return the band gap.
+mp-607450,formation_energy_per_atom,-0.235972947500002,"I don’t have live access to the Materials Project, so I can’t look up mp-607450 and won’t guess the value. If you want to get it yourself, run this Python snippet (replace YOUR_API_KEY):
+
+from pymatgen.ext.matproj import MPRester
+with MPRester(""YOUR_API_KEY"") as m:
+    data = m.get_data(""mp-607450"", data_type=""thermo"")
+    for d in data:
+        print(d.get(""formation_energy_per_atom""))
+
+If you paste the returned number here I’ll confirm or use it."
+mp-23162,band_gap,1.0479,"I don’t have live access to the Materials Project, so I can’t look up mp-23162 directly. If you want the value now, either:
+
+- Provide permission/API key so I can fetch it for you, or
+- Run this Python snippet locally (requires pymatgen and your Materials Project API key) which prints the band gap:
+
+from pymatgen.ext.matproj import MPRester
+with MPRester(""YOUR_API_KEY"") as m:
+    print(m.get_data(""mp-23162"")[0][""band_gap""])
+
+Tell me which you prefer."
+mp-23162,formation_energy_per_atom,-1.87860569,"I don’t have live access to the Materials Project, so I can’t look up mp-23162 directly right now. If you want the single numeric value, either paste the mp-23162 record here or let me fetch it using your Materials Project API key.
+
+If you can run code, this snippet will return the formation_energy_per_atom:
+
+Python (pymatgen):
+from pymatgen.ext.matproj import MPRester
+with MPRester(""YOUR_API_KEY"") as m:
+    d = m.get_data(""mp-23162"")
+    print(d[0][""formation_energy_per_atom""])
+
+Or you can use the REST endpoint:
+https://materialsproject.org/rest/v2/materials/mp-23162?API_KEY=YOUR_API_KEY
+
+Provide the value or an API key and I’ll return the single number."
+mp-2402,band_gap,1.1286,"I can’t query the Materials Project from here. If you run the following Python snippet locally (replace ""YOUR_API_KEY""), it will print the band_gap (eV) for mp-2402:
+
+```
+from pymatgen.ext.matproj import MPRester
+with MPRester(""YOUR_API_KEY"") as m:
+    data = m.get_data(""mp-2402"", data_type=""vasp"")
+    print(data[0][""band_gap""])
+```
+
+Or using the REST API (replace API_KEY):
+
+curl -s ""https://www.materialsproject.org/rest/v2/materials/mp-2402/vasp"" -H ""X-API-KEY: API_KEY"" | jq -r '.response[0].band_gap'"
+mp-2402,formation_energy_per_atom,-0.069361268125,"I don't have live access to the Materials Project from here, so I can't look up mp-2402 directly. I won't guess a number.
+
+If you want me to fetch it, either:
+- provide your Materials Project API key here (I can run a query and report the value), or
+- tell me to attempt a web lookup.
+
+Or you can retrieve it yourself with one of these quick methods:
+
+1) Using Python + pymatgen:
+from pymatgen.ext.matproj import MPRester
+with MPRester(""YOUR_API_KEY"") as m:
+    d = m.get_data(""mp-2402"")
+    print(d[0][""formation_energy_per_atom""])
+
+2) Using the REST API (replace YOUR_API_KEY):
+https://materialsproject.org/rest/v2/materials/mp-2402/vasp?API_KEY=YOUR_API_KEY
+Then look for ""formation_energy_per_atom"" in the JSON.
+
+Tell me how you'd like to proceed."
+mp-9922,band_gap,1.1326,"I don't have live access to the Materials Project database from here, so I can't reliably lookup mp-9922. Do you want me to fetch it (I can query the Materials Project API if you allow), or can you provide the entry data?"
+mp-9922,formation_energy_per_atom,-1.373804485859373,"I can’t access the Materials Project from here, so I can’t look up mp-9922 or give the formation energy. I won’t guess. To get it yourself, run:
+
+Python (pymatgen)
+from pymatgen.ext.matproj import MPRester
+with MPRester(""YOUR_API_KEY"") as m:
+    data = m.get_data(""mp-9922"")
+    print(data[0][""formation_energy_per_atom""])
+
+This will print the formation_energy_per_atom in eV/atom. If you paste that value here I’ll use it."
+mp-1545216,band_gap,0.4836,"I can’t access the Materials Project database from here, so I can’t look up mp-1545216. I won’t guess a number.
+
+If you want to get it yourself, run this Python snippet (replace YOUR_API_KEY):
+
+from pymatgen.ext.matproj import MPRester
+with MPRester(""YOUR_API_KEY"") as m:
+    data = m.get_data(""mp-1545216"")
+    print(data[0]['band_gap'])
+
+If you paste the result here I’ll respond with the single-number answer you requested."
+mp-1545216,formation_energy_per_atom,-0.907728662126436,"I can’t access the Materials Project database from here, so I can’t look up mp-1545216 and give a number. 
+
+You can get it yourself with this Python snippet (requires a Materials Project API key and pymatgen):
+
+from pymatgen.ext.matproj import MPRester
+with MPRester(""YOUR_API_KEY"") as m:
+    data = m.get_data(""mp-1545216"")
+    print(data[0][""formation_energy_per_atom""])
+
+Run that and it will print the formation_energy_per_atom (eV/atom)."
+mp-1968,band_gap,3.824799999999999,"I can’t access the Materials Project database from here, so I can’t look up mp-1968. Please provide the value or allow me to fetch it."
+mp-1968,formation_energy_per_atom,-3.8759289195,"I can’t query the Materials Project from here. I don’t have live internet access, so I can’t fetch mp-1968’s value directly.
+
+If you want to retrieve it yourself, here’s a one-line example (Python, pymatgen) that returns the single number:
+
+from pymatgen.ext.matproj import MPRester
+with MPRester(""YOUR_API_KEY"") as m:
+    print(m.query(""mp-1968"", [""formation_energy_per_atom""])[0][""formation_energy_per_atom""])
+
+Run that and paste the number here if you want me to interpret it."
+mp-29711,band_gap,0.638899999999999,I can’t access the Materials Project from here. Please provide the band_gap value or allow me to look it up (or paste the material name/structure) so I can answer.
+mp-29711,formation_energy_per_atom,-0.444227307333335,"I can’t access the Materials Project from here, so I can’t look up mp-29711. Please run this short Python snippet (replace YOUR_API_KEY) to get the formation_energy_per_atom and paste the result here:
+
+from pymatgen.ext.matproj import MPRester
+with MPRester(""YOUR_API_KEY"") as m:
+    data = m.get_data(""mp-29711"")
+    print(data[0][""formation_energy_per_atom""])
+
+If you prefer a web route, open https://materialsproject.org/materials/mp-29711 and read the ""Formation Energy per Atom"" field."
+mp-2133,band_gap,0.7227,I can’t access the Materials Project database from here. Please provide the material formula or allow me to fetch mp-2133 so I can give the band gap.
+mp-2133,formation_energy_per_atom,-1.7908991124999991,"I can't access the Materials Project database from here, so I can't look up mp-2133 directly. If you want to retrieve it yourself, use this Python snippet (replace ""YOUR_API_KEY""):
+
+from pymatgen.ext.matproj import MPRester
+with MPRester(""YOUR_API_KEY"") as m:
+    data = m.get_data(""mp-2133"", prop=""formation_energy_per_atom"")
+    print(data[0][""formation_energy_per_atom""])
+
+Run that and paste the number here if you want me to interpret it."
+mp-1185959,band_gap,1.133699999999999,"I can’t access the Materials Project (mp-1185959) from here, so I can’t look up its band gap — please provide the value or grant access to the data."
+mp-1185959,formation_energy_per_atom,-1.154441889999999,"I can’t query the Materials Project from here. I don’t have live access to mp-1185959, so I can’t provide that single-number value.
+
+If you want to fetch it yourself, run (Python, pymatgen):
+from pymatgen.ext.matproj import MPRester
+with MPRester(""YOUR_API_KEY"") as m:
+    d = m.get_data(""mp-1185959"")[0]
+    print(d[""formation_energy_per_atom""])
+
+If you paste the returned number here or provide an API key, I’ll report it."
+mp-985278,band_gap,6.0693,"I can’t access the Materials Project (mp-985278) from here to look up that value. Please provide the band gap or allow me to query the Materials Project API (with an API key), and I’ll return the number."
+mp-985278,formation_energy_per_atom,-4.467987469375,"I don't have live access to the Materials Project, so I can't fetch mp-985278 for you. If you can run a quick query, this Python snippet returns the number (replace YOUR_API_KEY):
+
+from pymatgen.ext.matproj import MPRester
+with MPRester(""YOUR_API_KEY"") as m:
+    data = m.get_data(""mp-985278"", fields=[""formation_energy_per_atom""])
+    print(data[0][""formation_energy_per_atom""])
+
+Run that and paste the result here and I can confirm or use it."
+mp-23710,band_gap,3.709699999999999,I can’t access the Materials Project from here to look up mp-23710. Please provide the data or allow me to fetch it.
+mp-23710,formation_energy_per_atom,-0.2827190725,"I can’t access the Materials Project from here, so I can’t look up mp-23710. To get it yourself run:
+
+from pymatgen.ext.matproj import MPRester
+with MPRester(""YOUR_API_KEY"") as r:
+    print(r.get_data(""mp-23710"")[0][""formation_energy_per_atom""])
+
+If you paste the result here I’ll confirm or use it."
+mp-341,band_gap,1.9022,"I don’t have live access to the Materials Project database, so I can’t look up mp-341 directly. If you can allow me to fetch it (I would need internet access) or provide the compound name/formula or the entry data, I’ll give the band gap. Otherwise please paste the mp-341 page output and I’ll extract the single-number answer."
+mp-341,formation_energy_per_atom,-1.990905017999998,"I can’t query the Materials Project from here. If you want the exact value, either provide a Materials Project API key (I can use it to fetch mp-341) or run this short Python snippet locally to get the formation_energy_per_atom:
+
+from pymatgen.ext.matproj import MPRester
+with MPRester(""YOUR_API_KEY"") as m:
+    doc = m.get_data(""mp-341"")[0]
+    print(doc[""formation_energy_per_atom""])
+
+Tell me if you want me to fetch it (and provide an API key) or run this for you and report the single-number result."
+mp-32800,band_gap,2.2962,"I can’t access the Materials Project database from here, so I can’t look up mp-32800’s band gap. Please check https://materialsproject.org/materials/mp-32800 and tell me the value if you’d like further help."
+mp-32800,formation_energy_per_atom,-2.4930635934375,"I can’t query the Materials Project from here, so I can’t directly look up mp-32800. If you run this locally (replace YOUR_API_KEY), it will print the formation energy per atom:
+
+Python (pymatgen):
+from pymatgen.ext.matproj import MPRester
+with MPRester(""YOUR_API_KEY"") as mpr:
+    d = mpr.get_data(""mp-32800"")
+    print(d[0][""formation_energy_per_atom""])
+
+Or view https://materialsproject.org/materials/mp-32800 and check the ""formation_energy_per_atom"" field. If you paste the value here I’ll confirm or use it."
+mp-685014,band_gap,2.0644,"I can’t query the Materials Project from here, so I don’t have mp-685014’s band gap. Provide the value (or allow me to fetch it) and I’ll use it — or you can look it up at https://materialsproject.org/materials/mp-685014 and tell me the reported band_gap (eV)."
+mp-685014,formation_energy_per_atom,-1.068962764541666,I can’t access the Materials Project from here to look up mp-685014. Please provide the entry data or allow me to query the Materials Project API so I can return the formation_energy_per_atom.
+mp-559798,band_gap,4.9116,"I can’t access the Materials Project from here, so I can’t look up mp-559798. Please provide the band gap value or allow me to fetch the entry."
+mp-559798,formation_energy_per_atom,-2.23065729,"I can’t access the Materials Project database from here, so I can’t look up mp-559798. You can get the formation_energy_per_atom with this Python snippet (replace YOUR_API_KEY):
+
+from pymatgen.ext.matproj import MPRester
+with MPRester(""YOUR_API_KEY"") as m:
+    data = m.get_data(""mp-559798"", data_type=""vasp"")
+    print(data[0].get(""formation_energy_per_atom""))
+
+Run that and it will print the value (in eV/atom)."
+mp-1080821,band_gap,0.7896000000000001,"Sorry — I can't query the Materials Project from here, so I can't look up mp-1080821's band gap. I won't fabricate a number.
+
+You can get it yourself with this short Python snippet (replace YOUR_API_KEY):
+
+from pymatgen.ext.matproj import MPRester
+with MPRester(""YOUR_API_KEY"") as m:
+    data = m.get_data(""mp-1080821"")
+    print(data[0]['band_gap'])
+
+If you paste the material entry JSON or the band_gap value here, I'll extract or confirm the number."
+mp-1080821,formation_energy_per_atom,-3.19318655375,"I can’t query the Materials Project from here. I don’t have live internet access or your API key, so I can’t return that single number directly.
+
+You can get it quickly with the Materials Project API or pymatgen. Example using pymatgen (replace YOUR_API_KEY):
+
+from pymatgen.ext.matproj import MPRester
+with MPRester(""YOUR_API_KEY"") as m:
+    value = m.query({""material_id"": ""mp-1080821""}, [""formation_energy_per_atom""])[0][""formation_energy_per_atom""]
+    print(value)
+
+Or with curl + jq:
+
+curl -s ""https://materialsproject.org/rest/v2/materials/mp-1080821/vasp"" -H ""X-API-KEY: YOUR_API_KEY"" | jq '.response[0].formation_energy_per_atom'
+
+If you share the result or provide an API key, I’ll extract the single numeric value for you."
+mp-540625,band_gap,1.7063,"I can’t access the Materials Project (mp-540625) from here, so I can’t look up its band gap. Please provide the material entry or allow me to query the database so I can give the exact number."
+mp-540625,formation_energy_per_atom,-0.5793224153125001,"I can’t access the Materials Project database from here, so I can’t retrieve mp-540625’s formation_energy_per_atom. 
+
+If you run this Python snippet locally (with your Materials Project API key) it will return the single number:
+
+from pymatgen import MPRester
+with MPRester(""YOUR_API_KEY"") as m:
+    data = m.get_data(""mp-540625"", prop=""formation_energy_per_atom"")
+    print(data[0][""formation_energy_per_atom""])
+
+If you’d like, paste the output here and I’ll interpret it."
+mp-1025442,band_gap,1.3846999999999992,"I can’t query the Materials Project from here, so I can’t look up mp-1025442 directly. If you can run code, this will return the band gap (in eV):
+
+Python (pymatgen):
+from pymatgen.ext.matproj import MPRester
+with MPRester(""YOUR_API_KEY"") as m:
+    data = m.get_data(""mp-1025442"")
+    print(data[0]['band_gap'])
+
+Replace YOUR_API_KEY with your Materials Project API key. If you paste the result here I’ll respond with the single-number answer."
+mp-1025442,formation_energy_per_atom,-0.44096969,"I can’t query the Materials Project database from here, so I can’t directly look up mp-1025442. I won’t guess a value.
+
+If you want to get it yourself, run one of these (replace YOUR_API_KEY):
+
+- Python (pymatgen):
+  ```
+  from pymatgen.ext.matproj import MPRester
+  with MPRester(""YOUR_API_KEY"") as mpr:
+      d = mpr.get_data(""mp-1025442"")
+      print(d[0]['formation_energy_per_atom'])
+  ```
+
+- curl (REST API + jq):
+  ```
+  curl -H ""X-API-KEY: YOUR_API_KEY"" ""https://www.materialsproject.org/rest/v2/materials/mp-1025442/vasp"" \
+    | jq '.response[0].formation_energy_per_atom'
+  ```
+
+If you paste the API output here or provide permission and your API key, I can read out the single number for you."
+mp-556911,band_gap,1.6921,"I can’t access the Materials Project from here, so I can’t reliably retrieve mp-556911’s band gap. Please provide the value or check https://materialsproject.org/materials/mp-556911 and I’ll use it."
+mp-556911,formation_energy_per_atom,-2.590574678333332,Sorry — I can’t access external databases (Materials Project) to look up mp-556911. I won’t guess; please provide the value or allow me to query the Materials Project API.
+mp-23263,band_gap,2.9266,"I don’t have live access to the Materials Project, so I can’t look up mp-23263. Please provide the value or grant access (e.g., an API key) or check https://materialsproject.org/materials/mp-23263 — then I can return the band gap."
+mp-23263,formation_energy_per_atom,-2.423042803749999,"I can’t directly query the Materials Project from here, so I can’t safely provide mp-23263’s formation_energy_per_atom. If you want to fetch it yourself, use one of these methods:
+
+- REST (replace YOUR_API_KEY):
+  curl -s -H ""X-API-KEY: YOUR_API_KEY"" ""https://api.materialsproject.org/v2/materials/mp-23263/vasp"" | jq '.response[0].formation_energy_per_atom'
+
+- Python (pymatgen):
+  from pymatgen.ext.matproj import MPRester
+  with MPRester(""YOUR_API_KEY"") as m:
+      data = m.get_data(""mp-23263"")[0]
+      print(data[""formation_energy_per_atom""])
+
+If you paste the returned number here, I’ll use it as requested."
+mp-16911,band_gap,1.9539,"I can’t access the Materials Project database from here, so I can’t look up mp-16911. I won’t guess. 
+
+If you can run Python, this will get the band gap (in eV) for mp-16911 using pymatgen:
+
+from pymatgen.ext.matproj import MPRester  
+with MPRester(""YOUR_API_KEY"") as m:  
+    data = m.get_data(""mp-16911"", data_type=""vasp"")  
+    print(data[0].get(""band_gap""))
+
+Or paste the band_gap value you find and I’ll confirm or use it."
+mp-16911,formation_energy_per_atom,-0.955290041071428,I can’t look up Materials Project entries from here (no live web access). Please provide the mp-16911 data or allow me to query the Materials Project and I’ll return the formation_energy_per_atom.
+mp-1705,band_gap,0.5057,"I don't have live access to the Materials Project. Do you want me to look up mp-1705 for you (I can query the Materials Project API if you permit), or can you provide the material formula so I can answer?"
+mp-1705,formation_energy_per_atom,-1.74803409,"I can’t query the Materials Project from here, so I can’t look up mp-1705 directly. If you want to get it yourself, run (replace YOUR_API_KEY):
+
+from pymatgen.ext.matproj import MPRester
+with MPRester(""YOUR_API_KEY"") as m:
+    d = m.get_data(""mp-1705"")
+    print(d[0][""formation_energy_per_atom""])
+
+If you provide the value or give me an API key/permission to fetch it, I’ll return the single-number answer."
+mp-561197,band_gap,5.5366,"I can’t access the Materials Project database from here, so I can’t look up mp-561197’s band gap. If you want, I can show a short script or API request you can run to retrieve it, or you can allow me to query the database. Which do you prefer?"
+mp-561197,formation_energy_per_atom,-3.404466658305554,"I can’t access the Materials Project database from here, so I can’t look up mp-561197 — please provide the entry data or allow me to query the API."
+mp-23183,band_gap,4.299799999999999,I can’t access the Materials Project from here. Please allow me to look it up or provide the data—otherwise I can’t reliably give a single-number answer.
+mp-23183,formation_energy_per_atom,-2.585905556250001,"I can’t access the Materials Project database from here, so I can’t look up mp-23183. I won’t guess the formation_energy_per_atom. 
+
+You can find it yourself at https://materialsproject.org/materials/mp-23183 by checking the ""formation_energy_per_atom"" field on the material page (or in the JSON returned by the REST API). If you paste that value here, I can use it or compare it to other materials."
+mp-23280,band_gap,3.9873,0.00
+mp-23280,formation_energy_per_atom,-0.755685861249999,"I can’t access the Materials Project database from here, so I can’t look up mp-23280. If you run this (with your Materials Project API key) it will return the formation_energy_per_atom:
+
+from pymatgen.ext.matproj import MPRester
+with MPRester(""YOUR_API_KEY"") as m:
+    data = m.get_data(""mp-23280"")[0]
+    print(data[""formation_energy_per_atom""])
+
+If you want, paste the returned number here and I’ll use it."
+mp-1524462,band_gap,2.7061,"I can’t access the Materials Project database right now, so I’m unable to retrieve mp-1524462’s band gap."
+mp-1524462,formation_energy_per_atom,0.0,"I can’t access the Materials Project database from here, so I can’t fetch mp-1524462’s value directly. You can get it yourself with this Python snippet:
+
+from pymatgen.ext.matproj import MPRester
+with MPRester(""YOUR_API_KEY"") as m:
+    print(m.get_data(""mp-1524462"")[0][""formation_energy_per_atom""])
+
+Run that and it will print the single number (eV/atom)."
+mp-706630,band_gap,3.606099999999999,I can’t access the Materials Project database from here. Please provide the band gap or allow me to look it up; you can check https://materialsproject.org/materials/mp-706630/.
+mp-706630,formation_energy_per_atom,-0.095264628645833,"Sorry — I don't have live access to the Materials Project database, so I can't look up mp-706630. If you provide the entry data or allow me to fetch it, I can extract the formation_energy_per_atom."
+mp-541837,band_gap,0.3769,"I can’t access the Materials Project database from here, so I cannot look up mp-541837. Please provide the band gap value or the material’s structure/composition, or allow me to fetch the entry, and I’ll report the band_gap (eV)."
+mp-541837,formation_energy_per_atom,-0.434076935437502,"I can’t query the Materials Project from here. I don’t want to guess. 
+
+You can get it quickly yourself with the Materials Project API. Example Python (pymatgen) — replace YOUR_API_KEY:
+
+from pymatgen.ext.matproj import MPRester
+with MPRester(""YOUR_API_KEY"") as m:
+    data = m.get_data(""mp-541837"", prop=""formation_energy_per_atom"")
+    print(data)
+
+Or visit the web page:
+https://www.materialsproject.org/materials/mp-541837
+and read the ""formation_energy_per_atom (eV/atom)"" field.
+
+If you share the result or give me an API key I can use here, I’ll return the single number."
+mp-1819,band_gap,2.028799999999999,"I don't have live access to the Materials Project database, so I can't look up mp-1819 directly. Please provide the band gap value or allow me to query the Materials Project API (or paste the material name/structure), and I'll return the number."
+mp-1819,formation_energy_per_atom,-1.839006646249989,I can’t access the Materials Project database from here. I’m unable to look up mp-1819’s formation energy — would you like me to fetch it if you enable a web lookup or provide the data?
+mp-7988,band_gap,0.583199999999999,"I can’t access the Materials Project database from here, so I’m unable to reliably retrieve mp-7988’s band gap. Please provide the value or allow me to look it up."
+mp-7988,formation_energy_per_atom,-1.180246544770117,"I can’t access the Materials Project from here, so I can’t retrieve mp-7988’s formation_energy_per_atom. Please run, for example, MPRester().get_data(""mp-7988"")[0][""formation_energy_per_atom""] to get it."
+mp-2049132,band_gap,0.216299999999999,"I can’t access the Materials Project from here, so I can’t look up mp-2049132. I won’t guess a number. 
+
+If you can run a quick query, use this Python snippet with your Materials Project API key to get the band gap:
+from pymatgen.ext.matproj import MPRester
+with MPRester(""YOUR_API_KEY"") as m:
+    d = m.get_data(""mp-2049132"")
+    print(d[0][""band_gap""])"
+mp-2049132,formation_energy_per_atom,-0.298604841000002,"I can’t access the Materials Project from here, so I can’t look up mp-2049132 to give that number. If you run this short Python snippet (requires a Materials Project API key and pymatgen) it will print the formation_energy_per_atom:
+
+from pymatgen.ext.matproj import MPRester
+with MPRester(""YOUR_API_KEY"") as m:
+    data = m.query({""material_id"": ""mp-2049132""}, [""formation_energy_per_atom""])
+    print(data[0][""formation_energy_per_atom""])
+
+If you prefer, paste the material page URL or the JSON output here and I’ll extract the single-number answer for you."
+mp-7943,band_gap,0.3285,"I can’t query the Materials Project from here. I don’t have the band_gap for mp-7943 available. If you want, paste the material page or give permission to use an API key and I can fetch it — otherwise you can retrieve it yourself via the Materials Project API (e.g., using pymatgen’s MPRester.get_data(""mp-7943"") ) and share the number."
+mp-7943,formation_energy_per_atom,-0.588209097083334,"I can’t access the Materials Project from here, so I can’t look up mp-7943 to give the formation_energy_per_atom. If you’d like, you can fetch it yourself with this short Python snippet (replace YOUR_API_KEY):
+
+from pymatgen.ext.matproj import MPRester
+with MPRester(""YOUR_API_KEY"") as m:
+    d = m.get_data(""mp-7943"")
+    print(d[0]['formation_energy_per_atom'])
+
+Or visit https://materialsproject.org/materials/mp-7943 and read the ""formation_energy_per_atom"" field. Would you like me to fetch it if you provide an API key?"
+mp-30792,band_gap,0.1566,"I can’t access the Materials Project database from here, so I can’t look up mp-30792. Please provide the entry data or allow me to fetch it; otherwise I can’t give a reliable band-gap value."
+mp-30792,formation_energy_per_atom,-0.269950954999998,"I can’t access the live Materials Project database from here, so I can’t reliably return mp-30792’s formation_energy_per_atom. I won’t guess a value.
+
+If you can run Python, use this to fetch the value (requires a Materials Project API key):
+
+from pymatgen.ext.matproj import MPRester
+
+api_key = ""YOUR_API_KEY""
+with MPRester(api_key) as m:
+    data = m.query(""mp-30792"", [""formation_energy_per_atom""])
+    print(data)
+
+If you prefer, paste the material JSON/entry here and I’ll read the formation_energy_per_atom for you."
+mp-352,band_gap,4.0165,I can’t access the Materials Project from here to look up mp-352. Please allow me to fetch it or provide the material name or data.
+mp-352,formation_energy_per_atom,-4.019811040833332,"I can’t access the Materials Project from here, so I can’t look up mp-352 and must not guess the value. To get the formation_energy_per_atom (eV/atom) yourself, run one of these:
+
+Python (pymatgen):
+from pymatgen.ext.matproj import MPRester
+with MPRester(""YOUR_API_KEY"") as m:
+    data = m.get_data(""mp-352"")
+    print(data[0][""formation_energy_per_atom""])
+
+cURL (REST API):
+curl -H ""X-API-KEY: YOUR_API_KEY"" ""https://www.materialsproject.org/rest/v2/materials/mp-352/vasp"" | jq '.response[0].formation_energy_per_atom'
+
+Replace YOUR_API_KEY with your Materials Project API key."
+mp-15954,band_gap,0.2625,"I can’t access the Materials Project database from here, so I can’t look up mp-15954’s band gap. Please provide the value or grant access to the data source."
+mp-15954,formation_energy_per_atom,-0.5725928316666651,"I can’t access the Materials Project from here, so I can’t look up mp-15954 or provide that number. I won’t fabricate a value.
+
+You can get it yourself with this Python snippet (replace YOUR_API_KEY):
+
+from pymatgen.ext.matproj import MPRester
+with MPRester(""YOUR_API_KEY"") as m:
+    print(m.get_data(""mp-15954"")[0][""formation_energy_per_atom""])
+
+Run that and share the number if you want further help."
+mp-23165,band_gap,0.8929,"I’m sorry—I don’t have live access to the Materials Project, so I can’t look up mp-23165 directly. If you want the band_gap now, you can fetch it with this short Python snippet (requires an API key from Materials Project):
+
+from pymatgen.ext.matproj import MPRester
+with MPRester(""YOUR_API_KEY"") as m:
+    entry = m.get_data(""mp-23165"")[0]
+    print(entry.get(""band_gap""))
+
+Or with curl:
+
+curl -H ""X-API-KEY: YOUR_API_KEY"" ""https://materialsproject.org/rest/v2/materials/mp-23165/vasp"" | jq '.response[0].band_gap'
+
+If you run that and paste the result here, I’ll respond with the single-number answer."
+mp-23165,formation_energy_per_atom,-0.6577550981249981,"I can’t query the Materials Project from here. I don’t have access to external databases or APIs, so I can’t look up mp-23165’s formation_energy_per_atom for you.
+
+If you want to fetch it yourself, run this Python snippet (requires pymatgen and a Materials Project API key):
+
+from pymatgen.ext.matproj import MPRester
+
+API_KEY = ""YOUR_API_KEY""
+with MPRester(API_KEY) as m:
+    data = m.get_data(""mp-23165"")
+    print(data[0][""formation_energy_per_atom""])
+
+If you paste the returned value here, I’ll confirm or use it as needed."
+mp-2251,band_gap,0.984,"I can’t access the Materials Project database from here, so I can’t fetch mp-2251’s band_gap. Provide the value or allow a live lookup (e.g., an API key) and I’ll retrieve it."
+mp-2251,formation_energy_per_atom,-0.4825014221875,"I don't have live access to the Materials Project. Do you want me to look this up? If so, either:
+
+- Provide a Materials Project API key (I can fetch mp-2251 and return the formation_energy_per_atom), or
+- I can tell you how to fetch it yourself using the Materials Project REST API or pymatgen.
+
+Which do you prefer?"
+mp-181,band_gap,0.216299999999999,"I don’t have live access to the Materials Project, so I can’t look up mp-181 and won’t guess. If you can run a quick query, use:
+
+from pymatgen.ext.matproj import MPRester
+with MPRester(""YOUR_API_KEY"") as m:
+    print(m.get_data(""mp-181"")[0]['band_gap'])
+
+Paste the returned number and I’ll confirm or use it."
+mp-181,formation_energy_per_atom,-0.1726160249375,"I don't have live access to the Materials Project from here, so I can't look up mp-181 directly. I won't guess a number.
+
+If you want to fetch it yourself, run this (requires a Materials Project API key and pymatgen):
+
+from pymatgen.ext.matproj import MPRester
+with MPRester(""YOUR_API_KEY"") as m:
+    d = m.get_data(""mp-181"")
+    print(d[0][""formation_energy_per_atom""])
+
+If you prefer, paste the result here or give permission and your API key and I can retrieve it for you."
+mp-2340,band_gap,1.7361,"I can’t access the Materials Project database from here, so I can’t look up mp-2340. If you want, provide the data or an API key/permission and I’ll fetch it — or I can show the exact API call to run locally."
+mp-2340,formation_energy_per_atom,-1.2980963948563211,"I don’t have live access to the Materials Project from here, so I can’t look up mp-2340 and return a verified single-number answer right now. Would you like me to:
+
+- provide a short code snippet you can run locally (pymatgen or mp-api) to fetch formation_energy_per_atom for mp-2340, or
+- fetch it for you if you paste an API result or give me permission/means to query the Materials Project?
+
+If you want the snippet, here are two options (replace YOUR_API_KEY):
+
+1) pymatgen (common):
+from pymatgen.ext.matproj import MPRester
+with MPRester(""YOUR_API_KEY"") as m:
+    data = m.get_data(""mp-2340"")[0]
+    print(data[""formation_energy_per_atom""])
+
+2) mp-api (newer client):
+from mp_api.client import MPRester
+with MPRester(""YOUR_API_KEY"") as m:
+    doc = m.materials.get_materials_id(material_id=""mp-2340"")
+    print(doc.formation_energy_per_atom)
+
+Which would you prefer?"
+mp-1443,band_gap,3.1684,"I can’t access the Materials Project from here, so I can’t look up mp-1443. If you want the value, either provide it or let me know and I’ll show how to fetch it (e.g., via the Materials Project website or pymatgen)."
+mp-1443,formation_energy_per_atom,-2.537928646818182,"I don't have live access to the Materials Project API, so I can't fetch mp-1443's formation energy. If you run the following Python snippet with your Materials Project API key it will return the formation_energy_per_atom:
+
+from pymatgen.ext.matproj import MPRester
+with MPRester(""YOUR_API_KEY"") as m:
+    d = m.get_data(""mp-1443"")
+    print(d[0][""formation_energy_per_atom""])"
+mp-2697,band_gap,2.8495,"I can’t query the Materials Project database from here, so I can’t reliably provide mp-2697’s band gap value. If you want, I can look it up if you (a) allow me internet access, or (b) provide the band-gap value or the material’s composition/structure.
+
+Alternatively, you can fetch it yourself using the Materials Project API. Example Python (pymatgen) snippet:
+
+from pymatgen.ext.matproj import MPRester
+with MPRester(""YOUR_API_KEY"") as m:
+    data = m.get_data(""mp-2697"")[0]
+    print(data[""band_gap""])
+
+Run that and paste the number here and I’ll confirm or use it."
+mp-2697,formation_energy_per_atom,-2.204479133333331,"I can’t access the Materials Project database from here, so I can’t look up mp-2697’s formation_energy_per_atom. If you can allow me to fetch the page or paste the entry data, I’ll extract the number — or you can find it at https://materialsproject.org/materials/mp-2697 and tell me the value."
+mp-680463,band_gap,0.391399999999999,"I don't have live access to the Materials Project database, so I can't look up mp-680463 right now. If you can allow me to query the site or paste the material data (or its band gap value), I'll return the single number you want."
+mp-680463,formation_energy_per_atom,-0.157726345384613,"I can't query the Materials Project from here, so I don't have mp-680463's formation_energy_per_atom. 
+
+You can get it yourself with this Python snippet (replace YOUR_API_KEY):
+
+from pymatgen.ext.matproj import MPRester
+with MPRester(""YOUR_API_KEY"") as m:
+    data = m.get_data(""mp-680463"", prop=""formation_energy_per_atom"")
+    print(data)
+
+Run that and tell me the number, or paste the returned value and I'll confirm."
+mp-542810,band_gap,1.9674,"I can’t query the Materials Project from here, so I can’t look up mp-542810. Please run this Python snippet (replace YOUR_API_KEY):
+
+from pymatgen.ext.matproj import MPRester
+with MPRester(""YOUR_API_KEY"") as m:
+    print(m.get_data(""mp-542810"")[0][""band_gap""])
+
+Run it and paste the single-number result here and I’ll confirm or use it."
+mp-542810,formation_energy_per_atom,-0.159580558906249,"I can’t access the Materials Project from here, so I can’t fetch mp-542810’s formation energy. If you run the following Python snippet locally (with your Materials Project API key) it will return the single number:
+
+from pymatgen.ext.matproj import MPRester
+api_key = ""YOUR_API_KEY""
+with MPRester(api_key) as m:
+    doc = m.get_materials_id(""mp-542810"")
+    print(doc.get(""formation_energy_per_atom""))
+
+If you prefer, paste the output here and I’ll interpret it."
+mp-971787,band_gap,1.1332,"I can’t access the Materials Project database from here, so I can’t retrieve mp-971787’s band gap. Please provide the value or allow API access so I can look it up."
+mp-971787,formation_energy_per_atom,-1.208906696666668,"I can’t access the Materials Project from here, so I can’t look up mp-971787. If you want to retrieve it yourself, run this Python (pymatgen) code with your API key:
+
+from pymatgen.ext.matproj import MPRester
+with MPRester(""YOUR_API_KEY"") as m:
+    d = m.get_data(""mp-971787"")[0]
+    print(d[""formation_energy_per_atom""])"
+mp-1105,band_gap,2.2352,I don't have live access to the Materials Project. Can you allow me to look it up or provide the material formula/structure?
+mp-1105,formation_energy_per_atom,-2.170192663333334,"I can’t access the Materials Project database from here, so I can’t look up mp-1105. If you want to fetch it yourself, run (replace YOUR_API_KEY):
+
+from pymatgen.ext.matproj import MPRester
+with MPRester(""YOUR_API_KEY"") as m:
+    data = m.get_data(""mp-1105"")
+    print(data[0][""formation_energy_per_atom""])
+
+If you paste the result here I’ll use it."

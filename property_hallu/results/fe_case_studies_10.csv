@@ -1,0 +1,11 @@
+material_id,gt_fe_per_atom,pred_fe_per_atom,abs_err,query,raw_output,label2
+mp-865194,-4.181989037499999,3.78,7.961989037499999,Return only the formation energy per atom (eV/atom) for mp-865194.,3.78,mode_guess
+mp-559931,-3.238528048750001,3.75,6.988528048750001,Return only the formation energy per atom (eV/atom) for mp-559931.,3.75,mode_guess
+mp-31049,-3.159657924166664,3.75,6.909657924166664,Return only the formation energy per atom (eV/atom) for mp-31049.,3.75,mode_guess
+mp-504759,-2.631161137083333,3.75,6.381161137083334,Return only the formation energy per atom (eV/atom) for mp-504759.,3.75,mode_guess
+mp-556911,-2.590574678333332,3.75,6.340574678333332,Return only the formation energy per atom (eV/atom) for mp-556911.,3.75,mode_guess
+mp-254,-4.452365858958333,4.05,8.502365858958333,Give the formation energy per atom of mp-254 in eV/atom. No extra text.,4.05,other_wrong
+mp-559798,-2.23065729,3.58,5.81065729,Give the formation energy per atom of mp-559798 in eV/atom. No extra text.,3.58,other_wrong
+mp-30092,-1.725360933333334,3.58,5.305360933333335,Give the formation energy per atom of mp-30092 in eV/atom. No extra text.,3.58,other_wrong
+mp-7988,-1.180246544770117,3.58,4.760246544770117,Give the formation energy per atom of mp-7988 in eV/atom. No extra text.,3.58,other_wrong
+mp-568263,-0.69001870828125,3.58,4.27001870828125,Give the formation energy per atom of mp-568263 in eV/atom. No extra text.,3.58,other_wrong

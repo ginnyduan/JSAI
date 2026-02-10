@@ -1,0 +1,643 @@
+mp_id,property,tool_value,raw_json_output,structured_final_value,is_perfect_match
+mp-9851,formation_energy_per_atom,-0.630045229146825,"{""extracted_value"": -0.630045229146825}",-0.630045229146825,True
+mp-619575,band_gap,2.5175,"{""extracted_value"": 2.5175}",2.5175,True
+mp-23184,band_gap,4.7135,"{""extracted_value"": 4.7135}",4.7135,True
+mp-9851,band_gap,0.1063,"{
+  ""extracted_value"": 0.1063
+}",0.1063,True
+mp-2793,formation_energy_per_atom,-0.140219074531245,"{""extracted_value"": -0.140219074531245}",-0.140219074531245,True
+mp-2793,band_gap,0.262799999999999,"{""extracted_value"": 0.262799999999999}",0.262799999999999,True
+mp-23184,formation_energy_per_atom,-1.0426612775,"{""extracted_value"": -1.0426612775}",-1.0426612775,True
+mp-619575,formation_energy_per_atom,-0.6182932559375001,"{""extracted_value"": -0.6182932559375001}",-0.6182932559375001,True
+mp-30140,formation_energy_per_atom,-0.836349655000001,"{""extracted_value"": -0.836349655000001}",-0.836349655000001,True
+mp-30140,band_gap,4.1443,"{""extracted_value"": 4.1443}",4.1443,True
+mp-1213622,band_gap,0.5263,"{""extracted_value"": 0.5263}",0.5263,True
+mp-1227290,band_gap,0.1101,"{""extracted_value"": 0.1101}",0.1101,True
+mp-1232276,band_gap,0.4328,"{""extracted_value"": 0.4328}",0.4328,True
+mp-1213622,formation_energy_per_atom,-1.5970489985714291,"{""extracted_value"": -1.5970489985714291}",-1.5970489985714291,True
+mp-1232276,formation_energy_per_atom,-2.021422001041666,"{
+  ""extracted_value"": -2.021422001041666
+}",-2.021422001041666,True
+mp-1227290,formation_energy_per_atom,-0.006925372499999,"{
+  ""extracted_value"": -0.006925372499999
+}",-0.006925372499999,True
+mp-32633,formation_energy_per_atom,-1.930073411158088,"{
+  ""extracted_value"": -1.930073411158088
+}",-1.930073411158088,True
+mp-1195922,band_gap,0.376,"{""extracted_value"": 0.376}",0.376,True
+mp-254,band_gap,7.6164,"{""extracted_value"":7.6164}",7.6164,True
+mp-1170,band_gap,1.514799999999999,"{""extracted_value"": 1.514799999999999}",1.514799999999999,True
+mp-1170,formation_energy_per_atom,-0.473969728541665,"{""extracted_value"": -0.473969728541665}",-0.473969728541665,True
+mp-1195922,formation_energy_per_atom,-0.417257172291664,"{
+  ""extracted_value"": -0.417257172291664
+}",-0.417257172291664,True
+mp-32633,band_gap,0.5265000000000001,"{""extracted_value"":0.5265000000000001}",0.5265000000000001,True
+mp-254,formation_energy_per_atom,-4.452365858958333,"{
+  ""extracted_value"": -4.452365858958333
+}",-4.452365858958333,True
+mp-18299,band_gap,0.2155,"{
+  ""extracted_value"": 0.2155
+}",0.2155,True
+mp-18299,formation_energy_per_atom,-3.992617684583336,"{""extracted_value"": -3.992617684583336}",-3.992617684583336,True
+mp-30031,band_gap,3.8971,"{""extracted_value"": 3.8971}",3.8971,True
+mp-23185,band_gap,2.8624,"{""extracted_value"": 2.8624}",2.8624,True
+mp-23290,formation_energy_per_atom,-0.475064009999998,"{""extracted_value"": -0.475064009999998}",-0.475064009999998,True
+mp-23185,formation_energy_per_atom,-0.857616325999999,"{""extracted_value"": -0.857616325999999}",-0.857616325999999,True
+mp-30031,formation_energy_per_atom,-1.89441126,"{""extracted_value"": -1.89441126}",-1.89441126,True
+mp-23290,band_gap,1.7917,"{""extracted_value"": 1.7917}",1.7917,True
+mp-555908,band_gap,2.2721,"{""extracted_value"": 2.2721}",2.2721,True
+mp-555908,formation_energy_per_atom,-2.341685073333334,"{""extracted_value"": -2.341685073333334}",-2.341685073333334,True
+mp-22398,band_gap,3.1061,"{""extracted_value"": 3.1061}",3.1061,True
+mp-27628,band_gap,1.3552,"{
+  ""extracted_value"": 1.3552
+}",1.3552,True
+mp-1212833,band_gap,0.3912,"{""extracted_value"": 0.3912}",0.3912,True
+mp-22398,formation_energy_per_atom,-2.648772015416667,"{""extracted_value"": -2.648772015416667}",-2.648772015416667,True
+mp-27628,formation_energy_per_atom,-0.3329571455,"{
+  ""extracted_value"": -0.3329571455
+}",-0.3329571455,True
+mp-571518,band_gap,1.9169,"{
+  ""extracted_value"": 1.9169
+}",1.9169,True
+mp-1212833,formation_energy_per_atom,-0.299415060454546,"{""extracted_value"": -0.299415060454546}",-0.299415060454546,True
+mp-9852,band_gap,0.1259,"{""extracted_value"": 0.1259}",0.1259,True
+mp-9852,formation_energy_per_atom,-0.616732226646824,"{""extracted_value"": -0.616732226646824}",-0.616732226646824,True
+mp-571518,formation_energy_per_atom,-0.946381717857144,"{""extracted_value"": -0.946381717857144}",-0.946381717857144,True
+mp-34202,band_gap,0.3388,"{""extracted_value"": 0.3388}",0.3388,True
+mp-34202,formation_energy_per_atom,-0.274401004000003,"{""extracted_value"": -0.274401004000003}",-0.274401004000003,True
+mp-570796,band_gap,1.537399999999999,"{
+  ""extracted_value"": 1.537399999999999
+}",1.537399999999999,True
+mp-1195,band_gap,1.8930999999999991,"{""extracted_value"": 1.8930999999999991}",1.8930999999999991,True
+mp-570796,formation_energy_per_atom,-0.7330447383333331,"{
+  ""extracted_value"": -0.7330447383333331
+}",-0.7330447383333331,True
+mp-29179,band_gap,3.1002,"{""extracted_value"": 3.1002}",3.1002,True
+mp-1195,formation_energy_per_atom,-0.50608046735294,"{
+  ""extracted_value"": -0.50608046735294
+}",-0.50608046735294,True
+mp-672204,formation_energy_per_atom,-0.400380674374999,"{""extracted_value"": -0.400380674374999}",-0.400380674374999,True
+mp-672204,band_gap,0.378699999999999,"{
+  ""extracted_value"": 0.378699999999999
+}",0.378699999999999,True
+mp-29179,formation_energy_per_atom,-1.055039141666666,"{
+  ""extracted_value"": -1.055039141666666
+}",-1.055039141666666,True
+mp-1205121,band_gap,0.2452,"{""extracted_value"": 0.2452}",0.2452,True
+mp-10497,band_gap,2.2919,"{""extracted_value"": 2.2919}",2.2919,True
+mp-1205121,formation_energy_per_atom,-0.510760389375001,"{""extracted_value"": -0.510760389375001}",-0.510760389375001,True
+mp-10497,formation_energy_per_atom,-0.127321634999998,"{
+  ""extracted_value"": -0.127321634999998
+}",-0.127321634999998,True
+mp-27148,band_gap,0.836199999999999,"{""extracted_value"": 0.836199999999999}",0.836199999999999,True
+mp-27148,formation_energy_per_atom,-0.319383066011903,"{""extracted_value"": -0.319383066011903}",-0.319383066011903,True
+mp-1203760,band_gap,1.0648,"{""extracted_value"": 1.0648}",1.0648,True
+mp-1545417,formation_energy_per_atom,-1.718154452499998,"{""extracted_value"": -1.718154452499998}",-1.718154452499998,True
+mp-1545417,band_gap,0.7358999999999991,"{
+  ""extracted_value"": 0.7358999999999991
+}",0.7358999999999991,True
+mp-1203760,formation_energy_per_atom,-0.553621656590911,"{
+  ""extracted_value"": -0.553621656590911
+}",-0.553621656590911,True
+mp-470,band_gap,1.2157,"{""extracted_value"": 1.2157}",1.2157,True
+mp-16922,band_gap,0.3248,"{""extracted_value"":0.3248}",0.3248,True
+mp-470,formation_energy_per_atom,-2.156655663333334,"{""extracted_value"": -2.156655663333334}",-2.156655663333334,True
+mp-624,band_gap,2.6454,"{""extracted_value"": 2.6454}",2.6454,True
+mp-16922,formation_energy_per_atom,-0.962356391249998,"{""extracted_value"": -0.962356391249998}",-0.962356391249998,True
+mp-22859,band_gap,1.6513,"{
+  ""extracted_value"": 1.6513
+}",1.6513,True
+mp-624,formation_energy_per_atom,-0.209188941071428,"{""extracted_value"": -0.209188941071428}",-0.209188941071428,True
+mp-22859,formation_energy_per_atom,-0.443566703750002,"{
+  ""extracted_value"": -0.443566703750002
+}",-0.443566703750002,True
+mp-31050,band_gap,3.6753,"{""extracted_value"": 3.6753}",3.6753,True
+mp-31050,formation_energy_per_atom,-0.30258604611111,"{""extracted_value"": -0.30258604611111}",-0.30258604611111,True
+mp-541013,formation_energy_per_atom,-1.031189425666664,"{""extracted_value"": -1.031189425666664}",-1.031189425666664,True
+mp-18536,formation_energy_per_atom,-1.128947433749999,"{""extracted_value"": -1.128947433749999}",-1.128947433749999,True
+mp-541013,band_gap,1.0859,"{
+  ""extracted_value"": 1.0859
+}",1.0859,True
+mp-18536,band_gap,0.208499999999999,"{""extracted_value"":0.208499999999999}",0.208499999999999,True
+mp-23261,band_gap,2.7278,"{
+  ""extracted_value"": 2.7278
+}",2.7278,True
+mp-200,band_gap,0.861699999999999,"{""extracted_value"": 0.861699999999999}",0.861699999999999,True
+mp-200,formation_energy_per_atom,-0.514802012604166,"{
+  ""extracted_value"": -0.514802012604166
+}",-0.514802012604166,True
+mp-569867,band_gap,0.378,"{""extracted_value"": 0.378}",0.378,True
+mp-23261,formation_energy_per_atom,-0.7564620653571411,"{""extracted_value"": -0.7564620653571411}",-0.7564620653571411,True
+mp-569867,formation_energy_per_atom,-0.7546754528571421,"{
+  ""extracted_value"": -0.7546754528571421
+}",-0.7546754528571421,True
+mp-7440,formation_energy_per_atom,-0.499863119613094,"{""extracted_value"": -0.499863119613094}",-0.499863119613094,True
+mp-7440,band_gap,0.8684000000000001,"{
+  ""extracted_value"": 0.8684000000000001
+}",0.8684000000000001,True
+mp-1205852,band_gap,0.8523000000000001,"{
+  ""extracted_value"": 0.8523000000000001
+}",0.8523000000000001,True
+mp-1205852,formation_energy_per_atom,-2.094997655499997,"{
+  ""extracted_value"": -2.094997655499997
+}",-2.094997655499997,True
+mp-28483,band_gap,1.069899999999999,"{""extracted_value"": 1.069899999999999}",1.069899999999999,True
+mp-28483,formation_energy_per_atom,-0.9345107228571432,"{
+  ""extracted_value"": -0.9345107228571432
+}",-0.9345107228571432,True
+mp-561664,formation_energy_per_atom,-2.216336207,"{
+  ""extracted_value"": -2.216336207
+}",-2.216336207,True
+mp-27871,band_gap,1.2584,"{
+  ""extracted_value"": 1.2584
+}",1.2584,True
+mp-561664,band_gap,4.0186,"{""extracted_value"": 4.0186}",4.0186,True
+mp-680339,band_gap,0.755599999999999,"{""extracted_value"": 0.755599999999999}",0.755599999999999,True
+mp-27871,formation_energy_per_atom,-0.8457965725000001,"{
+  ""extracted_value"": -0.8457965725000001
+}",-0.8457965725000001,True
+mp-680339,formation_energy_per_atom,-0.28327900617555,"{
+  ""extracted_value"": -0.28327900617555
+}",-0.28327900617555,True
+mp-582753,band_gap,0.8007000000000001,"{
+  ""extracted_value"": 0.8007000000000001
+}",0.8007000000000001,True
+mp-582753,formation_energy_per_atom,-0.434993182323239,"{""extracted_value"": -0.434993182323239}",-0.434993182323239,True
+mp-27161,band_gap,2.9118,"{""extracted_value"": 2.9118}",2.9118,True
+mp-30092,formation_energy_per_atom,-1.725360933333334,"{
+  ""extracted_value"": -1.725360933333334
+}",-1.725360933333334,True
+mp-23155,formation_energy_per_atom,0.0,"{""extracted_value"": 0.0}",0.0,True
+mp-27161,formation_energy_per_atom,-0.8721765856249991,"{""extracted_value"": -0.8721765856249991}",-0.8721765856249991,True
+mp-23155,band_gap,8.5132,"{
+  ""extracted_value"": 8.5132
+}",8.5132,True
+mp-1018138,formation_energy_per_atom,-0.7411700000000001,"{
+  ""extracted_value"": -0.7411700000000001
+}",-0.7411700000000001,True
+mp-1018138,band_gap,1.037,"{""extracted_value"": 1.037}",1.037,True
+mp-30092,band_gap,3.4576,"{""extracted_value"": 3.4576}",3.4576,True
+mp-1197742,band_gap,0.8515,"{
+  ""extracted_value"": 0.8515
+}",0.8515,True
+mp-1197742,formation_energy_per_atom,-0.327354584285715,"{""extracted_value"": -0.327354584285715}",-0.327354584285715,True
+mp-557993,band_gap,1.1596,"{""extracted_value"": 1.1596}",1.1596,True
+mp-647579,band_gap,3.2214,"{""extracted_value"": 3.2214}",3.2214,True
+mp-557993,formation_energy_per_atom,-1.459764126666667,"{
+  ""extracted_value"": -1.459764126666667
+}",-1.459764126666667,True
+mp-647579,formation_energy_per_atom,-1.267659339375001,"{""extracted_value"": -1.267659339375001}",-1.267659339375001,True
+mp-15649,band_gap,0.8155000000000001,"{
+  ""extracted_value"": 0.8155000000000001
+}",0.8155000000000001,True
+mp-15649,formation_energy_per_atom,-0.571072849166668,"{
+  ""extracted_value"": -0.571072849166668
+}",-0.571072849166668,True
+mp-7904,band_gap,0.6551,"{""extracted_value"": 0.6551}",0.6551,True
+mp-628742,band_gap,0.5845,"{""extracted_value"": 0.5845}",0.5845,True
+mp-7904,formation_energy_per_atom,-0.120742532380951,"{""extracted_value"": -0.120742532380951}",-0.120742532380951,True
+mp-628742,formation_energy_per_atom,-0.486485566153847,"{""extracted_value"": -0.486485566153847}",-0.486485566153847,True
+mp-570738,band_gap,2.4744,"{""extracted_value"": 2.4744}",2.4744,True
+mp-1204356,band_gap,1.8389,"{""extracted_value"": 1.8389}",1.8389,True
+mp-570738,formation_energy_per_atom,-0.727731253611111,"{""extracted_value"": -0.727731253611111}",-0.727731253611111,True
+mp-1204356,formation_energy_per_atom,-0.305946444868422,"{""extracted_value"": -0.305946444868422}",-0.305946444868422,True
+mp-7262,formation_energy_per_atom,-0.148990749583333,"{
+  ""extracted_value"": -0.148990749583333
+}",-0.148990749583333,True
+mp-28879,formation_energy_per_atom,-1.057331754908424,"{""extracted_value"": -1.057331754908424}",-1.057331754908424,True
+mp-28879,band_gap,1.1418,"{
+  ""extracted_value"": 1.1418
+}",1.1418,True
+mp-7262,band_gap,0.224099999999999,"{
+  ""extracted_value"": 0.224099999999999
+}",0.224099999999999,True
+mp-27684,formation_energy_per_atom,-0.932556454761906,"{
+  ""extracted_value"": -0.932556454761906
+}",-0.932556454761906,True
+mp-27684,band_gap,1.099199999999999,"{
+  ""extracted_value"": 1.099199999999999
+}",1.099199999999999,True
+mp-541404,formation_energy_per_atom,-2.522468176666668,"{""extracted_value"": -2.522468176666668}",-2.522468176666668,True
+mp-541404,band_gap,0.7584000000000001,"{""extracted_value"": 0.7584000000000001}",0.7584000000000001,True
+mp-1391848,band_gap,2.0863,"{""extracted_value"": 2.0863}",2.0863,True
+mp-1391848,formation_energy_per_atom,-2.063723397142856,"{""extracted_value"": -2.063723397142856}",-2.063723397142856,True
+mp-1184796,band_gap,8.0745,"{""extracted_value"": 8.0745}",8.0745,True
+mp-1184796,formation_energy_per_atom,-1.406990803749999,"{
+  ""extracted_value"": -1.406990803749999
+}",-1.406990803749999,True
+mp-9268,formation_energy_per_atom,-1.167954419796875,"{""extracted_value"": -1.167954419796875}",-1.167954419796875,True
+mp-540922,formation_energy_per_atom,-0.450521733124998,"{""extracted_value"": -0.450521733124998}",-0.450521733124998,True
+mp-540922,band_gap,0.1806,"{""extracted_value"": 0.1806}",0.1806,True
+mp-571235,band_gap,2.021,"{""extracted_value"": 2.021}",2.021,True
+mp-540675,formation_energy_per_atom,-0.349825507562499,"{""extracted_value"": -0.349825507562499}",-0.349825507562499,True
+mp-9268,band_gap,0.7039000000000001,"{
+  ""extracted_value"": 0.7039000000000001
+}",0.7039000000000001,True
+mp-1208424,band_gap,2.5242,"{""extracted_value"": 2.5242}",2.5242,True
+mp-27971,band_gap,5.0865,"{""extracted_value"": 5.0865}",5.0865,True
+mp-1208424,formation_energy_per_atom,-0.812674219083331,"{""extracted_value"": -0.812674219083331}",-0.812674219083331,True
+mp-22909,band_gap,4.0533,"{""extracted_value"": 4.0533}",4.0533,True
+mp-540675,band_gap,3.0664,"{""extracted_value"": 3.0664}",3.0664,True
+mp-22909,formation_energy_per_atom,-1.291011926666667,"{
+  ""extracted_value"": -1.291011926666667
+}",-1.291011926666667,True
+mp-27971,formation_energy_per_atom,-2.788094297499999,"{""extracted_value"": -2.788094297499999}",-2.788094297499999,True
+mp-571235,formation_energy_per_atom,-1.227871009333331,"{
+  ""extracted_value"": -1.227871009333331
+}",-1.227871009333331,True
+mp-556516,band_gap,0.7668,"{
+  ""extracted_value"": 0.7668
+}",0.7668,True
+mp-556516,formation_energy_per_atom,-0.505116372129634,"{""extracted_value"": -0.505116372129634}",-0.505116372129634,True
+mp-1274279,band_gap,1.8157,"{""extracted_value"": 1.8157}",1.8157,True
+mp-21526,formation_energy_per_atom,-0.362189247187497,"{
+  ""extracted_value"": -0.362189247187497
+}",-0.362189247187497,True
+mp-554855,band_gap,1.5712000000000002,"{
+  ""extracted_value"": 1.5712000000000002
+}",1.5712000000000002,True
+mp-21526,band_gap,0.5708000000000001,"{""extracted_value"": 0.5708000000000001}",0.5708000000000001,True
+mp-1274279,formation_energy_per_atom,-1.481519387499999,"{""extracted_value"": -1.481519387499999}",-1.481519387499999,True
+mp-554855,formation_energy_per_atom,-2.60675029,"{""extracted_value"": -2.60675029}",-2.60675029,True
+mp-510557,band_gap,4.2395,"{
+  ""extracted_value"": 4.2395
+}",4.2395,True
+mp-510557,formation_energy_per_atom,-0.216854790312499,"{""extracted_value"": -0.216854790312499}",-0.216854790312499,True
+mp-27291,band_gap,0.155399999999999,"{""extracted_value"":0.155399999999999}",0.155399999999999,True
+mp-568348,band_gap,1.8454,"{""extracted_value"": 1.8454}",1.8454,True
+mp-27291,formation_energy_per_atom,-2.149853655000001,"{""extracted_value"": -2.149853655000001}",-2.149853655000001,True
+mp-568348,formation_energy_per_atom,0.0,"{""extracted_value"": 0.0}",0.0,True
+mp-2084,formation_energy_per_atom,-0.6734596323437501,"{
+  ""extracted_value"": -0.6734596323437501
+}",-0.6734596323437501,True
+mp-995393,band_gap,2.1989,"{""extracted_value"": 2.1989}",2.1989,True
+mp-2084,band_gap,0.9437999999999992,"{""extracted_value"": 0.9437999999999992}",0.9437999999999992,True
+mp-995393,formation_energy_per_atom,-0.612184769666665,"{""extracted_value"": -0.612184769666665}",-0.612184769666665,True
+mp-1345,band_gap,0.3443,"{""extracted_value"": 0.3443}",0.3443,True
+mp-1345,formation_energy_per_atom,-1.2564584531547611,"{""extracted_value"": -1.2564584531547611}",-1.2564584531547611,True
+mp-1193140,band_gap,1.8661999999999992,"{
+  ""extracted_value"": 1.8661999999999992
+}",1.8661999999999992,True
+mp-1193140,formation_energy_per_atom,-0.743681253794641,"{""extracted_value"": -0.743681253794641}",-0.743681253794641,True
+mp-23265,band_gap,2.0054,"{""extracted_value"": 2.0054}",2.0054,True
+mp-29657,band_gap,0.665199999999999,"{
+  ""extracted_value"": 0.665199999999999
+}",0.665199999999999,True
+mp-29657,formation_energy_per_atom,-0.214525574374999,"{""extracted_value"": -0.214525574374999}",-0.214525574374999,True
+mp-542812,band_gap,1.0066,"{""extracted_value"": 1.0066}",1.0066,True
+mp-23265,formation_energy_per_atom,-2.506313930624998,"{""extracted_value"": -2.506313930624998}",-2.506313930624998,True
+mp-10802,formation_energy_per_atom,-0.417557193125,"{""extracted_value"": -0.417557193125}",-0.417557193125,True
+mp-27725,band_gap,2.0942,"{
+  ""extracted_value"": 2.0942
+}",2.0942,True
+mp-1080428,band_gap,0.8728,"{""extracted_value"": 0.8728}",0.8728,True
+mp-542812,formation_energy_per_atom,-0.442993200833332,"{""extracted_value"": -0.442993200833332}",-0.442993200833332,True
+mp-27725,formation_energy_per_atom,-0.265866406249999,"{""extracted_value"": -0.265866406249999}",-0.265866406249999,True
+mp-569561,band_gap,3.1165,"{""extracted_value"": 3.1165}",3.1165,True
+mp-10802,band_gap,0.5879000000000001,"{""extracted_value"": 0.5879000000000001}",0.5879000000000001,True
+mp-1080428,formation_energy_per_atom,-1.326321304000006,"{
+  ""extracted_value"": -1.326321304000006
+}",-1.326321304000006,True
+mp-743,band_gap,4.1608,"{""extracted_value"": 4.1608}",4.1608,True
+mp-484,band_gap,0.4326,"{""extracted_value"": 0.4326}",0.4326,True
+mp-743,formation_energy_per_atom,-0.140204309375,"{""extracted_value"": -0.140204309375}",-0.140204309375,True
+mp-484,formation_energy_per_atom,-0.001508734,"{""extracted_value"": -0.001508734}",-0.001508734,True
+mp-1864,formation_energy_per_atom,-0.678575252480158,"{""extracted_value"": -0.678575252480158}",-0.678575252480158,True
+mp-1864,band_gap,0.1139,"{""extracted_value"": 0.1139}",0.1139,True
+mp-569561,formation_energy_per_atom,-0.639768098499999,"{""extracted_value"": -0.639768098499999}",-0.639768098499999,True
+mp-30520,band_gap,1.667899999999999,"{
+  ""extracted_value"": 1.667899999999999
+}",1.667899999999999,True
+mp-30520,formation_energy_per_atom,-0.498485183452379,"{
+  ""extracted_value"": -0.498485183452379
+}",-0.498485183452379,True
+mp-23221,formation_energy_per_atom,-2.306216135416666,"{""extracted_value"": -2.306216135416666}",-2.306216135416666,True
+mp-149,band_gap,0.6105,"{""extracted_value"": 0.6105}",0.6105,True
+mp-23221,band_gap,3.429599999999999,"{""extracted_value"": 3.429599999999999}",3.429599999999999,True
+mp-149,formation_energy_per_atom,0.0,"{""extracted_value"": 0.0}",0.0,True
+mp-1863,formation_energy_per_atom,-0.119684392083333,"{""extracted_value"": -0.119684392083333}",-0.119684392083333,True
+mp-1863,band_gap,1.451899999999999,"{""extracted_value"": 1.451899999999999}",1.451899999999999,True
+mp-1524446,band_gap,1.0487,"{""extracted_value"": 1.0487}",1.0487,True
+mp-730101,band_gap,9.7197,"{""extracted_value"": 9.7197}",9.7197,True
+mp-31049,band_gap,3.4112,"{""extracted_value"": 3.4112}",3.4112,True
+mp-1524446,formation_energy_per_atom,-1.452075918750001,"{""extracted_value"": -1.452075918750001}",-1.452075918750001,True
+mp-730101,formation_energy_per_atom,0.0,"{""extracted_value"": 0.0}",0.0,True
+mp-31049,formation_energy_per_atom,-3.159657924166664,"{
+  ""extracted_value"": -3.159657924166664
+}",-3.159657924166664,True
+mp-1213805,band_gap,1.159,"{""extracted_value"": 1.159}",1.159,True
+mp-573812,band_gap,1.4052,"{
+  ""extracted_value"": 1.4052
+}",1.4052,True
+mp-573812,formation_energy_per_atom,-0.28239570742611,"{
+  ""extracted_value"": -0.28239570742611
+}",-0.28239570742611,True
+mp-7188,formation_energy_per_atom,-0.670291663333335,"{
+  ""extracted_value"": -0.670291663333335
+}",-0.670291663333335,True
+mp-1213805,formation_energy_per_atom,-0.723041855833334,"{""extracted_value"": -0.723041855833334}",-0.723041855833334,True
+mp-7188,band_gap,0.289899999999999,"{
+  ""extracted_value"": 0.289899999999999
+}",0.289899999999999,True
+mp-680422,band_gap,2.9265,"{""extracted_value"": 2.9265}",2.9265,True
+mp-1683,formation_energy_per_atom,-1.236771233046873,"{""extracted_value"": -1.236771233046873}",-1.236771233046873,True
+mp-680422,formation_energy_per_atom,-0.215968716874999,"{""extracted_value"": -0.215968716874999}",-0.215968716874999,True
+mp-1100,band_gap,1.0375,"{
+  ""extracted_value"": 1.0375
+}",1.0375,True
+mp-1683,band_gap,0.3979,"{""extracted_value"": 0.3979}",0.3979,True
+mp-1100,formation_energy_per_atom,-0.377014445,"{""extracted_value"": -0.377014445}",-0.377014445,True
+mp-306,band_gap,6.3017,"{""extracted_value"": 6.3017}",6.3017,True
+mp-11054,band_gap,0.877899999999999,"{""extracted_value"": 0.877899999999999}",0.877899999999999,True
+mp-306,formation_energy_per_atom,-2.798056310000001,"{
+  ""extracted_value"": -2.798056310000001
+}",-2.798056310000001,True
+mp-11054,formation_energy_per_atom,-0.278649864374999,"{
+  ""extracted_value"": -0.278649864374999
+}",-0.278649864374999,True
+mp-12957,band_gap,1.0933,"{""extracted_value"": 1.0933}",1.0933,True
+mp-1018040,formation_energy_per_atom,-1.474296713671875,"{""extracted_value"": -1.474296713671875}",-1.474296713671875,True
+mp-1018040,band_gap,2.5765,"{""extracted_value"": 2.5765}",2.5765,True
+mp-12957,formation_energy_per_atom,0.0,"{""extracted_value"": 0.0}",0.0,True
+mp-8377,formation_energy_per_atom,-1.4950600038888862,"{""extracted_value"": -1.4950600038888862}",-1.4950600038888862,True
+mp-13568,band_gap,0.3379,"{
+  ""extracted_value"": 0.3379
+}",0.3379,True
+mp-8377,band_gap,3.0604,"{
+  ""extracted_value"": 3.0604
+}",3.0604,True
+mp-23933,band_gap,2.197699999999999,"{""extracted_value"": 2.197699999999999}",2.197699999999999,True
+mp-23933,formation_energy_per_atom,-0.073632082812499,"{""extracted_value"": -0.073632082812499}",-0.073632082812499,True
+mp-571442,band_gap,3.0417,"{""extracted_value"": 3.0417}",3.0417,True
+mp-13568,formation_energy_per_atom,-2.015935722708332,"{
+  ""extracted_value"": -2.015935722708332
+}",-2.015935722708332,True
+mp-571442,formation_energy_per_atom,-1.710965791249998,"{""extracted_value"": -1.710965791249998}",-1.710965791249998,True
+mp-1154,formation_energy_per_atom,-0.286120912954541,"{
+  ""extracted_value"": -0.286120912954541
+}",-0.286120912954541,True
+mp-1524481,band_gap,8.309,"{""extracted_value"": 8.309}",8.309,True
+mp-1154,band_gap,0.7510000000000001,"{""extracted_value"": 0.7510000000000001}",0.7510000000000001,True
+mp-1524481,formation_energy_per_atom,-1.27488559425,"{""extracted_value"": -1.27488559425}",-1.27488559425,True
+mp-27153,formation_energy_per_atom,-1.76299271,"{
+  ""extracted_value"": -1.76299271
+}",-1.76299271,True
+mp-27972,formation_energy_per_atom,-2.494519163125,"{
+  ""extracted_value"": -2.494519163125
+}",-2.494519163125,True
+mp-27153,band_gap,0.2115,"{
+  ""extracted_value"": 0.2115
+}",0.2115,True
+mp-1524458,band_gap,3.1633,"{""extracted_value"": 3.1633}",3.1633,True
+mp-27972,band_gap,4.103299999999999,"{
+  ""extracted_value"": 4.103299999999999
+}",4.103299999999999,True
+mp-1524458,formation_energy_per_atom,-1.529192906999997,"{""extracted_value"": -1.529192906999997}",-1.529192906999997,True
+mp-634859,band_gap,2.7345,"{""extracted_value"": 2.7345}",2.7345,True
+mp-468,band_gap,7.6012,"{
+  ""extracted_value"": 7.6012
+}",7.6012,True
+mp-634859,formation_energy_per_atom,-2.206560153333333,"{
+  ""extracted_value"": -2.206560153333333
+}",-2.206560153333333,True
+mp-559931,band_gap,1.6025,"{""extracted_value"": 1.6025}",1.6025,True
+mp-1206891,band_gap,1.0096,"{""extracted_value"": 1.0096}",1.0096,True
+mp-559931,formation_energy_per_atom,-3.238528048750001,"{""extracted_value"": -3.238528048750001}",-3.238528048750001,True
+mp-468,formation_energy_per_atom,-3.86576940625,"{
+  ""extracted_value"": -3.86576940625
+}",-3.86576940625,True
+mp-1095275,band_gap,0.4889,"{""extracted_value"": 0.4889}",0.4889,True
+mp-1201,band_gap,0.1314,"{
+  ""extracted_value"": 0.1314
+}",0.1314,True
+mp-1095275,formation_energy_per_atom,-0.009709900654762,"{
+  ""extracted_value"": -0.009709900654762
+}",-0.009709900654762,True
+mp-1206891,formation_energy_per_atom,-0.5667571437499991,"{
+  ""extracted_value"": -0.5667571437499991
+}",-0.5667571437499991,True
+mp-1201,formation_energy_per_atom,-0.383199846000002,"{""extracted_value"": -0.383199846000002}",-0.383199846000002,True
+mp-570437,formation_energy_per_atom,-0.827083558444443,"{""extracted_value"": -0.827083558444443}",-0.827083558444443,True
+mp-570437,band_gap,2.3382,"{""extracted_value"": 2.3382}",2.3382,True
+mp-27358,band_gap,2.9034,"{
+  ""extracted_value"": 2.9034
+}",2.9034,True
+mp-754815,band_gap,3.976499999999999,"{""extracted_value"": 3.976499999999999}",3.976499999999999,True
+mp-27358,formation_energy_per_atom,-1.022062649955356,"{
+  ""extracted_value"": -1.022062649955356
+}",-1.022062649955356,True
+mp-754815,formation_energy_per_atom,-2.30537281125,"{
+  ""extracted_value"": -2.30537281125
+}",-2.30537281125,True
+mp-568263,band_gap,1.2121,"{
+  ""extracted_value"": 1.2121
+}",1.2121,True
+mp-28044,band_gap,4.918,"{""extracted_value"": 4.918}",4.918,True
+mp-1025522,band_gap,0.6758999999999991,"{""extracted_value"": 0.6758999999999991}",0.6758999999999991,True
+mp-571011,formation_energy_per_atom,-0.975770047431038,"{
+  ""extracted_value"": -0.975770047431038
+}",-0.975770047431038,True
+mp-568263,formation_energy_per_atom,-0.69001870828125,"{""extracted_value"": -0.69001870828125}",-0.69001870828125,True
+mp-1025522,formation_energy_per_atom,-1.162119996249998,"{""extracted_value"": -1.162119996249998}",-1.162119996249998,True
+mp-1217322,band_gap,0.7062,"{
+  ""extracted_value"": 0.7062
+}",0.7062,True
+mp-571011,band_gap,1.7836,"{""extracted_value"": 1.7836}",1.7836,True
+mp-28044,formation_energy_per_atom,-2.512653630624999,"{""extracted_value"": -2.512653630624999}",-2.512653630624999,True
+mp-1217322,formation_energy_per_atom,-0.010930726197914,"{
+  ""extracted_value"": -0.010930726197914
+}",-0.010930726197914,True
+mp-20652,band_gap,1.9078,"{""extracted_value"": 1.9078}",1.9078,True
+mp-19,formation_energy_per_atom,0.0,"{""extracted_value"": 0.0}",0.0,True
+mp-541155,formation_energy_per_atom,-0.9510626574999992,"{""extracted_value"": -0.9510626574999992}",-0.9510626574999992,True
+mp-22885,formation_energy_per_atom,-0.7818107566666681,"{""extracted_value"": -0.7818107566666681}",-0.7818107566666681,True
+mp-541155,band_gap,0.9239,"{""extracted_value"": 0.9239}",0.9239,True
+mp-22885,band_gap,2.686199999999999,"{""extracted_value"": 2.686199999999999}",2.686199999999999,True
+mp-19,band_gap,0.1856,"{""extracted_value"": 0.1856}",0.1856,True
+mp-20652,formation_energy_per_atom,-2.26442824375,"{""extracted_value"": -2.26442824375}",-2.26442824375,True
+mp-985829,band_gap,1.2237,"{
+  ""extracted_value"": 1.2237
+}",1.2237,True
+mp-985829,formation_energy_per_atom,-1.806995168541668,"{
+  ""extracted_value"": -1.806995168541668
+}",-1.806995168541668,True
+mp-27857,formation_energy_per_atom,-0.694771309999999,"{""extracted_value"": -0.694771309999999}",-0.694771309999999,True
+mp-27857,band_gap,0.9792,"{""extracted_value"": 0.9792}",0.9792,True
+mp-30034,band_gap,4.4707,"{
+  ""extracted_value"": 4.4707
+}",4.4707,True
+mp-22881,formation_energy_per_atom,-1.2745155149999992,"{""extracted_value"": -1.2745155149999992}",-1.2745155149999992,True
+mp-32755,band_gap,1.0395,"{
+  ""extracted_value"": 1.0395
+}",1.0395,True
+mp-22881,band_gap,3.5244,"{""extracted_value"": 3.5244}",3.5244,True
+mp-30034,formation_energy_per_atom,-1.853706801666665,"{""extracted_value"": -1.853706801666665}",-1.853706801666665,True
+mp-32755,formation_energy_per_atom,-1.857414943749999,"{""extracted_value"": -1.857414943749999}",-1.857414943749999,True
+mp-2715,formation_energy_per_atom,-0.290117705833334,"{
+  ""extracted_value"": -0.290117705833334
+}",-0.290117705833334,True
+mp-504759,formation_energy_per_atom,-2.631161137083333,"{""extracted_value"": -2.631161137083333}",-2.631161137083333,True
+mp-865194,band_gap,5.3798,"{""extracted_value"": 5.3798}",5.3798,True
+mp-1525121,band_gap,1.687399999999999,"{""extracted_value"": 1.687399999999999}",1.687399999999999,True
+mp-1525121,formation_energy_per_atom,0.0,"{""extracted_value"": 0.0}",0.0,True
+mp-2715,band_gap,0.172299999999999,"{
+  ""extracted_value"": 0.172299999999999
+}",0.172299999999999,True
+mp-541610,band_gap,2.597,"{""extracted_value"": 2.597}",2.597,True
+mp-504759,band_gap,0.9911,"{""extracted_value"": 0.9911}",0.9911,True
+mp-865194,formation_energy_per_atom,-4.181989037499999,"{""extracted_value"": -4.181989037499999}",-4.181989037499999,True
+mp-541610,formation_energy_per_atom,-0.927984858749999,"{""extracted_value"": -0.927984858749999}",-0.927984858749999,True
+mp-23205,band_gap,3.6162,"{
+  ""extracted_value"": 3.6162
+}",3.6162,True
+mp-985831,band_gap,0.5342,"{""extracted_value"": 0.5342}",0.5342,True
+mp-28933,formation_energy_per_atom,-0.198695136500001,"{""extracted_value"": -0.198695136500001}",-0.198695136500001,True
+mp-28933,band_gap,1.7587000000000002,"{
+  ""extracted_value"": 1.7587000000000002
+}",1.7587000000000002,True
+mp-23205,formation_energy_per_atom,-1.3037782916666671,"{""extracted_value"": -1.3037782916666671}",-1.3037782916666671,True
+mp-985831,formation_energy_per_atom,-1.564946299374999,"{""extracted_value"": -1.564946299374999}",-1.564946299374999,True
+mp-540829,formation_energy_per_atom,-1.872036438333334,"{""extracted_value"": -1.872036438333334}",-1.872036438333334,True
+mp-540829,band_gap,0.710199999999999,"{""extracted_value"": 0.710199999999999}",0.710199999999999,True
+mp-1525632,band_gap,2.8979,"{""extracted_value"": 2.8979}",2.8979,True
+mp-573815,formation_energy_per_atom,-0.348767611458335,"{""extracted_value"": -0.348767611458335}",-0.348767611458335,True
+mp-607450,band_gap,0.229,"{""extracted_value"": 0.229}",0.229,True
+mp-1525632,formation_energy_per_atom,0.0,"{""extracted_value"": 0.0}",0.0,True
+mp-573815,band_gap,0.9469999999999992,"{""extracted_value"": 0.9469999999999992}",0.9469999999999992,True
+mp-23162,band_gap,1.0479,"{""extracted_value"": 1.0479}",1.0479,True
+mp-607450,formation_energy_per_atom,-0.235972947500002,"{
+  ""extracted_value"": -0.235972947500002
+}",-0.235972947500002,True
+mp-23162,formation_energy_per_atom,-1.87860569,"{""extracted_value"": -1.87860569}",-1.87860569,True
+mp-2402,band_gap,1.1286,"{""extracted_value"": 1.1286}",1.1286,True
+mp-2402,formation_energy_per_atom,-0.069361268125,"{""extracted_value"": -0.069361268125}",-0.069361268125,True
+mp-9922,band_gap,1.1326,"{""extracted_value"": 1.1326}",1.1326,True
+mp-1545216,band_gap,0.4836,"{
+  ""extracted_value"": 0.4836
+}",0.4836,True
+mp-9922,formation_energy_per_atom,-1.373804485859373,"{""extracted_value"": -1.373804485859373}",-1.373804485859373,True
+mp-1545216,formation_energy_per_atom,-0.907728662126436,"{""extracted_value"": -0.907728662126436}",-0.907728662126436,True
+mp-1968,band_gap,3.824799999999999,"{
+  ""extracted_value"": 3.824799999999999
+}",3.824799999999999,True
+mp-1968,formation_energy_per_atom,-3.8759289195,"{
+  ""extracted_value"": -3.8759289195
+}",-3.8759289195,True
+mp-2133,band_gap,0.7227,"{""extracted_value"": 0.7227}",0.7227,True
+mp-29711,formation_energy_per_atom,-0.444227307333335,"{""extracted_value"": -0.444227307333335}",-0.444227307333335,True
+mp-2133,formation_energy_per_atom,-1.7908991124999991,"{""extracted_value"": -1.7908991124999991}",-1.7908991124999991,True
+mp-29711,band_gap,0.638899999999999,"{""extracted_value"": 0.638899999999999}",0.638899999999999,True
+mp-985278,band_gap,6.0693,"{""extracted_value"": 6.0693}",6.0693,True
+mp-1185959,formation_energy_per_atom,-1.154441889999999,"{
+  ""extracted_value"": -1.154441889999999
+}",-1.154441889999999,True
+mp-1185959,band_gap,1.133699999999999,"{""extracted_value"": 1.133699999999999}",1.133699999999999,True
+mp-985278,formation_energy_per_atom,-4.467987469375,"{""extracted_value"": -4.467987469375}",-4.467987469375,True
+mp-23710,band_gap,3.709699999999999,"{""extracted_value"": 3.709699999999999}",3.709699999999999,True
+mp-23710,formation_energy_per_atom,-0.2827190725,"{
+  ""extracted_value"": -0.2827190725
+}",-0.2827190725,True
+mp-341,band_gap,1.9022,"{""extracted_value"": 1.9022}",1.9022,True
+mp-32800,band_gap,2.2962,"{""extracted_value"": 2.2962}",2.2962,True
+mp-341,formation_energy_per_atom,-1.990905017999998,"{""extracted_value"": -1.990905017999998}",-1.990905017999998,True
+mp-32800,formation_energy_per_atom,-2.4930635934375,"{
+  ""extracted_value"": -2.4930635934375
+}",-2.4930635934375,True
+mp-685014,band_gap,2.0644,"{""extracted_value"": 2.0644}",2.0644,True
+mp-685014,formation_energy_per_atom,-1.068962764541666,"{
+  ""extracted_value"": -1.068962764541666
+}",-1.068962764541666,True
+mp-559798,formation_energy_per_atom,-2.23065729,"{""extracted_value"": -2.23065729}",-2.23065729,True
+mp-559798,band_gap,4.9116,"{
+  ""extracted_value"": 4.9116
+}",4.9116,True
+mp-1080821,formation_energy_per_atom,-3.19318655375,"{""extracted_value"": -3.19318655375}",-3.19318655375,True
+mp-1080821,band_gap,0.7896000000000001,"{""extracted_value"":0.7896000000000001}",0.7896000000000001,True
+mp-1025442,formation_energy_per_atom,-0.44096969,"{""extracted_value"": -0.44096969}",-0.44096969,True
+mp-540625,formation_energy_per_atom,-0.5793224153125001,"{""extracted_value"": -0.5793224153125001}",-0.5793224153125001,True
+mp-1025442,band_gap,1.3846999999999992,"{""extracted_value"": 1.3846999999999992}",1.3846999999999992,True
+mp-556911,formation_energy_per_atom,-2.590574678333332,"{""extracted_value"": -2.590574678333332}",-2.590574678333332,True
+mp-556911,band_gap,1.6921,"{""extracted_value"": 1.6921}",1.6921,True
+mp-23263,formation_energy_per_atom,-2.423042803749999,"{""extracted_value"": -2.423042803749999}",-2.423042803749999,True
+mp-23263,band_gap,2.9266,"{""extracted_value"": 2.9266}",2.9266,True
+mp-16911,band_gap,1.9539,"{""extracted_value"": 1.9539}",1.9539,True
+mp-1705,band_gap,0.5057,"{""extracted_value"": 0.5057}",0.5057,True
+mp-16911,formation_energy_per_atom,-0.955290041071428,"{
+  ""extracted_value"": -0.955290041071428
+}",-0.955290041071428,True
+mp-540625,band_gap,1.7063,"{""extracted_value"": 1.7063}",1.7063,True
+mp-1705,formation_energy_per_atom,-1.74803409,"{
+  ""extracted_value"": -1.74803409
+}",-1.74803409,True
+mp-561197,formation_energy_per_atom,-3.404466658305554,"{""extracted_value"": -3.404466658305554}",-3.404466658305554,True
+mp-561197,band_gap,5.5366,"{""extracted_value"": 5.5366}",5.5366,True
+mp-23183,formation_energy_per_atom,-2.585905556250001,"{""extracted_value"": -2.585905556250001}",-2.585905556250001,True
+mp-23280,band_gap,3.9873,"{""extracted_value"": 3.9873}",3.9873,True
+mp-23183,band_gap,4.299799999999999,"{
+  ""extracted_value"": 4.299799999999999
+}",4.299799999999999,True
+mp-1524462,band_gap,2.7061,"{""extracted_value"": 2.7061}",2.7061,True
+mp-23280,formation_energy_per_atom,-0.755685861249999,"{""extracted_value"": -0.755685861249999}",-0.755685861249999,True
+mp-1524462,formation_energy_per_atom,0.0,"{""extracted_value"": 0.0}",0.0,True
+mp-706630,formation_energy_per_atom,-0.095264628645833,"{
+  ""extracted_value"": -0.095264628645833
+}",-0.095264628645833,True
+mp-541837,formation_energy_per_atom,-0.434076935437502,"{""extracted_value"": -0.434076935437502}",-0.434076935437502,True
+mp-541837,band_gap,0.3769,"{""extracted_value"": 0.3769}",0.3769,True
+mp-1819,band_gap,2.028799999999999,"{
+  ""extracted_value"": 2.028799999999999
+}",2.028799999999999,True
+mp-7988,band_gap,0.583199999999999,"{""extracted_value"": 0.583199999999999}",0.583199999999999,True
+mp-7988,formation_energy_per_atom,-1.180246544770117,"{""extracted_value"": -1.180246544770117}",-1.180246544770117,True
+mp-706630,band_gap,3.606099999999999,"{
+  ""extracted_value"": 3.606099999999999
+}",3.606099999999999,True
+mp-7943,band_gap,0.3285,"{""extracted_value"": 0.3285}",0.3285,True
+mp-2049132,formation_energy_per_atom,-0.298604841000002,"{
+  ""extracted_value"": -0.298604841000002
+}",-0.298604841000002,True
+mp-1819,formation_energy_per_atom,-1.839006646249989,"{""extracted_value"": -1.839006646249989}",-1.839006646249989,True
+mp-2049132,band_gap,0.216299999999999,"{
+  ""extracted_value"": 0.216299999999999
+}",0.216299999999999,True
+mp-7943,formation_energy_per_atom,-0.588209097083334,"{
+  ""extracted_value"": -0.588209097083334
+}",-0.588209097083334,True
+mp-30792,band_gap,0.1566,"{""extracted_value"": 0.1566}",0.1566,True
+mp-352,band_gap,4.0165,"{""extracted_value"": 4.0165}",4.0165,True
+mp-30792,formation_energy_per_atom,-0.269950954999998,"{""extracted_value"": -0.269950954999998}",-0.269950954999998,True
+mp-15954,formation_energy_per_atom,-0.5725928316666651,"{""extracted_value"": -0.5725928316666651}",-0.5725928316666651,True
+mp-15954,band_gap,0.2625,"{""extracted_value"": 0.2625}",0.2625,True
+mp-23165,band_gap,0.8929,"{""extracted_value"": 0.8929}",0.8929,True
+mp-352,formation_energy_per_atom,-4.019811040833332,"{
+  ""extracted_value"": -4.019811040833332
+}",-4.019811040833332,True
+mp-23165,formation_energy_per_atom,-0.6577550981249981,"{""extracted_value"": -0.6577550981249981}",-0.6577550981249981,True
+mp-2251,band_gap,0.984,"{""extracted_value"": 0.984}",0.984,True
+mp-2251,formation_energy_per_atom,-0.4825014221875,"{
+  ""extracted_value"": -0.4825014221875
+}",-0.4825014221875,True
+mp-181,formation_energy_per_atom,-0.1726160249375,"{""extracted_value"": -0.1726160249375}",-0.1726160249375,True
+mp-2340,band_gap,1.7361,"{""extracted_value"": 1.7361}",1.7361,True
+mp-1443,band_gap,3.1684,"{""extracted_value"": 3.1684}",3.1684,True
+mp-2340,formation_energy_per_atom,-1.2980963948563211,"{""extracted_value"": -1.2980963948563211}",-1.2980963948563211,True
+mp-181,band_gap,0.216299999999999,"{""extracted_value"": 0.216299999999999}",0.216299999999999,True
+mp-2697,band_gap,2.8495,"{
+  ""extracted_value"": 2.8495
+}",2.8495,True
+mp-1443,formation_energy_per_atom,-2.537928646818182,"{""extracted_value"": -2.537928646818182}",-2.537928646818182,True
+mp-2697,formation_energy_per_atom,-2.204479133333331,"{""extracted_value"": -2.204479133333331}",-2.204479133333331,True
+mp-680463,formation_energy_per_atom,-0.157726345384613,"{""extracted_value"": -0.157726345384613}",-0.157726345384613,True
+mp-542810,band_gap,1.9674,"{""extracted_value"": 1.9674}",1.9674,True
+mp-680463,band_gap,0.391399999999999,"{
+  ""extracted_value"": 0.391399999999999
+}",0.391399999999999,True
+mp-971787,formation_energy_per_atom,-1.208906696666668,"{""extracted_value"": -1.208906696666668}",-1.208906696666668,True
+mp-1105,formation_energy_per_atom,-2.170192663333334,"{
+  ""extracted_value"": -2.170192663333334
+}",-2.170192663333334,True
+mp-542810,formation_energy_per_atom,-0.159580558906249,"{
+  ""extracted_value"": -0.159580558906249
+}",-0.159580558906249,True
+mp-1105,band_gap,2.2352,"{""extracted_value"": 2.2352}",2.2352,True
+mp-971787,band_gap,1.1332,"{""extracted_value"": 1.1332}",1.1332,True

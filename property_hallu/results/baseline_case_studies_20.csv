@@ -1,0 +1,21 @@
+material_id,gt_band_gap,pred_band_gap,abs_err,raw_output,query
+mp-730101,9.7197,1.5,8.2197,1.5,Band gap for mp-730101 (eV)? Return only the number. Output only ONE number.
+mp-23155,8.5132,1.5,7.013199999999999,1.5,What is the band gap (eV) of material mp-23155? Answer with a single number. Output only ONE number.
+mp-1524481,8.309,1.5,6.808999999999999,1.5,What is the band gap (eV) of material mp-1524481? Answer with a single number. Output only ONE number.
+mp-1184796,8.0745,1.75,6.3245000000000005,1.75,Band gap for mp-1184796 (eV)? Return only the number. Output only ONE number.
+mp-254,7.6164,1.5,6.1164000000000005,1.5,Band gap for mp-254 (eV)? Return only the number. Output only ONE number.
+mp-468,7.6012,1.7,5.9012,1.7,Give the band gap of mp-468 in eV. No extra text. Output only ONE number.
+mp-306,6.3017,1.7,4.6017,1.7,Give the band gap of mp-306 in eV. No extra text. Output only ONE number.
+mp-985278,6.0693,1.5,4.5693,1.5,Give the band gap of mp-985278 in eV. No extra text. Output only ONE number.
+mp-561197,5.5366,1.5,4.0366,1.5,What is the band gap (eV) of material mp-561197? Answer with a single number. Output only ONE number.
+mp-865194,5.3798,1.35,4.0298,1.35,Band gap for mp-865194 (eV)? Return only the number. Output only ONE number.
+mp-27971,5.0865,1.3,3.7865,1.3,What is the band gap (eV) of material mp-27971? Answer with a single number. Output only ONE number.
+mp-559798,4.9116,1.5,3.4116,1.5,Give the band gap of mp-559798 in eV. No extra text. Output only ONE number.
+mp-28044,4.918,1.7,3.218,1.7,Give the band gap of mp-28044 in eV. No extra text. Output only ONE number.
+mp-30034,4.4707,1.5,2.9707,1.5,What is the band gap (eV) of material mp-30034? Answer with a single number. Output only ONE number.
+mp-23184,4.7135,1.75,2.9635,1.75,Band gap for mp-23184 (eV)? Return only the number. Output only ONE number.
+mp-30140,4.1443,1.3,2.8443000000000005,1.3,What is the band gap (eV) of material mp-30140? Answer with a single number. Output only ONE number.
+mp-561664,4.0186,1.3,2.7186000000000003,1.3,What is the band gap (eV) of material mp-561664? Answer with a single number. Output only ONE number.
+mp-352,4.0165,1.3,2.7165,1.3,What is the band gap (eV) of material mp-352? Answer with a single number. Output only ONE number.
+mp-23280,3.9873,1.3,2.6873000000000005,1.3,What is the band gap (eV) of material mp-23280? Answer with a single number. Output only ONE number.
+mp-743,4.1608,1.5,2.6608,1.5,What is the band gap (eV) of material mp-743? Answer with a single number. Output only ONE number.

@@ -1,0 +1,2 @@
+model,experiment,n,answer_rate,refusal_rate,parse_fail_rate,schema_fail_rate,constraint_violation_rate,overall_acc,acc_given_answered
+gemini,exp4_hard_cove_selfcheck,200,1.0,0.0,0.0,0.0,0.0,0.975,0.975

@@ -1,0 +1,61 @@
+mp_id,tool_record_json,raw_output,model,experiment,ts,gt_json,refusal,parse_fail,schema_fail,value_mismatch,constraint_violation,is_correct,_pred_obj,_gt_obj,primary_reason,secondary_reason,details
+mp-200,"{""material_id"": ""mp-200"", ""band_gap"": 0.861699999999999, ""formation_energy_per_atom"": -0.514802012604166, ""is_metal"": false, ""energy_above_hull"": 0.0, ""is_stable"": true, ""units"": {""band_gap"": ""eV"", ""formation_energy_per_atom"": ""eV/atom"", ""energy_above_hull"": ""eV""}}","```json
+{
+  ""material_id"": ""mp-200"",
+  ""band_gap_eV"": 0.8617,
+  ""formation_energy_per_atom_eV"": -0.5148,
+  ""is_metal"": false,
+  ""energy_above_hull_eV"": 0.0,
+  ""is_stable"": true
+}
+```",gemini,exp5_hard_structured,1770630125.079058,"{""material_id"": ""mp-200"", ""band_gap_eV"": 0.861699999999999, ""formation_energy_per_atom_eV"": -0.514802012604166, ""is_metal"": false, ""energy_above_hull_eV"": 0.0, ""is_stable"": true}",False,False,False,True,False,False,"{'material_id': 'mp-200', 'band_gap_eV': 0.8617, 'formation_energy_per_atom_eV': -0.5148, 'is_metal': False, 'energy_above_hull_eV': 0.0, 'is_stable': True}","{'material_id': 'mp-200', 'band_gap_eV': 0.861699999999999, 'formation_energy_per_atom_eV': -0.514802012604166, 'is_metal': False, 'energy_above_hull_eV': 0.0, 'is_stable': True}",rounding_tiny_diff,,max_err=2.0126041659906946e-06
+mp-1205852,"{""material_id"": ""mp-1205852"", ""band_gap"": 0.8523000000000001, ""formation_energy_per_atom"": -2.094997655499997, ""is_metal"": false, ""energy_above_hull"": 0.0, ""is_stable"": true, ""units"": {""band_gap"": ""eV"", ""formation_energy_per_atom"": ""eV/atom"", ""energy_above_hull"": ""eV""}}","```json
+{
+  ""material_id"": ""mp-1205852"",
+  ""band_gap_eV"": 0.8523,
+  ""formation_energy_per_atom_eV"": -2.095,
+  ""is_metal"": false,
+  ""energy_above_hull_eV"": 0.0,
+  ""is_stable"": true
+}
+```",gemini,exp5_hard_structured,1770630131.124204,"{""material_id"": ""mp-1205852"", ""band_gap_eV"": 0.8523000000000001, ""formation_energy_per_atom_eV"": -2.094997655499997, ""is_metal"": false, ""energy_above_hull_eV"": 0.0, ""is_stable"": true}",False,False,False,True,False,False,"{'material_id': 'mp-1205852', 'band_gap_eV': 0.8523, 'formation_energy_per_atom_eV': -2.095, 'is_metal': False, 'energy_above_hull_eV': 0.0, 'is_stable': True}","{'material_id': 'mp-1205852', 'band_gap_eV': 0.8523000000000001, 'formation_energy_per_atom_eV': -2.094997655499997, 'is_metal': False, 'energy_above_hull_eV': 0.0, 'is_stable': True}",rounding_tiny_diff,,max_err=2.3445000030264396e-06
+mp-7262,"{""material_id"": ""mp-7262"", ""band_gap"": 0.224099999999999, ""formation_energy_per_atom"": -0.148990749583333, ""is_metal"": false, ""energy_above_hull"": 0.0, ""is_stable"": true, ""units"": {""band_gap"": ""eV"", ""formation_energy_per_atom"": ""eV/atom"", ""energy_above_hull"": ""eV""}}","```json
+{
+  ""material_id"": ""mp-7262"",
+  ""band_gap_eV"": 0.2241,
+  ""formation_energy_per_atom_eV"": -0.149,
+  ""is_metal"": false,
+  ""energy_above_hull_eV"": 0.0,
+  ""is_stable"": true
+}
+```",gemini,exp5_hard_structured,1770630158.059272,"{""material_id"": ""mp-7262"", ""band_gap_eV"": 0.224099999999999, ""formation_energy_per_atom_eV"": -0.148990749583333, ""is_metal"": false, ""energy_above_hull_eV"": 0.0, ""is_stable"": true}",False,False,False,True,False,False,"{'material_id': 'mp-7262', 'band_gap_eV': 0.2241, 'formation_energy_per_atom_eV': -0.149, 'is_metal': False, 'energy_above_hull_eV': 0.0, 'is_stable': True}","{'material_id': 'mp-7262', 'band_gap_eV': 0.224099999999999, 'formation_energy_per_atom_eV': -0.148990749583333, 'is_metal': False, 'energy_above_hull_eV': 0.0, 'is_stable': True}",rounding_tiny_diff,,max_err=9.250416666994887e-06
+mp-29657,"{""material_id"": ""mp-29657"", ""band_gap"": 0.665199999999999, ""formation_energy_per_atom"": -0.214525574374999, ""is_metal"": false, ""energy_above_hull"": 0.0, ""is_stable"": true, ""units"": {""band_gap"": ""eV"", ""formation_energy_per_atom"": ""eV/atom"", ""energy_above_hull"": ""eV""}}","```json
+{
+  ""material_id"": ""mp-29657"",
+  ""band_gap_eV"": 0.6652,
+  ""formation_energy_per_atom_eV"": -0.2145,
+  ""is_metal"": false,
+  ""energy_above_hull_eV"": 0.0,
+  ""is_stable"": true
+}
+```",gemini,exp5_hard_structured,1770630194.7129831,"{""material_id"": ""mp-29657"", ""band_gap_eV"": 0.665199999999999, ""formation_energy_per_atom_eV"": -0.214525574374999, ""is_metal"": false, ""energy_above_hull_eV"": 0.0, ""is_stable"": true}",False,False,False,True,False,False,"{'material_id': 'mp-29657', 'band_gap_eV': 0.6652, 'formation_energy_per_atom_eV': -0.2145, 'is_metal': False, 'energy_above_hull_eV': 0.0, 'is_stable': True}","{'material_id': 'mp-29657', 'band_gap_eV': 0.665199999999999, 'formation_energy_per_atom_eV': -0.214525574374999, 'is_metal': False, 'energy_above_hull_eV': 0.0, 'is_stable': True}",rounding_tiny_diff,,max_err=2.55743749990045e-05
+mp-2049132,"{""material_id"": ""mp-2049132"", ""band_gap"": 0.216299999999999, ""formation_energy_per_atom"": -0.298604841000002, ""is_metal"": false, ""energy_above_hull"": 0.0, ""is_stable"": true, ""units"": {""band_gap"": ""eV"", ""formation_energy_per_atom"": ""eV/atom"", ""energy_above_hull"": ""eV""}}","```json
+{
+  ""material_id"": ""mp-2049132"",
+  ""band_gap_eV"": 0.2163,
+  ""formation_energy_per_atom_eV"": -0.2986,
+  ""is_metal"": false,
+  ""energy_above_hull_eV"": 0.0,
+  ""is_stable"": true
+}
+```",gemini,exp5_hard_structured,1770630346.275485,"{""material_id"": ""mp-2049132"", ""band_gap_eV"": 0.216299999999999, ""formation_energy_per_atom_eV"": -0.298604841000002, ""is_metal"": false, ""energy_above_hull_eV"": 0.0, ""is_stable"": true}",False,False,False,True,False,False,"{'material_id': 'mp-2049132', 'band_gap_eV': 0.2163, 'formation_energy_per_atom_eV': -0.2986, 'is_metal': False, 'energy_above_hull_eV': 0.0, 'is_stable': True}","{'material_id': 'mp-2049132', 'band_gap_eV': 0.216299999999999, 'formation_energy_per_atom_eV': -0.298604841000002, 'is_metal': False, 'energy_above_hull_eV': 0.0, 'is_stable': True}",rounding_tiny_diff,,max_err=4.841000002031581e-06
+mp-680463,"{""material_id"": ""mp-680463"", ""band_gap"": 0.391399999999999, ""formation_energy_per_atom"": -0.157726345384613, ""is_metal"": false, ""energy_above_hull"": 0.0, ""is_stable"": true, ""units"": {""band_gap"": ""eV"", ""formation_energy_per_atom"": ""eV/atom"", ""energy_above_hull"": ""eV""}}","```json
+{
+  ""material_id"": ""mp-680463"",
+  ""band_gap_eV"": 0.3914,
+  ""formation_energy_per_atom_eV"": -0.1577,
+  ""is_metal"": false,
+  ""energy_above_hull_eV"": 0.0,
+  ""is_stable"": true
+}
+```",gemini,exp5_hard_structured,1770630363.174454,"{""material_id"": ""mp-680463"", ""band_gap_eV"": 0.391399999999999, ""formation_energy_per_atom_eV"": -0.157726345384613, ""is_metal"": false, ""energy_above_hull_eV"": 0.0, ""is_stable"": true}",False,False,False,True,False,False,"{'material_id': 'mp-680463', 'band_gap_eV': 0.3914, 'formation_energy_per_atom_eV': -0.1577, 'is_metal': False, 'energy_above_hull_eV': 0.0, 'is_stable': True}","{'material_id': 'mp-680463', 'band_gap_eV': 0.391399999999999, 'formation_energy_per_atom_eV': -0.157726345384613, 'is_metal': False, 'energy_above_hull_eV': 0.0, 'is_stable': True}",rounding_tiny_diff,,max_err=2.6345384612991296e-05
